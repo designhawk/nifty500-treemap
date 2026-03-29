@@ -8,8 +8,6 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
 
     steps:
       - name: Checkout repo
@@ -30,16 +28,9 @@ jobs:
       - name: Build site data
         run: uv run python build_site_data.py
 
-      - name: Commit updated data
+      - name: Deploy to Cloudflare Pages
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-
-          git add docs/data.json nifty500.csv
-
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Update market data $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
-            git push
-          fi
+          npm install -g wrangler
+          wrangler pages deploy docs/ --project-name=finance --branch=master
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
