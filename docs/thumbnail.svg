@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#111110"/>
+
+  <!-- Private Sector Bank - largest -->
+  <rect x="4" y="4" width="360" height="300" rx="4" fill="#057805"/>
+  <text x="184" y="140" font-family="system-ui, sans-serif" font-size="22" fill="#fff" text-anchor="middle" font-weight="400">Private Sector Bank</text>
+  <text x="184" y="168" font-family="system-ui, sans-serif" font-size="28" fill="#fff" text-anchor="middle" font-weight="600">-1.81%</text>
+
+  <!-- Computers - Software -->
+  <rect x="368" y="4" width="300" height="220" rx="4" fill="#aa2828"/>
+  <text x="518" y="100" font-family="system-ui, sans-serif" font-size="18" fill="#fff" text-anchor="middle" font-weight="400">Computers - Software</text>
+  <text x="518" y="126" font-family="system-ui, sans-serif" font-size="24" fill="#fff" text-anchor="middle" font-weight="600">-1.66%</text>
+
+  <!-- Refineries -->
+  <rect x="672" y="4" width="290" height="220" rx="4" fill="#aa2828"/>
+  <text x="817" y="100" font-family="system-ui, sans-serif" font-size="18" fill="#fff" text-anchor="middle" font-weight="400">Refineries &amp; Marketing</text>
+  <text x="817" y="126" font-family="system-ui, sans-serif" font-size="24" fill="#fff" text-anchor="middle" font-weight="600">-2.89%</text>
+
+  <!-- Pharmaceuticals -->
+  <rect x="966" y="4" width="230" height="220" rx="4" fill="#aa2828"/>
+  <text x="1081" y="100" font-family="system-ui, sans-serif" font-size="18" fill="#fff" text-anchor="middle" font-weight="400">Pharmaceuticals</text>
+  <text x="1081" y="126" font-family="system-ui, sans-serif" font-size="24" fill="#fff" text-anchor="middle" font-weight="600">-0.73%</text>
+
+  <!-- Public Sector Bank -->
+  <rect x="4" y="308" width="220" height="180" rx="4" fill="#aa2828"/>
+  <text x="114" y="390" font-family="system-ui, sans-serif" font-size="16" fill="#fff" text-anchor="middle" font-weight="400">Public Sector Bank</text>
+  <text x="114" y="412" font-family="system-ui, sans-serif" font-size="20" fill="#fff" text-anchor="middle" font-weight="600">-3.52%</text>
+
+  <!-- Telecom -->
+  <rect x="228" y="308" width="180" height="180" rx="4" fill="#aa2828"/>
+  <text x="318" y="390" font-family="system-ui, sans-serif" font-size="14" fill="#fff" text-anchor="middle" font-weight="400">Telecom</text>
+  <text x="318" y="410" font-family="system-ui, sans-serif" font-size="18" fill="#fff" text-anchor="middle" font-weight="600">-2.95%</text>
+
+  <!-- NBFC -->
+  <rect x="412" y="228" width="260" height="160" rx="4" fill="#aa2828"/>
+  <text x="542" y="300" font-family="system-ui, sans-serif" font-size="16" fill="#fff" text-anchor="middle" font-weight="400">NBFC</text>
+  <text x="542" y="322" font-family="system-ui, sans-serif" font-size="20" fill="#fff" text-anchor="middle" font-weight="600">-3.47%</text>
+
+  <!-- Passenger Cars -->
+  <rect x="676" y="228" width="200" height="160" rx="4" fill="#aa2828"/>
+  <text x="776" y="300" font-family="system-ui, sans-serif" font-size="16" fill="#fff" text-anchor="middle" font-weight="400">Passenger Cars</text>
+  <text x="776" y="322" font-family="system-ui, sans-serif" font-size="20" fill="#fff" text-anchor="middle" font-weight="600">-3.68%</text>
+
+  <!-- Life Insurance -->
+  <rect x="880" y="228" width="160" height="120" rx="4" fill="#aa2828"/>
+  <text x="960" y="282" font-family="system-ui, sans-serif" font-size="14" fill="#fff" text-anchor="middle" font-weight="400">Life Insurance</text>
+  <text x="960" y="302" font-family="system-ui, sans-serif" font-size="18" fill="#fff" text-anchor="middle" font-weight="600">-1.38%</text>
+
+  <!-- Heavy Electrical -->
+  <rect x="1044" y="228" width="152" height="120" rx="4" fill="#aa2828"/>
+  <text x="1120" y="282" font-family="system-ui, sans-serif" font-size="14" fill="#fff" text-anchor="middle" font-weight="400">Heavy Electrical</text>
+  <text x="1120" y="302" font-family="system-ui, sans-serif" font-size="18" fill="#fff" text-anchor="middle" font-weight="600">-2.63%</text>
+
+  <!-- Power Generation -->
+  <rect x="4" y="492" width="200" height="134" rx="4" fill="#057805"/>
+  <text x="104" y="552" font-family="system-ui, sans-serif" font-size="14" fill="#fff" text-anchor="middle" font-weight="400">Power Generation</text>
+  <text x="104" y="572" font-family="system-ui, sans-serif" font-size="18" fill="#fff" text-anchor="middle" font-weight="600">-1.48%</text>
+
+  <!-- Diversified FMCG -->
+  <rect x="208" y="392" width="180" height="140" rx="4" fill="#aa2828"/>
+  <text x="298" y="458" font-family="system-ui, sans-serif" font-size="14" fill="#fff" text-anchor="middle" font-weight="400">Diversified FMCG</text>
+  <text x="298" y="478" font-family="system-ui, sans-serif" font-size="18" fill="#fff" text-anchor="middle" font-weight="600">-1.58%</text>
+
+  <!-- Cement -->
+  <rect x="392" y="392" width="160" height="140" rx="4" fill="#aa2828"/>
+  <text x="472" y="458" font-family="system-ui, sans-serif" font-size="14" fill="#fff" text-anchor="middle" font-weight="400">Cement</text>
+  <text x="472" y="478" font-family="system-ui, sans-serif" font-size="18" fill="#fff" text-anchor="middle" font-weight="600">-2.15%</text>
+
+  <!-- Iron & Steel -->
+  <rect x="556" y="392" width="150" height="140" rx="4" fill="#aa2828"/>
+  <text x="631" y="458" font-family="system-ui, sans-serif" font-size="14" fill="#fff" text-anchor="middle" font-weight="400">Iron &amp; Steel</text>
+  <text x="631" y="478" font-family="system-ui, sans-serif" font-size="18" fill="#fff" text-anchor="middle" font-weight="600">-2.00%</text>
+
+  <!-- 2/3 Wheelers -->
+  <rect x="710" y="392" width="130" height="140" rx="4" fill="#057805"/>
+  <text x="775" y="458" font-family="system-ui, sans-serif" font-size="14" fill="#fff" text-anchor="middle" font-weight="400">2/3 Wheelers</text>
+  <text x="775" y="478" font-family="system-ui, sans-serif" font-size="18" fill="#fff" text-anchor="middle" font-weight="600">-0.92%</text>
+
+  <!-- Auto Components -->
+  <rect x="844" y="352" width="120" height="140" rx="4" fill="#aa2828"/>
+  <text x="904" y="418" font-family="system-ui, sans-serif" font-size="13" fill="#fff" text-anchor="middle" font-weight="400">Auto Components</text>
+  <text x="904" y="438" font-family="system-ui, sans-serif" font-size="17" fill="#fff" text-anchor="middle" font-weight="600">-2.66%</text>
+
+  <!-- Civil Construction -->
+  <rect x="968" y="352" width="110" height="140" rx="4" fill="#aa2828"/>
+  <text x="1023" y="418" font-family="system-ui, sans-serif" font-size="13" fill="#fff" text-anchor="middle" font-weight="400">Civil Construction</text>
+  <text x="1023" y="438" font-family="system-ui, sans-serif" font-size="17" fill="#fff" text-anchor="middle" font-weight="600">-2.63%</text>
+
+  <!-- Aerospace -->
+  <rect x="1082" y="352" width="114" height="120" rx="4" fill="#aa2828"/>
+  <text x="1139" y="408" font-family="system-ui, sans-serif" font-size="13" fill="#fff" text-anchor="middle" font-weight="400">Aerospace</text>
+  <text x="1139" y="428" font-family="system-ui, sans-serif" font-size="17" fill="#fff" text-anchor="middle" font-weight="600">-2.96%</text>
+
+  <!-- Smaller tiles -->
+  <rect x="968" y="496" width="100" height="80" rx="4" fill="#1C1C1A" stroke="#2A2A28" stroke-width="1"/>
+  <rect x="1072" y="476" width="124" height="100" rx="4" fill="#1C1C1A" stroke="#2A2A28" stroke-width="1"/>
+  <rect x="228" y="536" width="160" height="90" rx="4" fill="#1C1C1A" stroke="#2A2A28" stroke-width="1"/>
+  <rect x="392" y="536" width="150" height="90" rx="4" fill="#1C1C1A" stroke="#2A2A28" stroke-width="1"/>
+  <rect x="546" y="536" width="140" height="90" rx="4" fill="#1C1C1A" stroke="#2A2A28" stroke-width="1"/>
+  <rect x="690" y="536" width="130" height="90" rx="4" fill="#1C1C1A" stroke="#2A2A28" stroke-width="1"/>
+
+  <!-- Header overlay -->
+  <rect x="4" y="4" width="280" height="40" rx="4" fill="#111110" opacity="0.85"/>
+  <text x="16" y="30" font-family="Georgia, serif" font-size="20" fill="#DEDAD4" font-weight="400">Nifty 500</text>
+  <text x="280" y="30" font-family="system-ui, sans-serif" font-size="13" fill="#858280" text-anchor="end">124 sectors · 500 stocks</text>
+</svg>
