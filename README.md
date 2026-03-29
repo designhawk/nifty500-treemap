@@ -2,15 +2,15 @@
 
 Visualizing the Indian stock market through a treemap — sectors sized by market cap, colored by performance (green = gain, red = loss).
 
-Live at: **https://[username].github.io/[repo]** (GitHub Pages)
+Live at: **https://designhawk.github.io/finance** (GitHub Pages)
 
 ## Architecture
 
 ```
 scripts/get_nifty500.py   → nifty500.csv  (500 stocks + sectors)
 fetch_data.py             → raw_data/*.json  (yfinance per-stock data, local only)
-build_site_data.py        → site/data.json  (aggregated sector data)
-site/index.html           → Treemap frontend
+build_site_data.py        → docs/data.json  (aggregated sector data)
+docs/index.html           → Treemap frontend
 .github/workflows/        → Daily auto-update cron job
 ```
 
@@ -30,12 +30,12 @@ uv run python fetch_data.py
 uv run python build_site_data.py
 
 # Serve locally
-cd site && python -m http.server 8000
+cd docs && python -m http.server 8000
 ```
 
 ## GitHub Pages
 
-- Site auto-deploys from the `site/` directory
+- Site auto-deploys from the `docs/` directory (GitHub Pages source: `/docs`)
 - Data updates daily at **4:30 PM IST** via GitHub Actions cron
 - Workflow: `.github/workflows/daily-update.yml`
 - Manual trigger: Go to Actions tab → "Daily Market Data Update" → Run workflow

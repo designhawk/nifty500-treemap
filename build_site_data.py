@@ -10,7 +10,7 @@ from datetime import datetime, timezone
 BASE_DIR = Path(__file__).parent
 RAW_DATA_DIR = BASE_DIR / "raw_data"
 STOCKS_CSV = BASE_DIR / "nifty500.csv"
-OUTPUT_FILE = BASE_DIR / "site" / "data.json"
+OUTPUT_FILE = BASE_DIR / "docs" / "data.json"
 
 
 def load_stocks() -> dict[str, dict]:

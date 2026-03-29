@@ -37,10 +37,10 @@ Replace `YOUR_USERNAME` with your GitHub username.
 1. Go to your repository on GitHub
 2. Click **Settings** → **Pages** (in left sidebar)
 3. **Source**: Select **Deploy from a branch**
-4. **Branch**: Select **main** and folder **/site**
+4. **Branch**: Select **main** and folder **/docs**
 5. Click **Save**
 6. Wait 1-2 minutes — your site will be live at:
-   `https://YOUR_USERNAME.github.io/india-markets-treemap/`
+   `https://designhawk.github.io/finance/`
 
 ---
 
@@ -64,8 +64,8 @@ Daily at 4:30 PM IST (11:00 UTC)
 GitHub Actions runs:
   1. get_nifty500.py   → refreshes nifty500.csv
   2. fetch_data.py      → fetches latest prices from Yahoo Finance
-  3. build_site_data.py → aggregates to site/data.json
-  4. commits site/data.json + nifty500.csv
+   3. build_site_data.py → aggregates to docs/data.json
+   4. commits docs/data.json + nifty500.csv
     │
     ▼
 GitHub Pages auto-deploys
@@ -93,14 +93,14 @@ To force an update outside the daily schedule:
 1. Create free account at [cloudflare.com/web-analytics](https://cloudflare.com/web-analytics)
 2. Add your site domain
 3. Copy the 1-line script provided
-4. Paste into `site/index.html` before `</head>`
+4. Paste into `docs/index.html` before `</head>`
 
 ---
 
 ## Troubleshooting
 
 **Site not loading?**
-- Check GitHub Pages Settings → ensure source is `main` / `/site`
+- Check GitHub Pages Settings → ensure source is `main` / `/docs`
 - Check Actions tab → see if workflow ran without errors
 
 **Workflow failing?**
