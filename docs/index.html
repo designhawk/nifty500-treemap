@@ -4,10 +4,1270 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="A squarified treemap visualization of Nifty 500 stocks. Drill down by sector, toggle between 1D/1W/1M returns. Dark theme inspired by Dieter Rams.">
+<meta name="google-site-verification" content="MWmkUhB7O2CJn0uayCmHeFj2ipQTeCiyliPwGsoFgmg">
 <title>Nifty 500 — Market Treemap</title>
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="canonical" href="https://finance-4yc.pages.dev/">
+<link rel="alternate" hreflang="en-IN" href="https://finance-4yc.pages.dev/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400&family=DM+Serif+Display&display=swap" rel="stylesheet">
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://finance-4yc.pages.dev/">
+<meta property="og:title" content="Nifty 500 — Market Treemap">
+<meta property="og:description" content="A squarified treemap visualization of all 500 Nifty index stocks. Drill down by 124 sectors, toggle between 1D/1W/1M returns. Dark theme inspired by Dieter Rams.">
+<meta property="og:site_name" content="Nifty 500 Market Treemap">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Nifty 500 — Market Treemap">
+<meta name="twitter:description" content="A squarified treemap visualization of all 500 Nifty index stocks. Drill down by 124 sectors, toggle between 1D/1W/1M returns.">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "name": "Nifty 500 Market Treemap",
+      "url": "https://finance-4yc.pages.dev/",
+      "description": "Squarified treemap visualization of Nifty 500 stocks with sector drill-down and 1D/1W/1M return views.",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Web Browser",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "INR"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Aditya Pathak",
+        "url": "https://www.linkedin.com/in/aditya-pathak-designer/"
+      }
+    },
+    {
+      "@type": "Organization",
+      "name": "Nifty 500 Market Treemap",
+      "url": "https://finance-4yc.pages.dev/",
+      "description": "Visual market analysis tool for Indian equities using the Nifty 500 index.",
+      "foundingDate": "2024"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Nifty 500",
+          "item": "https://finance-4yc.pages.dev/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the Nifty 500 Market Treemap?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Nifty 500 Market Treemap is a squarified treemap visualization of all 500 stocks in the Nifty 500 index, organized by 124 sectors. It shows market cap-weighted returns with color coding for 1-day, 1-week, and 1-month timeframes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does the treemap color coding mean?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Green tiles indicate positive returns, red tiles indicate negative returns. Tile size represents market capitalization relative to the sector or total market."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What data sources are used?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stock data is sourced from NSE India via Yahoo Finance, updated daily via automated workflows."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many stocks and sectors are covered?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The treemap covers all 500 stocks in the Nifty 500 index, organized across 124 sectors."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ItemTable",
+      "name": "Nifty 500 Sector Summary",
+      "description": "Summary of 124 sectors in the Nifty 500 index with aggregate market cap and returns.",
+      "about": {
+        "@type": "Dataset",
+        "name": "Nifty 500 Index",
+        "description": "The Nifty 500 index comprises 500 stocks listed on the National Stock Exchange of India, representing approximately 90% of free-float market capitalization."
+      }
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Nifty 500 Sector Summary",
+  "description": "124 sectors in the Nifty 500 index with aggregate market capitalization and returns for 1D, 1W, and 1M periods.",
+  "url": "https://finance-4yc.pages.dev/",
+  "keywords": "Nifty 500, Indian stocks, market cap, sector analysis, NSE",
+  "creator": {
+    "@type": "Person",
+    "name": "Aditya Pathak",
+    "url": "https://www.linkedin.com/in/aditya-pathak-designer/"
+  },
+  "datePublished": "2026-03-29T11:58+00:00",
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "total_mcap",
+      "description": "Total market capitalization in INR"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "avg_1d",
+      "description": "Average 1-day return percentage"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "avg_1w",
+      "description": "Average 1-week return percentage"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "avg_1m",
+      "description": "Average 1-month return percentage"
+    }
+  ],
+  "dataset": [
+    {
+      "name": "Private Sector Bank",
+      "stockCount": 14,
+      "totalMarketCap": 31954410808452.125,
+      "avg1d": -1.81,
+      "avg1w": -1.12,
+      "avg1m": -14.42,
+      "topStock": "HDFCBANK"
+    },
+    {
+      "name": "Computers - Software & Consulting",
+      "stockCount": 19,
+      "totalMarketCap": 24759694778683.71,
+      "avg1d": -1.66,
+      "avg1w": 0.6,
+      "avg1m": -7.29,
+      "topStock": "TCS"
+    },
+    {
+      "name": "Refineries & Marketing",
+      "stockCount": 6,
+      "totalMarketCap": 22594124762763.668,
+      "avg1d": -2.89,
+      "avg1w": -2.07,
+      "avg1m": -14.67,
+      "topStock": "RELIANCE"
+    },
+    {
+      "name": "Pharmaceuticals",
+      "stockCount": 37,
+      "totalMarketCap": 20583190730183.1,
+      "avg1d": -0.73,
+      "avg1w": 1.1,
+      "avg1m": -3.38,
+      "topStock": "SUNPHARMA"
+    },
+    {
+      "name": "Public Sector Bank",
+      "stockCount": 11,
+      "totalMarketCap": 18034250306098.41,
+      "avg1d": -3.52,
+      "avg1w": -1.13,
+      "avg1m": -16.04,
+      "topStock": "SBIN"
+    },
+    {
+      "name": "Telecom - Cellular & Fixed line services",
+      "stockCount": 5,
+      "totalMarketCap": 13410642663995.621,
+      "avg1d": -2.95,
+      "avg1w": -4.14,
+      "avg1m": -11.43,
+      "topStock": "BHARTIARTL"
+    },
+    {
+      "name": "Non Banking Financial Company (NBFC)",
+      "stockCount": 14,
+      "totalMarketCap": 12523908663238.682,
+      "avg1d": -3.47,
+      "avg1w": -1.92,
+      "avg1m": -10.86,
+      "topStock": "BAJFINANCE"
+    },
+    {
+      "name": "Passenger Cars & Utility Vehicles",
+      "stockCount": 6,
+      "totalMarketCap": 10491893563537.125,
+      "avg1d": -3.68,
+      "avg1w": -1.61,
+      "avg1m": -12.87,
+      "topStock": "MARUTI"
+    },
+    {
+      "name": "Life Insurance",
+      "stockCount": 5,
+      "totalMarketCap": 9308463672158.03,
+      "avg1d": -1.38,
+      "avg1w": -3.46,
+      "avg1m": -13.46,
+      "topStock": "LICI"
+    },
+    {
+      "name": "Heavy Electrical Equipment",
+      "stockCount": 14,
+      "totalMarketCap": 8891171888490.922,
+      "avg1d": -2.63,
+      "avg1w": -1.29,
+      "avg1m": -6.27,
+      "topStock": "ABB"
+    },
+    {
+      "name": "Power Generation",
+      "stockCount": 11,
+      "totalMarketCap": 8578762649816.916,
+      "avg1d": -1.48,
+      "avg1w": -1.75,
+      "avg1m": -1.86,
+      "topStock": "NTPC"
+    },
+    {
+      "name": "Diversified FMCG",
+      "stockCount": 2,
+      "totalMarketCap": 8567134255813.211,
+      "avg1d": -1.58,
+      "avg1w": -0.62,
+      "avg1m": -8.65,
+      "topStock": "HINDUNILVR"
+    },
+    {
+      "name": "Cement & Cement Products",
+      "stockCount": 11,
+      "totalMarketCap": 8527770239501.83,
+      "avg1d": -2.15,
+      "avg1w": 0.3,
+      "avg1m": -11.79,
+      "topStock": "ULTRACEMCO"
+    },
+    {
+      "name": "Iron & Steel",
+      "stockCount": 7,
+      "totalMarketCap": 7793883899937.993,
+      "avg1d": -2.0,
+      "avg1w": -1.02,
+      "avg1m": -10.2,
+      "topStock": "JSWSTEEL"
+    },
+    {
+      "name": "2/3 Wheelers",
+      "stockCount": 6,
+      "totalMarketCap": 7426819713740.737,
+      "avg1d": -0.92,
+      "avg1w": 1.46,
+      "avg1m": -6.39,
+      "topStock": "BAJAJ-AUTO"
+    },
+    {
+      "name": "Auto Components & Equipments",
+      "stockCount": 18,
+      "totalMarketCap": 6971773184329.593,
+      "avg1d": -2.66,
+      "avg1w": -0.92,
+      "avg1m": -10.73,
+      "topStock": "MOTHERSON"
+    },
+    {
+      "name": "Civil Construction",
+      "stockCount": 12,
+      "totalMarketCap": 6862679714843.434,
+      "avg1d": -2.63,
+      "avg1w": -1.44,
+      "avg1m": -11.62,
+      "topStock": "LT"
+    },
+    {
+      "name": "Aerospace & Defense",
+      "stockCount": 6,
+      "totalMarketCap": 6310836617856.0,
+      "avg1d": -2.96,
+      "avg1w": -6.45,
+      "avg1m": -7.35,
+      "topStock": "BEL"
+    },
+    {
+      "name": "Integrated Power Utilities",
+      "stockCount": 5,
+      "totalMarketCap": 5111610203419.113,
+      "avg1d": -1.93,
+      "avg1w": -3.31,
+      "avg1m": -5.61,
+      "topStock": "ADANIPOWER"
+    },
+    {
+      "name": "Residential Commercial Projects",
+      "stockCount": 12,
+      "totalMarketCap": 4756685901431.445,
+      "avg1d": -2.78,
+      "avg1w": -3.79,
+      "avg1m": -14.31,
+      "topStock": "DLF"
+    },
+    {
+      "name": "Oil Exploration & Production",
+      "stockCount": 2,
+      "totalMarketCap": 4324803238803.5615,
+      "avg1d": 2.88,
+      "avg1w": 2.49,
+      "avg1m": -0.21,
+      "topStock": "ONGC"
+    },
+    {
+      "name": "Financial Institution",
+      "stockCount": 6,
+      "totalMarketCap": 4149267707674.2275,
+      "avg1d": -3.36,
+      "avg1w": -3.17,
+      "avg1m": -8.79,
+      "topStock": "PFC"
+    },
+    {
+      "name": "Hospital",
+      "stockCount": 9,
+      "totalMarketCap": 4094207591125.263,
+      "avg1d": -1.27,
+      "avg1w": 0.69,
+      "avg1m": -8.43,
+      "topStock": "APOLLOHOSP"
+    },
+    {
+      "name": "Holding Company",
+      "stockCount": 4,
+      "totalMarketCap": 3983185350622.455,
+      "avg1d": -3.2,
+      "avg1w": -1.11,
+      "avg1m": -12.37,
+      "topStock": "BAJAJFINSV"
+    },
+    {
+      "name": "Gems Jewellery And Watches",
+      "stockCount": 2,
+      "totalMarketCap": 3933011823750.7695,
+      "avg1d": -1.16,
+      "avg1w": 1.28,
+      "avg1m": -6.65,
+      "topStock": "TITAN"
+    },
+    {
+      "name": "Packaged Foods",
+      "stockCount": 4,
+      "totalMarketCap": 3876343383507.0273,
+      "avg1d": -2.08,
+      "avg1w": -2.64,
+      "avg1m": -9.54,
+      "topStock": "NESTLEIND"
+    },
+    {
+      "name": "E-Retail/ E-Commerce",
+      "stockCount": 4,
+      "totalMarketCap": 3616993092184.577,
+      "avg1d": -2.24,
+      "avg1w": 0.84,
+      "avg1m": -5.78,
+      "topStock": "ETERNAL"
+    },
+    {
+      "name": "Specialty Chemicals",
+      "stockCount": 11,
+      "totalMarketCap": 3613369555446.4463,
+      "avg1d": -3.31,
+      "avg1w": -1.0,
+      "avg1m": -7.97,
+      "topStock": "PIDILITIND"
+    },
+    {
+      "name": "Port & Port services",
+      "stockCount": 2,
+      "totalMarketCap": 3603209687978.3955,
+      "avg1d": -2.99,
+      "avg1w": -1.32,
+      "avg1m": -6.97,
+      "topStock": "ADANIPORTS"
+    },
+    {
+      "name": "Investment Company",
+      "stockCount": 6,
+      "totalMarketCap": 3590736555597.7905,
+      "avg1d": -2.92,
+      "avg1w": -3.93,
+      "avg1m": -12.03,
+      "topStock": "JIOFIN"
+    },
+    {
+      "name": "Personal Care",
+      "stockCount": 7,
+      "totalMarketCap": 3095708836472.4624,
+      "avg1d": -2.67,
+      "avg1w": -2.02,
+      "avg1m": -14.21,
+      "topStock": "GODREJCP"
+    },
+    {
+      "name": "Diversified Retail",
+      "stockCount": 2,
+      "totalMarketCap": 3037020833102.8457,
+      "avg1d": -0.77,
+      "avg1w": 2.86,
+      "avg1m": -4.12,
+      "topStock": "DMART"
+    },
+    {
+      "name": "Power - Transmission",
+      "stockCount": 1,
+      "totalMarketCap": 2748328428514.5,
+      "avg1d": 0.17,
+      "avg1w": -0.4,
+      "avg1m": -1.05,
+      "topStock": "POWERGRID"
+    },
+    {
+      "name": "Coal",
+      "stockCount": 1,
+      "totalMarketCap": 2742722166702.733,
+      "avg1d": 0.3,
+      "avg1w": -2.01,
+      "avg1m": 3.34,
+      "topStock": "COALINDIA"
+    },
+    {
+      "name": "Paints",
+      "stockCount": 3,
+      "totalMarketCap": 2734885689634.613,
+      "avg1d": -1.51,
+      "avg1w": 2.53,
+      "avg1m": -5.26,
+      "topStock": "ASIANPAINT"
+    },
+    {
+      "name": "Aluminium",
+      "stockCount": 2,
+      "totalMarketCap": 2619982408287.1006,
+      "avg1d": 0.4,
+      "avg1w": -2.48,
+      "avg1m": -0.82,
+      "topStock": "HINDALCO"
+    },
+    {
+      "name": "Diversified Metals",
+      "stockCount": 1,
+      "totalMarketCap": 2537966129161.723,
+      "avg1d": -3.02,
+      "avg1w": -2.4,
+      "avg1m": -9.6,
+      "topStock": "VEDL"
+    },
+    {
+      "name": "Trading - Minerals",
+      "stockCount": 1,
+      "totalMarketCap": 2482804332980.0,
+      "avg1d": -3.37,
+      "avg1w": -5.88,
+      "avg1m": -15.67,
+      "topStock": "ADANIENT"
+    },
+    {
+      "name": "General Insurance",
+      "stockCount": 6,
+      "totalMarketCap": 2409060737774.0396,
+      "avg1d": -1.57,
+      "avg1w": -1.3,
+      "avg1m": -6.99,
+      "topStock": "ICICIGI"
+    },
+    {
+      "name": "Zinc",
+      "stockCount": 1,
+      "totalMarketCap": 2153645145878.601,
+      "avg1d": -1.55,
+      "avg1w": 0.7,
+      "avg1m": -15.58,
+      "topStock": "HINDZINC"
+    },
+    {
+      "name": "Asset Management Company",
+      "stockCount": 4,
+      "totalMarketCap": 1903527231554.0796,
+      "avg1d": -3.52,
+      "avg1w": -2.6,
+      "avg1m": -7.25,
+      "topStock": "HDFCAMC"
+    },
+    {
+      "name": "Compressors Pumps & Diesel Engines",
+      "stockCount": 5,
+      "totalMarketCap": 1881012160396.0776,
+      "avg1d": -3.2,
+      "avg1w": -1.88,
+      "avg1m": -5.35,
+      "topStock": "CUMMINSIND"
+    },
+    {
+      "name": "Exchange and Data Platform",
+      "stockCount": 3,
+      "totalMarketCap": 1845017749492.5605,
+      "avg1d": -2.95,
+      "avg1w": -2.9,
+      "avg1m": -1.52,
+      "topStock": "BSE"
+    },
+    {
+      "name": "Housing Finance Company",
+      "stockCount": 9,
+      "totalMarketCap": 1830751227796.3774,
+      "avg1d": -1.72,
+      "avg1w": -0.42,
+      "avg1m": -8.14,
+      "topStock": "BAJAJHFL"
+    },
+    {
+      "name": "Hotels & Resorts",
+      "stockCount": 7,
+      "totalMarketCap": 1828538576182.984,
+      "avg1d": -3.86,
+      "avg1w": -4.85,
+      "avg1m": -12.04,
+      "topStock": "INDHOTEL"
+    },
+    {
+      "name": "Cables - Electricals",
+      "stockCount": 4,
+      "totalMarketCap": 1731370102541.4058,
+      "avg1d": -2.06,
+      "avg1w": -3.65,
+      "avg1m": -16.09,
+      "topStock": "POLYCAB"
+    },
+    {
+      "name": "Edible Oil",
+      "stockCount": 3,
+      "totalMarketCap": 1721139256648.2542,
+      "avg1d": -0.63,
+      "avg1w": 1.93,
+      "avg1m": -4.68,
+      "topStock": "MARICO"
+    },
+    {
+      "name": "Other Electrical Equipment",
+      "stockCount": 3,
+      "totalMarketCap": 1717095788518.6023,
+      "avg1d": 0.24,
+      "avg1w": 3.97,
+      "avg1m": 10.43,
+      "topStock": "WAAREEENER"
+    },
+    {
+      "name": "Industrial Minerals",
+      "stockCount": 4,
+      "totalMarketCap": 1680327416358.5913,
+      "avg1d": -1.55,
+      "avg1w": 3.16,
+      "avg1m": -3.85,
+      "topStock": "LLOYDSME"
+    },
+    {
+      "name": "Breweries & Distilleries",
+      "stockCount": 3,
+      "totalMarketCap": 1677978851540.248,
+      "avg1d": -3.75,
+      "avg1w": -0.53,
+      "avg1m": -4.14,
+      "topStock": "UNITDSPR"
+    },
+    {
+      "name": "Airline",
+      "stockCount": 1,
+      "totalMarketCap": 1584919985301.0,
+      "avg1d": -4.55,
+      "avg1w": -1.32,
+      "avg1m": -15.07,
+      "topStock": "INDIGO"
+    },
+    {
+      "name": "Consumer Electronics",
+      "stockCount": 3,
+      "totalMarketCap": 1519705929986.6118,
+      "avg1d": -4.12,
+      "avg1w": -3.28,
+      "avg1m": -12.99,
+      "topStock": "HAVELLS"
+    },
+    {
+      "name": "Tyres & Rubber Products",
+      "stockCount": 5,
+      "totalMarketCap": 1481132873710.3477,
+      "avg1d": -1.83,
+      "avg1w": -1.0,
+      "avg1m": -9.89,
+      "topStock": "MRF"
+    },
+    {
+      "name": "Iron & Steel Products",
+      "stockCount": 7,
+      "totalMarketCap": 1476366141519.3474,
+      "avg1d": -1.91,
+      "avg1w": 2.13,
+      "avg1m": -3.17,
+      "topStock": "APLAPOLLO"
+    },
+    {
+      "name": "Speciality Retail",
+      "stockCount": 4,
+      "totalMarketCap": 1474875670722.7173,
+      "avg1d": -1.96,
+      "avg1w": -1.5,
+      "avg1m": -11.92,
+      "topStock": "TRENT"
+    },
+    {
+      "name": "LPG/CNG/PNG/LNG Supplier",
+      "stockCount": 5,
+      "totalMarketCap": 1470909897103.9812,
+      "avg1d": -0.86,
+      "avg1w": -6.75,
+      "avg1m": -15.73,
+      "topStock": "ATGL"
+    },
+    {
+      "name": "IT Enabled Services",
+      "stockCount": 7,
+      "totalMarketCap": 1451592042273.6821,
+      "avg1d": 0.56,
+      "avg1w": 2.33,
+      "avg1m": -5.66,
+      "topStock": "LTTS"
+    },
+    {
+      "name": "Household Appliances",
+      "stockCount": 6,
+      "totalMarketCap": 1407268356070.304,
+      "avg1d": -2.84,
+      "avg1w": -2.21,
+      "avg1m": -11.23,
+      "topStock": "VOLTAS"
+    },
+    {
+      "name": "Financial Technology (Fintech)",
+      "stockCount": 2,
+      "totalMarketCap": 1321572850284.3772,
+      "avg1d": -2.99,
+      "avg1w": -2.58,
+      "avg1m": -4.83,
+      "topStock": "POLICYBZR"
+    },
+    {
+      "name": "Pesticides & Agrochemicals",
+      "stockCount": 4,
+      "totalMarketCap": 1319717452745.518,
+      "avg1d": -2.76,
+      "avg1w": -1.63,
+      "avg1m": -6.63,
+      "topStock": "UPL"
+    },
+    {
+      "name": "Other Beverages",
+      "stockCount": 1,
+      "totalMarketCap": 1316649306298.8682,
+      "avg1d": -3.03,
+      "avg1w": -3.79,
+      "avg1m": -13.76,
+      "topStock": "VBL"
+    },
+    {
+      "name": "Fertilizers",
+      "stockCount": 4,
+      "totalMarketCap": 1309395058340.6,
+      "avg1d": -2.51,
+      "avg1w": -1.72,
+      "avg1m": -6.88,
+      "topStock": "COROMANDEL"
+    },
+    {
+      "name": "Telecom - Infrastructure",
+      "stockCount": 2,
+      "totalMarketCap": 1232494519466.199,
+      "avg1d": -0.3,
+      "avg1w": 0.01,
+      "avg1m": -1.51,
+      "topStock": "INDUSTOWER"
+    },
+    {
+      "name": "Stockbroking & Allied",
+      "stockCount": 4,
+      "totalMarketCap": 1231453761888.128,
+      "avg1d": -1.78,
+      "avg1w": -0.15,
+      "avg1m": -5.4,
+      "topStock": "MOTILALOFS"
+    },
+    {
+      "name": "Ship Building & Allied Services",
+      "stockCount": 2,
+      "totalMarketCap": 1203202339163.9312,
+      "avg1d": -4.36,
+      "avg1w": -8.04,
+      "avg1m": -9.27,
+      "topStock": "MAZDOCK"
+    },
+    {
+      "name": "Tea & Coffee",
+      "stockCount": 2,
+      "totalMarketCap": 1178958914849.482,
+      "avg1d": -1.23,
+      "avg1w": 1.36,
+      "avg1m": -1.9,
+      "topStock": "TATACONSUM"
+    },
+    {
+      "name": "Power Distribution",
+      "stockCount": 1,
+      "totalMarketCap": 1149760316180.0,
+      "avg1d": -3.47,
+      "avg1w": -4.9,
+      "avg1m": -5.49,
+      "topStock": "ADANIENSOL"
+    },
+    {
+      "name": "Explosives",
+      "stockCount": 1,
+      "totalMarketCap": 1123705502990.0,
+      "avg1d": -3.66,
+      "avg1w": -5.63,
+      "avg1m": -8.04,
+      "topStock": "SOLARINDS"
+    },
+    {
+      "name": "Gas Transmission/Marketing",
+      "stockCount": 2,
+      "totalMarketCap": 1034357741083.2618,
+      "avg1d": -1.52,
+      "avg1w": -6.8,
+      "avg1m": -21.07,
+      "topStock": "GAIL"
+    },
+    {
+      "name": "Plastic Products - Industrial",
+      "stockCount": 3,
+      "totalMarketCap": 1008706895758.2037,
+      "avg1d": -2.28,
+      "avg1w": -4.52,
+      "avg1m": -7.85,
+      "topStock": "SUPREMEIND"
+    },
+    {
+      "name": "Commercial Vehicles",
+      "stockCount": 1,
+      "totalMarketCap": 957966917374.9822,
+      "avg1d": -4.6,
+      "avg1w": -3.25,
+      "avg1m": -22.74,
+      "topStock": "ASHOKLEY"
+    },
+    {
+      "name": "Airport & Airport services",
+      "stockCount": 1,
+      "totalMarketCap": 940699128895.5552,
+      "avg1d": -1.08,
+      "avg1w": 0.72,
+      "avg1m": -11.47,
+      "topStock": "GMRAIRPORT"
+    },
+    {
+      "name": "Industrial Products",
+      "stockCount": 5,
+      "totalMarketCap": 868379446781.8824,
+      "avg1d": -2.58,
+      "avg1w": 1.5,
+      "avg1m": -5.66,
+      "topStock": "KAYNES"
+    },
+    {
+      "name": "Diversified",
+      "stockCount": 3,
+      "totalMarketCap": 781250314264.3182,
+      "avg1d": -2.52,
+      "avg1w": -2.03,
+      "avg1m": -10.8,
+      "topStock": "3MINDIA"
+    },
+    {
+      "name": "Logistics Solution Provider",
+      "stockCount": 3,
+      "totalMarketCap": 770621888540.094,
+      "avg1d": -2.06,
+      "avg1w": -0.47,
+      "avg1m": -9.15,
+      "topStock": "CONCOR"
+    },
+    {
+      "name": "Internet & Catalogue Retail",
+      "stockCount": 2,
+      "totalMarketCap": 760342104495.8584,
+      "avg1d": -1.45,
+      "avg1w": -0.36,
+      "avg1m": -5.64,
+      "topStock": "NAUKRI"
+    },
+    {
+      "name": "Other Textile Products",
+      "stockCount": 5,
+      "totalMarketCap": 733044432849.78,
+      "avg1d": -1.61,
+      "avg1w": -0.68,
+      "avg1m": -7.95,
+      "topStock": "KPRMILL"
+    },
+    {
+      "name": "Other Bank",
+      "stockCount": 1,
+      "totalMarketCap": 659573778814.5,
+      "avg1d": -3.04,
+      "avg1w": -2.09,
+      "avg1m": -7.89,
+      "topStock": "AUBANK"
+    },
+    {
+      "name": "Software Products",
+      "stockCount": 2,
+      "totalMarketCap": 650828359349.0219,
+      "avg1d": -0.04,
+      "avg1w": 3.39,
+      "avg1m": -9.1,
+      "topStock": "OFSS"
+    },
+    {
+      "name": "Tour Travel Related Services",
+      "stockCount": 3,
+      "totalMarketCap": 629094334401.2041,
+      "avg1d": -2.21,
+      "avg1w": 0.18,
+      "avg1m": -10.18,
+      "topStock": "IRCTC"
+    },
+    {
+      "name": "Industrial Gases",
+      "stockCount": 1,
+      "totalMarketCap": 607053099314.0,
+      "avg1d": -3.24,
+      "avg1w": 1.52,
+      "avg1m": 5.77,
+      "topStock": "LINDEINDIA"
+    },
+    {
+      "name": "Depositories Clearing Houses and Other Intermediaries",
+      "stockCount": 3,
+      "totalMarketCap": 560612058664.9651,
+      "avg1d": -2.21,
+      "avg1w": -0.74,
+      "avg1m": -6.12,
+      "topStock": "CDSL"
+    },
+    {
+      "name": "Other Industrial Products",
+      "stockCount": 3,
+      "totalMarketCap": 520675890077.6669,
+      "avg1d": -4.01,
+      "avg1w": -3.98,
+      "avg1m": -5.4,
+      "topStock": "PTCIL"
+    },
+    {
+      "name": "Copper",
+      "stockCount": 1,
+      "totalMarketCap": 477362146825.8975,
+      "avg1d": 2.68,
+      "avg1w": 4.88,
+      "avg1m": -12.86,
+      "topStock": "HINDCOPPER"
+    },
+    {
+      "name": "Restaurants",
+      "stockCount": 3,
+      "totalMarketCap": 472801894933.0545,
+      "avg1d": -1.53,
+      "avg1w": -2.68,
+      "avg1m": -18.85,
+      "topStock": "JUBLFOOD"
+    },
+    {
+      "name": "Healthcare Service Provider",
+      "stockCount": 3,
+      "totalMarketCap": 400174443193.58105,
+      "avg1d": -1.96,
+      "avg1w": -3.74,
+      "avg1m": -9.39,
+      "topStock": "LALPATHLAB"
+    },
+    {
+      "name": "Abrasives & Bearings",
+      "stockCount": 2,
+      "totalMarketCap": 396347021776.8982,
+      "avg1d": -1.15,
+      "avg1w": 3.28,
+      "avg1m": -5.6,
+      "topStock": "TIMKEN"
+    },
+    {
+      "name": "Garments & Apparels",
+      "stockCount": 1,
+      "totalMarketCap": 354964059785.0,
+      "avg1d": -2.54,
+      "avg1w": 1.86,
+      "avg1m": -0.95,
+      "topStock": "PAGEIND"
+    },
+    {
+      "name": "Carbon Black",
+      "stockCount": 2,
+      "totalMarketCap": 326056694537.12195,
+      "avg1d": -4.5,
+      "avg1w": 1.06,
+      "avg1m": -12.93,
+      "topStock": "HSCL"
+    },
+    {
+      "name": "Castings & Forgings",
+      "stockCount": 1,
+      "totalMarketCap": 322739158494.6826,
+      "avg1d": -0.8,
+      "avg1w": -3.21,
+      "avg1m": -10.21,
+      "topStock": "AIAENG"
+    },
+    {
+      "name": "Telecom - Equipment & Accessories",
+      "stockCount": 2,
+      "totalMarketCap": 315846213922.0,
+      "avg1d": -3.21,
+      "avg1w": -6.62,
+      "avg1m": -6.29,
+      "topStock": "ITI"
+    },
+    {
+      "name": "Tractors",
+      "stockCount": 1,
+      "totalMarketCap": 312735035043.3716,
+      "avg1d": -4.21,
+      "avg1w": -1.55,
+      "avg1m": -19.22,
+      "topStock": "ESCORTS"
+    },
+    {
+      "name": "Shipping",
+      "stockCount": 2,
+      "totalMarketCap": 308613639096.51154,
+      "avg1d": -1.02,
+      "avg1w": -1.18,
+      "avg1m": -3.73,
+      "topStock": "GESHIP"
+    },
+    {
+      "name": "Electrodes & Refractories",
+      "stockCount": 3,
+      "totalMarketCap": 304590591452.9446,
+      "avg1d": 5.36,
+      "avg1w": 5.02,
+      "avg1m": -11.64,
+      "topStock": "GRAPHITE"
+    },
+    {
+      "name": "TV Broadcasting & Software Production",
+      "stockCount": 2,
+      "totalMarketCap": 301714265724.8181,
+      "avg1d": -3.41,
+      "avg1w": -1.28,
+      "avg1m": -12.53,
+      "topStock": "SUNTV"
+    },
+    {
+      "name": "Cigarettes & Tobacco Products",
+      "stockCount": 1,
+      "totalMarketCap": 296552514495.7031,
+      "avg1d": -7.46,
+      "avg1w": -4.75,
+      "avg1m": -10.13,
+      "topStock": "GODFRYPHLP"
+    },
+    {
+      "name": "Business Process Outsourcing (BPO)/ Knowledge Process Outsourcing (KPO)",
+      "stockCount": 2,
+      "totalMarketCap": 283453133195.25525,
+      "avg1d": -3.66,
+      "avg1w": -1.46,
+      "avg1m": -3.96,
+      "topStock": "FSL"
+    },
+    {
+      "name": "Other Financial Services",
+      "stockCount": 1,
+      "totalMarketCap": 281258136277.3762,
+      "avg1d": -3.16,
+      "avg1w": -3.78,
+      "avg1m": -12.19,
+      "topStock": "CRISIL"
+    },
+    {
+      "name": "Healthcare Research Analytics & Technology",
+      "stockCount": 2,
+      "totalMarketCap": 275692296242.20667,
+      "avg1d": -1.26,
+      "avg1w": 1.67,
+      "avg1m": -5.24,
+      "topStock": "SYNGENE"
+    },
+    {
+      "name": "Commodity Chemicals",
+      "stockCount": 2,
+      "totalMarketCap": 274333268606.0688,
+      "avg1d": -4.01,
+      "avg1w": -0.46,
+      "avg1m": -10.09,
+      "topStock": "TATACHEM"
+    },
+    {
+      "name": "Financial Products Distributor",
+      "stockCount": 1,
+      "totalMarketCap": 251792652674.46533,
+      "avg1d": 1.33,
+      "avg1w": 0.32,
+      "avg1m": -1.41,
+      "topStock": "ANANDRATHI"
+    },
+    {
+      "name": "Trading & Distributors",
+      "stockCount": 2,
+      "totalMarketCap": 239715967772.06766,
+      "avg1d": -4.12,
+      "avg1w": -8.63,
+      "avg1m": -19.61,
+      "topStock": "REDINGTON"
+    },
+    {
+      "name": "Trading - Gas",
+      "stockCount": 1,
+      "totalMarketCap": 214812000000.0,
+      "avg1d": 0.04,
+      "avg1w": 0.77,
+      "avg1m": -11.1,
+      "topStock": "AEGISLOG"
+    },
+    {
+      "name": "Construction Vehicles",
+      "stockCount": 2,
+      "totalMarketCap": 212627998192.52948,
+      "avg1d": -4.29,
+      "avg1w": -5.37,
+      "avg1m": -13.14,
+      "topStock": "BEML"
+    },
+    {
+      "name": "Oil Storage & Transportation",
+      "stockCount": 1,
+      "totalMarketCap": 190452656367.94568,
+      "avg1d": -1.95,
+      "avg1w": -2.47,
+      "avg1m": -24.63,
+      "topStock": "AEGISVOPAK"
+    },
+    {
+      "name": "Railway Wagons",
+      "stockCount": 2,
+      "totalMarketCap": 187567133345.4353,
+      "avg1d": -4.66,
+      "avg1w": -4.18,
+      "avg1m": -10.51,
+      "topStock": "JWL"
+    },
+    {
+      "name": "Microfinance Institutions",
+      "stockCount": 1,
+      "totalMarketCap": 186882050943.65918,
+      "avg1d": -0.39,
+      "avg1w": 1.16,
+      "avg1m": -7.75,
+      "topStock": "CREDITACC"
+    },
+    {
+      "name": "Sugar",
+      "stockCount": 2,
+      "totalMarketCap": 186001001908.27948,
+      "avg1d": -3.19,
+      "avg1w": 8.37,
+      "avg1m": 2.27,
+      "topStock": "BALRAMCHIN"
+    },
+    {
+      "name": "Lubricants",
+      "stockCount": 1,
+      "totalMarketCap": 173175548801.85718,
+      "avg1d": -1.66,
+      "avg1w": -3.55,
+      "avg1m": -3.63,
+      "topStock": "CASTROLIND"
+    },
+    {
+      "name": "Plywood Boards/ Laminates",
+      "stockCount": 1,
+      "totalMarketCap": 155176727577.57263,
+      "avg1d": -0.51,
+      "avg1w": 5.88,
+      "avg1m": -4.98,
+      "topStock": "CENTURYPLY"
+    },
+    {
+      "name": "Ceramics",
+      "stockCount": 1,
+      "totalMarketCap": 151428129717.5,
+      "avg1d": 0.43,
+      "avg1w": 3.19,
+      "avg1m": -0.66,
+      "topStock": "KAJARIACER"
+    },
+    {
+      "name": "Footwear",
+      "stockCount": 2,
+      "totalMarketCap": 149625167167.6294,
+      "avg1d": -4.16,
+      "avg1w": -2.22,
+      "avg1m": -16.84,
+      "topStock": "BATAINDIA"
+    },
+    {
+      "name": "Other Food Products",
+      "stockCount": 1,
+      "totalMarketCap": 141584576181.61676,
+      "avg1d": -1.59,
+      "avg1w": -0.05,
+      "avg1m": -8.06,
+      "topStock": "EIDPARRY"
+    },
+    {
+      "name": "Diversified Commercial Services",
+      "stockCount": 1,
+      "totalMarketCap": 138226281403.29346,
+      "avg1d": -3.82,
+      "avg1w": -5.37,
+      "avg1m": -3.08,
+      "topStock": "IGIL"
+    },
+    {
+      "name": "Stationary",
+      "stockCount": 1,
+      "totalMarketCap": 136237486802.16064,
+      "avg1d": -3.99,
+      "avg1w": 3.19,
+      "avg1m": -3.76,
+      "topStock": "DOMS"
+    },
+    {
+      "name": "Other Agricultural Products",
+      "stockCount": 1,
+      "totalMarketCap": 129313924423.90442,
+      "avg1d": -3.09,
+      "avg1w": -2.87,
+      "avg1m": -7.48,
+      "topStock": "LTFOODS"
+    },
+    {
+      "name": "Medical Equipment & Supplies",
+      "stockCount": 1,
+      "totalMarketCap": 124829926782.17322,
+      "avg1d": -5.57,
+      "avg1w": -0.84,
+      "avg1m": -2.07,
+      "topStock": "POLYMED"
+    },
+    {
+      "name": "Animal Feed",
+      "stockCount": 1,
+      "totalMarketCap": 105190179257.32117,
+      "avg1d": -2.5,
+      "avg1w": -4.78,
+      "avg1m": -14.65,
+      "topStock": "GODREJAGRO"
+    },
+    {
+      "name": "Petrochemicals",
+      "stockCount": 1,
+      "totalMarketCap": 97558807672.94348,
+      "avg1d": -4.82,
+      "avg1w": -4.6,
+      "avg1m": -18.95,
+      "topStock": "SWANCORP"
+    },
+    {
+      "name": "Film Production Distribution & Exhibition",
+      "stockCount": 1,
+      "totalMarketCap": 92111564356.0,
+      "avg1d": -1.72,
+      "avg1w": -5.96,
+      "avg1m": -8.24,
+      "topStock": "PVRINOX"
+    },
+    {
+      "name": "Other Telecom Services",
+      "stockCount": 1,
+      "totalMarketCap": 83604455284.0,
+      "avg1d": -3.09,
+      "avg1w": -3.68,
+      "avg1m": -16.66,
+      "topStock": "RAILTEL"
+    },
+    {
+      "name": "Household Products",
+      "stockCount": 1,
+      "totalMarketCap": 74856680308.6495,
+      "avg1d": -4.94,
+      "avg1w": -2.04,
+      "avg1m": -19.57,
+      "topStock": "JYOTHYLAB"
+    },
+    {
+      "name": "Media & Entertainment",
+      "stockCount": 1,
+      "totalMarketCap": 63462893177.58444,
+      "avg1d": -0.42,
+      "avg1w": -2.25,
+      "avg1m": -0.8,
+      "topStock": "SAREGAMA"
+    },
+    {
+      "name": "Sanitary Ware",
+      "stockCount": 1,
+      "totalMarketCap": 59829015197.5,
+      "avg1d": -1.86,
+      "avg1w": -2.48,
+      "avg1m": -5.03,
+      "topStock": "CERA"
+    }
+  ]
+}
+</script>
 <style>
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
