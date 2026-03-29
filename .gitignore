@@ -16,6 +16,9 @@ finance/
 # Old site dir (migrated to docs/)
 site/
 
+# Wrangler cache
+.wrangler/
+
 # OS files
 .DS_Store
 Thumbs.db
