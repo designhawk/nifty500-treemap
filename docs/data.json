@@ -2008,7 +2008,7 @@
             "1w": -0.05,
             "1m": -10.63
           },
-          "logo_url": "https://cdn.tickerlogos.com/jsw.in"
+          "logo_url": null
         },
         {
           "symbol": "TATASTEEL",
@@ -2928,7 +2928,7 @@
             "1w": -3.56,
             "1m": -8.08
           },
-          "logo_url": "https://cdn.tickerlogos.com/recl.in"
+          "logo_url": null
         },
         {
           "symbol": "HUDCO",
@@ -3720,7 +3720,7 @@
             "1w": -2.01,
             "1m": 3.34
           },
-          "logo_url": "https://cdn.tickerlogos.com/coalindia.in"
+          "logo_url": null
         }
       ]
     },
@@ -7244,7 +7244,7 @@
   "meta": {
     "total_sectors": 124,
     "total_stocks": 500,
-    "generated": "C:\\Users\\Aditya\\Documents\\GitHub\\finance\\raw_data",
-    "last_updated": "2026-03-29T11:11+00:00"
+    "generated": "/home/runner/work/finance/finance/raw_data",
+    "last_updated": "2026-03-29T11:58+00:00"
   }
 }
