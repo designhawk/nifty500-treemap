@@ -4,107 +4,73 @@
       <stop offset="0%" stop-color="#111110"/>
       <stop offset="100%" stop-color="#1a1a18"/>
     </linearGradient>
-    <linearGradient id="greenFade" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#057805" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#035803" stop-opacity="0.7"/>
-    </linearGradient>
-    <linearGradient id="redFade" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#aa2828" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#7a1a1a" stop-opacity="0.7"/>
-    </linearGradient>
   </defs>
 
   <!-- Background -->
   <rect width="1200" height="630" fill="url(#bg)"/>
 
-  <!-- Top accent line (green) -->
+  <!-- Top accent line -->
   <rect x="0" y="0" width="1200" height="3" fill="#057805"/>
 
-  <!-- LEFT SIDE: Text content -->
-  <!-- Main title - DM Serif Display style -->
-  <text x="60" y="130" font-family="Georgia, 'Times New Roman', serif" font-size="60" font-weight="400" fill="#DEDAD4" letter-spacing="0.01">Nifty 500</text>
+  <!-- LEFT: Text block -->
+  <text x="60" y="120" font-family="Georgia, 'Times New Roman', serif" font-size="58" font-weight="400" fill="#DEDAD4" letter-spacing="0.01">Nifty 500</text>
+  <text x="62" y="158" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22" font-weight="300" fill="#858280" letter-spacing="0.03">Market Treemap</text>
+  <rect x="62" y="178" width="300" height="1" fill="#2A2A28"/>
+  <text x="62" y="212" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="300" fill="#9A9793" letter-spacing="0.03">124 sectors · 500 stocks</text>
+  <text x="62" y="578" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="300" fill="#4a4a48" letter-spacing="0.04">Source: NSE India · Yahoo Finance</text>
+  <text x="62" y="600" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="300" fill="#2e2e2c" letter-spacing="0.04">Updated daily</text>
 
-  <!-- Subtitle - DM Sans style -->
-  <text x="62" y="168" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="24" font-weight="300" fill="#858280" letter-spacing="0.03">Market Treemap</text>
+  <!-- TREEMAP GRID (right side, x=480 to 1160) -->
+  <!-- Row 1: Private Bank (large) | Software | Refiners -->
+  <rect x="480" y="40" width="280" height="260" rx="2" fill="#1c1c1a"/>
+  <rect x="480" y="40" width="280" height="260" rx="2" fill="none" stroke="#2A2A28" stroke-width="1"/>
+  <text x="500" y="85" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#5a5755" letter-spacing="1.5">PRIVATE BANK</text>
 
-  <!-- Divider line -->
-  <rect x="62" y="192" width="340" height="1" fill="#2A2A28"/>
+  <rect x="780" y="40" width="200" height="180" rx="2" fill="#1c1c1a"/>
+  <rect x="780" y="40" width="200" height="180" rx="2" fill="none" stroke="#2A2A28" stroke-width="1"/>
+  <text x="800" y="85" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#5a5755" letter-spacing="1.5">SOFTWARE</text>
 
-  <!-- Stats -->
-  <text x="62" y="230" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" font-weight="300" fill="#9A9793" letter-spacing="0.03">124 sectors</text>
-  <text x="210" y="230" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" font-weight="300" fill="#858280"> · </text>
-  <text x="232" y="230" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" font-weight="300" fill="#9A9793">500 stocks</text>
+  <rect x="1000" y="40" width="160" height="200" rx="2" fill="#1c1c1a"/>
+  <rect x="1000" y="40" width="160" height="200" rx="2" fill="none" stroke="#2A2A28" stroke-width="1"/>
+  <text x="1020" y="85" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#5a5755" letter-spacing="1.5">REFINERS</text>
 
-  <!-- Bottom left -->
-  <text x="62" y="580" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="300" fill="#5a5755" letter-spacing="0.04">Source: NSE India · Yahoo Finance</text>
-  <text x="62" y="604" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="300" fill="#3a3a3a" letter-spacing="0.04">Updated daily</text>
+  <!-- Row 1 bottom: Pharma | Auto -->
+  <rect x="1000" y="256" width="160" height="120" rx="2" fill="#1c1c1a"/>
+  <rect x="1000" y="256" width="160" height="120" rx="2" fill="none" stroke="#2A2A28" stroke-width="1"/>
+  <text x="1020" y="301" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#5a5755" letter-spacing="1.5">PHARMA</text>
 
-  <!-- RIGHT SIDE: Treemap blocks - warm dark tones -->
-  <!-- IT block (largest - blue-green) -->
-  <rect x="500" y="60" width="380" height="190" rx="3" fill="#1a2e1a"/>
-  <rect x="500" y="60" width="380" height="190" rx="3" fill="none" stroke="#2A2A28" stroke-width="1"/>
-  <text x="522" y="106" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#9A9793" letter-spacing="1.5" text-transform="uppercase">IT</text>
-  <text x="522" y="145" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="38" font-weight="300" fill="#057805">▲ 0.6%</text>
-  <text x="522" y="178" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="300" fill="#5a5755">TCS · Infosys · HCL</text>
+  <rect x="780" y="236" width="200" height="140" rx="2" fill="#1c1c1a"/>
+  <rect x="780" y="236" width="200" height="140" rx="2" fill="none" stroke="#2A2A28" stroke-width="1"/>
+  <text x="800" y="281" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#5a5755" letter-spacing="1.5">AUTO</text>
 
-  <!-- Financials block -->
-  <rect x="896" y="60" width="244" height="120" rx="3" fill="#1e1a1a"/>
-  <rect x="896" y="60" width="244" height="120" rx="3" fill="none" stroke="#2A2A28" stroke-width="1"/>
-  <text x="918" y="100" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#9A9793" letter-spacing="1.5">FINANCIALS</text>
-  <text x="918" y="136" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="30" font-weight="300" fill="#aa2828">▼ 1.8%</text>
+  <!-- Row 2: Metals | FMCG | Energy -->
+  <rect x="480" y="316" width="180" height="160" rx="2" fill="#1c1c1a"/>
+  <rect x="480" y="316" width="180" height="160" rx="2" fill="none" stroke="#2A2A28" stroke-width="1"/>
+  <text x="500" y="361" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#5a5755" letter-spacing="1.5">METALS</text>
 
-  <!-- Auto block -->
-  <rect x="896" y="196" width="244" height="80" rx="3" fill="#1a1a1e"/>
-  <rect x="896" y="196" width="244" height="80" rx="3" fill="none" stroke="#2A2A28" stroke-width="1"/>
-  <text x="918" y="228" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#9A9793" letter-spacing="1.5">AUTO</text>
-  <text x="1040" y="228" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22" font-weight="300" fill="#aa2828" text-anchor="middle">▼ 1.6%</text>
+  <rect x="680" y="316" width="160" height="120" rx="2" fill="#1c1c1a"/>
+  <rect x="680" y="316" width="160" height="120" rx="2" fill="none" stroke="#2A2A28" stroke-width="1"/>
+  <text x="700" y="361" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#5a5755" letter-spacing="1.5">FMCG</text>
 
-  <!-- Pharma block -->
-  <rect x="500" y="266" width="170" height="120" rx="3" fill="#1a1e1a"/>
-  <rect x="500" y="266" width="170" height="120" rx="3" fill="none" stroke="#2A2A28" stroke-width="1"/>
-  <text x="522" y="306" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#9A9793" letter-spacing="1.5">PHARMA</text>
-  <text x="522" y="340" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="26" font-weight="300" fill="#057805">▲ 1.1%</text>
+  <rect x="860" y="392" width="140" height="84" rx="2" fill="#1c1c1a"/>
+  <rect x="860" y="392" width="140" height="84" rx="2" fill="none" stroke="#2A2A28" stroke-width="1"/>
+  <text x="880" y="437" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#5a5755" letter-spacing="1.5">ENERGY</text>
 
-  <!-- FMCG block -->
-  <rect x="686" y="266" width="190" height="120" rx="3" fill="#1a1e1a"/>
-  <rect x="686" y="266" width="190" height="120" rx="3" fill="none" stroke="#2A2A28" stroke-width="1"/>
-  <text x="708" y="306" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#9A9793" letter-spacing="1.5">FMCG</text>
-  <text x="708" y="340" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="26" font-weight="300" fill="#057805">▲ 0.6%</text>
+  <!-- Row 3: Banks | Realty | Logistics -->
+  <rect x="480" y="492" width="170" height="78" rx="2" fill="#1c1c1a"/>
+  <rect x="480" y="492" width="170" height="78" rx="2" fill="none" stroke="#2A2A28" stroke-width="1"/>
+  <text x="500" y="537" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#5a5755" letter-spacing="1.5">BANKS</text>
 
-  <!-- Metals block -->
-  <rect x="896" y="292" width="244" height="120" rx="3" fill="#1e1a1a"/>
-  <rect x="896" y="292" width="244" height="120" rx="3" fill="none" stroke="#2A2A28" stroke-width="1"/>
-  <text x="918" y="332" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#9A9793" letter-spacing="1.5">METALS</text>
-  <text x="918" y="366" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="26" font-weight="300" fill="#aa2828">▼ 2.0%</text>
+  <rect x="670" y="452" width="170" height="118" rx="2" fill="#1c1c1a"/>
+  <rect x="670" y="452" width="170" height="118" rx="2" fill="none" stroke="#2A2A28" stroke-width="1"/>
+  <text x="690" y="497" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#5a5755" letter-spacing="1.5">REALTY</text>
 
-  <!-- Energy block (bottom left) -->
-  <rect x="500" y="402" width="240" height="148" rx="3" fill="#1a1e1a"/>
-  <rect x="500" y="402" width="240" height="148" rx="3" fill="none" stroke="#2A2A28" stroke-width="1"/>
-  <text x="522" y="442" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#9A9793" letter-spacing="1.5">ENERGY</text>
-  <text x="522" y="482" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="30" font-weight="300" fill="#057805">▲ 3.2%</text>
-  <text x="522" y="512" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="300" fill="#5a5755">Reliance · ONGC · NTPC</text>
+  <rect x="860" y="492" width="140" height="78" rx="2" fill="#1c1c1a"/>
+  <rect x="860" y="492" width="140" height="78" rx="2" fill="none" stroke="#2A2A28" stroke-width="1"/>
+  <text x="880" y="537" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#5a5755" letter-spacing="1.5">LOGISTICS</text>
 
-  <!-- Banks small block -->
-  <rect x="756" y="402" width="150" height="72" rx="3" fill="#1a1a1e"/>
-  <rect x="756" y="402" width="150" height="72" rx="3" fill="none" stroke="#2A2A28" stroke-width="1"/>
-  <text x="778" y="430" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#9A9793" letter-spacing="1.5">BANKS</text>
-  <text x="778" y="458" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22" font-weight="300" fill="#aa2828">▼ 3.5%</text>
-
-  <!-- Telecom small block -->
-  <rect x="756" y="490" width="150" height="60" rx="3" fill="#1e1a1a"/>
-  <rect x="756" y="490" width="150" height="60" rx="3" fill="none" stroke="#2A2A28" stroke-width="1"/>
-  <text x="778" y="518" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#9A9793" letter-spacing="1.5">TELECOM</text>
-  <text x="900" y="518" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" font-weight="300" fill="#aa2828" text-anchor="middle">▼ 2.9%</text>
-
-  <!-- Real Estate block -->
-  <rect x="922" y="428" width="218" height="72" rx="3" fill="#1a1e1a"/>
-  <rect x="922" y="428" width="218" height="72" rx="3" fill="none" stroke="#2A2A28" stroke-width="1"/>
-  <text x="944" y="456" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#9A9793" letter-spacing="1.5">REAL ESTATE</text>
-  <text x="944" y="484" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22" font-weight="300" fill="#aa2828">▼ 2.8%</text>
-
-  <!-- Construction tiny block -->
-  <rect x="922" y="516" width="218" height="54" rx="3" fill="#1a1a1e"/>
-  <rect x="922" y="516" width="218" height="54" rx="3" fill="none" stroke="#2A2A28" stroke-width="1"/>
-  <text x="944" y="542" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#9A9793" letter-spacing="1.5">CONSTRUCTION</text>
-  <text x="1070" y="542" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" font-weight="300" fill="#aa2828" text-anchor="middle">▼ 2.6%</text>
+  <!-- Far right: vertical strip -->
+  <rect x="1016" y="392" width="144" height="178" rx="2" fill="#1c1c1a"/>
+  <rect x="1016" y="392" width="144" height="178" rx="2" fill="none" stroke="#2A2A28" stroke-width="1"/>
+  <text x="1036" y="437" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#5a5755" letter-spacing="1.5">CONSTRUCTION</text>
 </svg>
