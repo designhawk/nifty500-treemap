@@ -1,0 +1,7250 @@
+{
+  "sectors": [
+    {
+      "name": "Private Sector Bank",
+      "total_mcap": 31954410808452.125,
+      "stock_count": 14,
+      "avg_1d": -1.81,
+      "avg_1w": -1.12,
+      "avg_1m": -14.42,
+      "stocks": [
+        {
+          "symbol": "HDFCBANK",
+          "name": "HDFC Bank Limited",
+          "price": 756.2,
+          "mcap": 11640412673920.879,
+          "returns": {
+            "1d": -3.34,
+            "1w": -5.26,
+            "1m": -14.82
+          },
+          "logo_url": "https://cdn.tickerlogos.com/hdfcbank.com"
+        },
+        {
+          "symbol": "ICICIBANK",
+          "name": "ICICI Bank Limited",
+          "price": 1233.8,
+          "mcap": 8833806852788.201,
+          "returns": {
+            "1d": -2.06,
+            "1w": -1.3,
+            "1m": -10.52
+          },
+          "logo_url": "https://cdn.tickerlogos.com/icicibank.com"
+        },
+        {
+          "symbol": "AXISBANK",
+          "name": "Axis Bank Limited",
+          "price": 1205.2,
+          "mcap": 3745663518514.955,
+          "returns": {
+            "1d": -1.38,
+            "1w": -0.15,
+            "1m": -12.91
+          },
+          "logo_url": "https://cdn.tickerlogos.com/axisbank.com"
+        },
+        {
+          "symbol": "KOTAKBANK",
+          "name": "Kotak Mahindra Bank Limited",
+          "price": 366.15,
+          "mcap": 3641542192093.7783,
+          "returns": {
+            "1d": -1.33,
+            "1w": -0.54,
+            "1m": -11.81
+          },
+          "logo_url": "https://cdn.tickerlogos.com/kotak.com"
+        },
+        {
+          "symbol": "IDBI",
+          "name": "IDBI Bank Limited",
+          "price": 64.01,
+          "mcap": 688328114169.8295,
+          "returns": {
+            "1d": -4.68,
+            "1w": -8.77,
+            "1m": -44.82
+          },
+          "logo_url": "https://cdn.tickerlogos.com/idbi.com"
+        },
+        {
+          "symbol": "FEDERALBNK",
+          "name": "The Federal Bank  Limited",
+          "price": 269.3,
+          "mcap": 663467224355.5615,
+          "returns": {
+            "1d": -0.61,
+            "1w": 1.28,
+            "1m": -10.19
+          },
+          "logo_url": "https://cdn.tickerlogos.com/federalbank.com"
+        },
+        {
+          "symbol": "INDUSINDBK",
+          "name": "IndusInd Bank Limited",
+          "price": 792.55,
+          "mcap": 617480523704.0276,
+          "returns": {
+            "1d": -3.16,
+            "1w": -2.91,
+            "1m": -17.16
+          },
+          "logo_url": "https://cdn.tickerlogos.com/indusind.com"
+        },
+        {
+          "symbol": "YESBANK",
+          "name": "Yes Bank Limited",
+          "price": 18.12,
+          "mcap": 568601224207.7802,
+          "returns": {
+            "1d": -1.89,
+            "1w": -1.47,
+            "1m": -12.55
+          },
+          "logo_url": "https://cdn.tickerlogos.com/yesbank.in"
+        },
+        {
+          "symbol": "IDFCFIRSTB",
+          "name": "IDFC First Bank Limited",
+          "price": 61.87,
+          "mcap": 532187123348.024,
+          "returns": {
+            "1d": -2.17,
+            "1w": -1.18,
+            "1m": -15.8
+          },
+          "logo_url": "https://cdn.tickerlogos.com/idfcfirstbank.com"
+        },
+        {
+          "symbol": "KARURVYSYA",
+          "name": "Karur Vysya Bank Limited",
+          "price": 295.75,
+          "mcap": 285877553575.25,
+          "returns": {
+            "1d": 3.84,
+            "1w": 8.81,
+            "1m": -9.33
+          },
+          "logo_url": "https://cdn.tickerlogos.com/karurvysyabank.com"
+        },
+        {
+          "symbol": "BANDHANBNK",
+          "name": "Bandhan Bank Limited",
+          "price": 148.91,
+          "mcap": 239889893177.2968,
+          "returns": {
+            "1d": -2.94,
+            "1w": -5.79,
+            "1m": -18.17
+          },
+          "logo_url": "https://cdn.tickerlogos.com/bandhanbank.com"
+        },
+        {
+          "symbol": "CUB",
+          "name": "City Union Bank Limited",
+          "price": 253.7,
+          "mcap": 188511088355.4997,
+          "returns": {
+            "1d": 0.3,
+            "1w": 3.91,
+            "1m": -10.37
+          },
+          "logo_url": "https://cdn.tickerlogos.com/cityunionbank.com"
+        },
+        {
+          "symbol": "RBLBANK",
+          "name": "RBL Bank Limited",
+          "price": 295.65,
+          "mcap": 182744633115.59738,
+          "returns": {
+            "1d": -2.73,
+            "1w": 1.22,
+            "1m": -7.54
+          },
+          "logo_url": "https://cdn.tickerlogos.com/rblbank.com"
+        },
+        {
+          "symbol": "J&KBANK",
+          "name": "The Jammu & Kashmir Bank Limited",
+          "price": 114.33,
+          "mcap": 125898193125.44531,
+          "returns": {
+            "1d": -3.17,
+            "1w": -3.58,
+            "1m": -5.82
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Computers - Software & Consulting",
+      "total_mcap": 24759694778683.71,
+      "stock_count": 19,
+      "avg_1d": -1.66,
+      "avg_1w": 0.6,
+      "avg_1m": -7.29,
+      "stocks": [
+        {
+          "symbol": "TCS",
+          "name": "Tata Consultancy Services Limited",
+          "price": 2389.8,
+          "mcap": 8646505729570.63,
+          "returns": {
+            "1d": 0.52,
+            "1w": 1.43,
+            "1m": -9.39
+          },
+          "logo_url": "https://cdn.tickerlogos.com/tcs.com"
+        },
+        {
+          "symbol": "INFY",
+          "name": "Infosys Limited",
+          "price": 1269.7,
+          "mcap": 5137977075985.354,
+          "returns": {
+            "1d": -0.73,
+            "1w": 4.01,
+            "1m": -2.34
+          },
+          "logo_url": "https://cdn.tickerlogos.com/infosys.com"
+        },
+        {
+          "symbol": "HCLTECH",
+          "name": "HCL Technologies Limited",
+          "price": 1364.4,
+          "mcap": 3691592260649.568,
+          "returns": {
+            "1d": -1.22,
+            "1w": 4.01,
+            "1m": -1.78
+          },
+          "logo_url": "https://cdn.tickerlogos.com/hcltech.com"
+        },
+        {
+          "symbol": "WIPRO",
+          "name": "Wipro Limited",
+          "price": 191.6,
+          "mcap": 2008954715860.274,
+          "returns": {
+            "1d": 1.35,
+            "1w": 1.69,
+            "1m": -4.66
+          },
+          "logo_url": "https://cdn.tickerlogos.com/wipro.com"
+        },
+        {
+          "symbol": "LTM",
+          "name": "LTIMindtree Limited",
+          "price": 4200.7,
+          "mcap": 1245249945361.5762,
+          "returns": {
+            "1d": -2.15,
+            "1w": 0.05,
+            "1m": -5.86
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "TECHM",
+          "name": "Tech Mahindra Limited",
+          "price": 1391.6,
+          "mcap": 1233051696450.2896,
+          "returns": {
+            "1d": -1.2,
+            "1w": 3.8,
+            "1m": 2.49
+          },
+          "logo_url": "https://cdn.tickerlogos.com/mindtree.com"
+        },
+        {
+          "symbol": "PERSISTENT",
+          "name": "Persistent Systems Limited",
+          "price": 4899.8,
+          "mcap": 766161689576.3818,
+          "returns": {
+            "1d": -0.59,
+            "1w": 6.45,
+            "1m": 3.52
+          },
+          "logo_url": "https://cdn.tickerlogos.com/persistent.com"
+        },
+        {
+          "symbol": "MPHASIS",
+          "name": "MphasiS Limited",
+          "price": 2117.0,
+          "mcap": 403640074424.0,
+          "returns": {
+            "1d": -0.71,
+            "1w": 3.4,
+            "1m": -7.82
+          },
+          "logo_url": "https://cdn.tickerlogos.com/mphasis.com"
+        },
+        {
+          "symbol": "COFORGE",
+          "name": "Coforge Limited",
+          "price": 1144.7,
+          "mcap": 384402763186.8816,
+          "returns": {
+            "1d": -1.58,
+            "1w": 4.8,
+            "1m": -3.47
+          },
+          "logo_url": "https://cdn.tickerlogos.com/coforge.com"
+        },
+        {
+          "symbol": "HEXT",
+          "name": "Hexaware Technologies Limited",
+          "price": 443.0,
+          "mcap": 269940275785.0,
+          "returns": {
+            "1d": 0.39,
+            "1w": 4.96,
+            "1m": -6.44
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "TATAELXSI",
+          "name": "Tata Elxsi Limited",
+          "price": 4160.8,
+          "mcap": 259204026459.0791,
+          "returns": {
+            "1d": -1.25,
+            "1w": 3.01,
+            "1m": -7.8
+          },
+          "logo_url": "https://cdn.tickerlogos.com/tataelxsi.com"
+        },
+        {
+          "symbol": "KPITTECH",
+          "name": "KPIT Technologies Limited",
+          "price": 660.05,
+          "mcap": 179931259636.03308,
+          "returns": {
+            "1d": -2.01,
+            "1w": 0.17,
+            "1m": -14.4
+          },
+          "logo_url": "https://cdn.tickerlogos.com/kpitt ech.com"
+        },
+        {
+          "symbol": "ZENSARTECH",
+          "name": "Zensar Technologies Limited",
+          "price": 525.55,
+          "mcap": 119171006547.29651,
+          "returns": {
+            "1d": -1.79,
+            "1w": -5.88,
+            "1m": -6.94
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "BSOFT",
+          "name": "BIRLASOFT LIMITED",
+          "price": 336.4,
+          "mcap": 94019185577.35107,
+          "returns": {
+            "1d": -3.17,
+            "1w": -7.54,
+            "1m": -13.77
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "INTELLECT",
+          "name": "Intellect Design Arena Limited",
+          "price": 629.95,
+          "mcap": 87395946116.93921,
+          "returns": {
+            "1d": -4.13,
+            "1w": -4.7,
+            "1m": -9.7
+          },
+          "logo_url": "https://cdn.tickerlogos.com/intellectdesign.com"
+        },
+        {
+          "symbol": "SONATSOFTW",
+          "name": "Sonata Software Limited",
+          "price": 219.0,
+          "mcap": 60768876207.0,
+          "returns": {
+            "1d": -3.84,
+            "1w": -5.56,
+            "1m": -18.34
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "NEWGEN",
+          "name": "Newgen Software Technologies Limited",
+          "price": 422.0,
+          "mcap": 59412592970.0,
+          "returns": {
+            "1d": -3.13,
+            "1w": -4.07,
+            "1m": -17.05
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "HAPPSTMNDS",
+          "name": "Happiest Minds Technologies Limited",
+          "price": 388.95,
+          "mcap": 58432394791.02594,
+          "returns": {
+            "1d": -2.3,
+            "1w": 4.65,
+            "1m": 8.1
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "LATENTVIEW",
+          "name": "Latent View Analytics Limited",
+          "price": 260.4,
+          "mcap": 53883263529.03015,
+          "returns": {
+            "1d": -3.95,
+            "1w": -3.32,
+            "1m": -22.78
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Refineries & Marketing",
+      "total_mcap": 22594124762763.668,
+      "stock_count": 6,
+      "avg_1d": -2.89,
+      "avg_1w": -2.07,
+      "avg_1m": -14.67,
+      "stocks": [
+        {
+          "symbol": "RELIANCE",
+          "name": "Reliance Industries Limited",
+          "price": 1348.1,
+          "mcap": 18243126028860.867,
+          "returns": {
+            "1d": -4.6,
+            "1w": -2.65,
+            "1m": -3.29
+          },
+          "logo_url": "https://cdn.tickerlogos.com/reliance.com"
+        },
+        {
+          "symbol": "IOC",
+          "name": "Indian Oil Corporation Limited",
+          "price": 137.76,
+          "mcap": 1945341722071.8008,
+          "returns": {
+            "1d": -1.96,
+            "1w": -3.48,
+            "1m": -25.59
+          },
+          "logo_url": "https://cdn.tickerlogos.com/iocl.com"
+        },
+        {
+          "symbol": "BPCL",
+          "name": "Bharat Petroleum Corporation Limited",
+          "price": 282.7,
+          "mcap": 1226495554417.872,
+          "returns": {
+            "1d": -0.65,
+            "1w": -1.15,
+            "1m": -26.65
+          },
+          "logo_url": "https://cdn.tickerlogos.com/bpc.in"
+        },
+        {
+          "symbol": "HINDPETRO",
+          "name": "Hindustan Petroleum Corporation Limited",
+          "price": 340.9,
+          "mcap": 725374683399.002,
+          "returns": {
+            "1d": -0.9,
+            "1w": 4.96,
+            "1m": -22.3
+          },
+          "logo_url": "https://cdn.tickerlogos.com/hindpetro.com"
+        },
+        {
+          "symbol": "MRPL",
+          "name": "Mangalore Refinery and Petrochemicals Limited",
+          "price": 177.1,
+          "mcap": 310732327080.3754,
+          "returns": {
+            "1d": -4.86,
+            "1w": -4.16,
+            "1m": -9.94
+          },
+          "logo_url": "https://cdn.tickerlogos.com/mrpl.co.in"
+        },
+        {
+          "symbol": "CHENNPETRO",
+          "name": "Chennai Petroleum Corporation Limited",
+          "price": 959.75,
+          "mcap": 143054446933.75,
+          "returns": {
+            "1d": -4.35,
+            "1w": -5.93,
+            "1m": -0.23
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Pharmaceuticals",
+      "total_mcap": 20583190730183.1,
+      "stock_count": 37,
+      "avg_1d": -0.73,
+      "avg_1w": 1.1,
+      "avg_1m": -3.38,
+      "stocks": [
+        {
+          "symbol": "SUNPHARMA",
+          "name": "Sun Pharmaceutical Industries Limited",
+          "price": 1793.6,
+          "mcap": 4303447143614.4863,
+          "returns": {
+            "1d": -0.1,
+            "1w": 2.82,
+            "1m": 3.26
+          },
+          "logo_url": "https://cdn.tickerlogos.com/sunpharma.com"
+        },
+        {
+          "symbol": "DIVISLAB",
+          "name": "Divi's Laboratories Limited",
+          "price": 5997.5,
+          "mcap": 1592147808550.0,
+          "returns": {
+            "1d": -0.28,
+            "1w": 0.42,
+            "1m": -6.41
+          },
+          "logo_url": "https://cdn.tickerlogos.com/divislabs.com"
+        },
+        {
+          "symbol": "TORNTPHARM",
+          "name": "Torrent Pharmaceuticals Limited",
+          "price": 4265.6,
+          "mcap": 1443672901915.3125,
+          "returns": {
+            "1d": -0.74,
+            "1w": 1.3,
+            "1m": -1.56
+          },
+          "logo_url": "https://cdn.tickerlogos.com/torntpharm.com"
+        },
+        {
+          "symbol": "LUPIN",
+          "name": "Lupin Limited",
+          "price": 2334.8,
+          "mcap": 1067421810685.9988,
+          "returns": {
+            "1d": -0.55,
+            "1w": 3.7,
+            "1m": 1.43
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "DRREDDY",
+          "name": "Dr. Reddy's Laboratories Limited",
+          "price": 1281.7,
+          "mcap": 1067136720914.4568,
+          "returns": {
+            "1d": -1.46,
+            "1w": 0.56,
+            "1m": -0.36
+          },
+          "logo_url": "https://cdn.tickerlogos.com/drreddys.com"
+        },
+        {
+          "symbol": "CIPLA",
+          "name": "Cipla Limited",
+          "price": 1242.3,
+          "mcap": 1003508401933.8113,
+          "returns": {
+            "1d": -0.17,
+            "1w": 0.25,
+            "1m": -7.85
+          },
+          "logo_url": "https://cdn.tickerlogos.com/cipla.com"
+        },
+        {
+          "symbol": "ZYDUSLIFE",
+          "name": "Zydus Lifesciences Limited",
+          "price": 896.7,
+          "mcap": 902586074831.7599,
+          "returns": {
+            "1d": -0.77,
+            "1w": 2.35,
+            "1m": -2.71
+          },
+          "logo_url": "https://cdn.tickerlogos.com/zydus.com"
+        },
+        {
+          "symbol": "MANKIND",
+          "name": "Mankind Pharma Limited",
+          "price": 2038.8,
+          "mcap": 841674415284.0332,
+          "returns": {
+            "1d": 0.73,
+            "1w": 1.9,
+            "1m": -9.29
+          },
+          "logo_url": "https://cdn.tickerlogos.com/mankindpharma.com"
+        },
+        {
+          "symbol": "AUROPHARMA",
+          "name": "Aurobindo Pharma Limited",
+          "price": 1314.2,
+          "mcap": 763289464587.1458,
+          "returns": {
+            "1d": 0.49,
+            "1w": 5.35,
+            "1m": 7.69
+          },
+          "logo_url": "https://cdn.tickerlogos.com/aurobindo.com"
+        },
+        {
+          "symbol": "ALKEM",
+          "name": "Alkem Laboratories Limited",
+          "price": 5344.5,
+          "mcap": 639015142500.0,
+          "returns": {
+            "1d": -1.67,
+            "1w": 1.99,
+            "1m": -5.23
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "GLENMARK",
+          "name": "Glenmark Pharmaceuticals Limited",
+          "price": 2170.5,
+          "mcap": 612727529005.5,
+          "returns": {
+            "1d": 0.09,
+            "1w": 3.48,
+            "1m": 1.58
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "BIOCON",
+          "name": "Biocon Limited",
+          "price": 370.1,
+          "mcap": 599314542518.6143,
+          "returns": {
+            "1d": -2.52,
+            "1w": 0.42,
+            "1m": -5.05
+          },
+          "logo_url": "https://cdn.tickerlogos.com/biocon.com"
+        },
+        {
+          "symbol": "ABBOTINDIA",
+          "name": "Abbott India Limited",
+          "price": 26135.0,
+          "mcap": 555350507770.0,
+          "returns": {
+            "1d": -1.02,
+            "1w": -1.43,
+            "1m": -1.49
+          },
+          "logo_url": "https://cdn.tickerlogos.com/abbott.in"
+        },
+        {
+          "symbol": "LAURUSLABS",
+          "name": "Laurus Labs Limited",
+          "price": 1008.8,
+          "mcap": 544738551148.3658,
+          "returns": {
+            "1d": -1.44,
+            "1w": 6.76,
+            "1m": -6.23
+          },
+          "logo_url": "https://cdn.tickerlogos.com/lauruslabs.com"
+        },
+        {
+          "symbol": "IPCALAB",
+          "name": "IPCA Laboratories Limited",
+          "price": 1586.0,
+          "mcap": 403835338816.0,
+          "returns": {
+            "1d": 1.02,
+            "1w": 2.69,
+            "1m": 3.73
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "GLAXO",
+          "name": "GlaxoSmithKline Pharmaceuticals Limited",
+          "price": 2259.5,
+          "mcap": 382772933823.0,
+          "returns": {
+            "1d": -2.67,
+            "1w": -4.93,
+            "1m": -12.14
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "AJANTPHARM",
+          "name": "Ajanta Pharma Limited",
+          "price": 2807.9,
+          "mcap": 350977766843.50684,
+          "returns": {
+            "1d": -2.5,
+            "1w": -4.62,
+            "1m": -6.21
+          },
+          "logo_url": "https://cdn.tickerlogos.com/ajantapharma.com"
+        },
+        {
+          "symbol": "JBCHEPHARM",
+          "name": "JB Chemicals & Pharmaceuticals Limited",
+          "price": 2056.7,
+          "mcap": 330221082790.41943,
+          "returns": {
+            "1d": -1.37,
+            "1w": -1.35,
+            "1m": 0.16
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "EMCURE",
+          "name": "Emcure Pharmaceuticals Limited",
+          "price": 1652.7,
+          "mcap": 313334635069.5979,
+          "returns": {
+            "1d": 3.72,
+            "1w": 12.37,
+            "1m": 13.55
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "GLAND",
+          "name": "Gland Pharma Limited",
+          "price": 1724.1,
+          "mcap": 284056544871.9264,
+          "returns": {
+            "1d": 0.8,
+            "1w": 7.97,
+            "1m": -5.38
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "PFIZER",
+          "name": "Pfizer Limited",
+          "price": 4692.0,
+          "mcap": 214648358544.0,
+          "returns": {
+            "1d": -0.37,
+            "1w": -0.69,
+            "1m": -7.31
+          },
+          "logo_url": "https://cdn.tickerlogos.com/pfizer.com"
+        },
+        {
+          "symbol": "SAILIFE",
+          "name": "Sai Life Sciences Limited",
+          "price": 985.85,
+          "mcap": 208782552668.50854,
+          "returns": {
+            "1d": -2.62,
+            "1w": -2.27,
+            "1m": -1.24
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "ASTRAZEN",
+          "name": "AstraZeneca Pharma India Limited",
+          "price": 7931.0,
+          "mcap": 198275000000.0,
+          "returns": {
+            "1d": -5.75,
+            "1w": -5.25,
+            "1m": -10.37
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "WOCKPHARMA",
+          "name": "Wockhardt Limited",
+          "price": 1189.5,
+          "mcap": 193284435025.5,
+          "returns": {
+            "1d": -0.64,
+            "1w": 0.19,
+            "1m": -12.66
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "PPLPHARMA",
+          "name": "Piramal Pharma Limited",
+          "price": 143.56,
+          "mcap": 190081907094.55408,
+          "returns": {
+            "1d": 1.77,
+            "1w": 5.78,
+            "1m": -8.05
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "ERIS",
+          "name": "Eris Lifesciences Limited",
+          "price": 1340.9,
+          "mcap": 185772160560.6947,
+          "returns": {
+            "1d": 0.36,
+            "1w": 4.25,
+            "1m": -1.28
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "NATCOPHARM",
+          "name": "Natco Pharma Limited",
+          "price": 978.7,
+          "mcap": 175337003160.22577,
+          "returns": {
+            "1d": 0.51,
+            "1w": 4.33,
+            "1m": -0.99
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "ONESOURCE",
+          "name": "Onesource Specialty Pharma Limited",
+          "price": 1447.1,
+          "mcap": 166531155264.7484,
+          "returns": {
+            "1d": 8.47,
+            "1w": -1.26,
+            "1m": 7.45
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "NEULANDLAB",
+          "name": "Neuland Laboratories Limited",
+          "price": 12067.0,
+          "mcap": 154973862461.0,
+          "returns": {
+            "1d": -0.24,
+            "1w": -0.28,
+            "1m": -5.91
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "GRANULES",
+          "name": "Granules India Limited",
+          "price": 624.35,
+          "mcap": 154712001576.62048,
+          "returns": {
+            "1d": -0.75,
+            "1w": 7.18,
+            "1m": 7.23
+          },
+          "logo_url": "https://cdn.tickerlogos.com/granulesindia.com"
+        },
+        {
+          "symbol": "JUBLPHARMA",
+          "name": "Jubilant Pharmova Limited",
+          "price": 844.25,
+          "mcap": 133803086227.25,
+          "returns": {
+            "1d": -1.8,
+            "1w": -0.76,
+            "1m": -2.55
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "APLLTD",
+          "name": "Alembic Pharmaceuticals Limited",
+          "price": 673.55,
+          "mcap": 132715849093.03455,
+          "returns": {
+            "1d": -2.97,
+            "1w": 2.76,
+            "1m": -5.29
+          },
+          "logo_url": "https://cdn.tickerlogos.com/apollopharmacy.in"
+        },
+        {
+          "symbol": "CAPLIPOINT",
+          "name": "Caplin Point Laboratories Limited",
+          "price": 1558.4,
+          "mcap": 118656409551.68408,
+          "returns": {
+            "1d": -2.33,
+            "1w": -3.91,
+            "1m": -8.33
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "COHANCE",
+          "name": "Cohance Lifesciences Limited",
+          "price": 302.7,
+          "mcap": 115913682716.26941,
+          "returns": {
+            "1d": -1.13,
+            "1w": 1.15,
+            "1m": -2.34
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "CONCORDBIO",
+          "name": "Concord Biotech Limited",
+          "price": 1014.8,
+          "mcap": 106164522542.14673,
+          "returns": {
+            "1d": -2.34,
+            "1w": -7.83,
+            "1m": -16.86
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "AKUMS",
+          "name": "Akums Drugs and Pharmaceuticals Limited",
+          "price": 474.35,
+          "mcap": 72672015225.42911,
+          "returns": {
+            "1d": -3.91,
+            "1w": 1.31,
+            "1m": -2.83
+          },
+          "logo_url": "https://cdn.tickerlogos.com/akumsdrugs.com"
+        },
+        {
+          "symbol": "BLUEJET",
+          "name": "Blue Jet Healthcare Limited",
+          "price": 343.8,
+          "mcap": 59637410997.50214,
+          "returns": {
+            "1d": -2.72,
+            "1w": -5.94,
+            "1m": -15.17
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Public Sector Bank",
+      "total_mcap": 18034250306098.41,
+      "stock_count": 11,
+      "avg_1d": -3.52,
+      "avg_1w": -1.13,
+      "avg_1m": -16.04,
+      "stocks": [
+        {
+          "symbol": "SBIN",
+          "name": "State Bank of India",
+          "price": 1019.5,
+          "mcap": 9410614628927.0,
+          "returns": {
+            "1d": -3.88,
+            "1w": -2.8,
+            "1m": -15.16
+          },
+          "logo_url": "https://cdn.tickerlogos.com/sbi.co.in"
+        },
+        {
+          "symbol": "BANKBARODA",
+          "name": "Bank of Baroda",
+          "price": 260.3,
+          "mcap": 1346105512066.7202,
+          "returns": {
+            "1d": -4.55,
+            "1w": -4.51,
+            "1m": -19.15
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "UNIONBANK",
+          "name": "Union Bank of India",
+          "price": 175.48,
+          "mcap": 1339893556251.5938,
+          "returns": {
+            "1d": -2.68,
+            "1w": 1.93,
+            "1m": -13.24
+          },
+          "logo_url": "https://cdn.tickerlogos.com/unionbankofindia.co.in"
+        },
+        {
+          "symbol": "PNB",
+          "name": "Punjab National Bank",
+          "price": 105.13,
+          "mcap": 1208448636098.5498,
+          "returns": {
+            "1d": -4.49,
+            "1w": -3.98,
+            "1m": -18.78
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "CANBK",
+          "name": "Canara Bank",
+          "price": 130.45,
+          "mcap": 1183266429185.569,
+          "returns": {
+            "1d": -4.45,
+            "1w": -1.86,
+            "1m": -17.11
+          },
+          "logo_url": "https://cdn.tickerlogos.com/canarabank.com"
+        },
+        {
+          "symbol": "INDIANB",
+          "name": "Indian Bank",
+          "price": 871.75,
+          "mcap": 1174636590985.0,
+          "returns": {
+            "1d": -4.1,
+            "1w": 1.47,
+            "1m": -11.99
+          },
+          "logo_url": "https://cdn.tickerlogos.com/indianbank.in"
+        },
+        {
+          "symbol": "BANKINDIA",
+          "name": "Bank of India",
+          "price": 144.99,
+          "mcap": 660091338899.8915,
+          "returns": {
+            "1d": -3.02,
+            "1w": -0.54,
+            "1m": -17.64
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "IOB",
+          "name": "Indian Overseas Bank",
+          "price": 32.2,
+          "mcap": 620405445637.3447,
+          "returns": {
+            "1d": -2.57,
+            "1w": 1.74,
+            "1m": -11.66
+          },
+          "logo_url": "https://cdn.tickerlogos.com/iob.in"
+        },
+        {
+          "symbol": "MAHABANK",
+          "name": "Bank of Maharashtra",
+          "price": 64.46,
+          "mcap": 495797625099.6311,
+          "returns": {
+            "1d": -1.6,
+            "1w": 2.91,
+            "1m": -13.78
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "CENTRALBK",
+          "name": "Central Bank of India",
+          "price": 33.0,
+          "mcap": 298855972668.0,
+          "returns": {
+            "1d": -3.28,
+            "1w": -1.81,
+            "1m": -17.64
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "UCOBANK",
+          "name": "UCO Bank",
+          "price": 23.6,
+          "mcap": 296134570279.11066,
+          "returns": {
+            "1d": -4.1,
+            "1w": -4.95,
+            "1m": -20.32
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Telecom - Cellular & Fixed line services",
+      "total_mcap": 13410642663995.621,
+      "stock_count": 5,
+      "avg_1d": -2.95,
+      "avg_1w": -4.14,
+      "avg_1m": -11.43,
+      "stocks": [
+        {
+          "symbol": "BHARTIARTL",
+          "name": "Bharti Airtel Limited",
+          "price": 1843.9,
+          "mcap": 11232064666991.668,
+          "returns": {
+            "1d": 0.49,
+            "1w": 0.93,
+            "1m": -1.88
+          },
+          "logo_url": "https://cdn.tickerlogos.com/bhartiairtel.in"
+        },
+        {
+          "symbol": "IDEA",
+          "name": "Vodafone Idea Limited",
+          "price": 8.89,
+          "mcap": 963169618364.4092,
+          "returns": {
+            "1d": -1.66,
+            "1w": -0.56,
+            "1m": -16.05
+          },
+          "logo_url": "https://cdn.tickerlogos.com/vi.com"
+        },
+        {
+          "symbol": "BHARTIHEXA",
+          "name": "Bharti Hexacom Limited",
+          "price": 1504.2,
+          "mcap": 752099975585.9375,
+          "returns": {
+            "1d": -4.99,
+            "1w": -5.48,
+            "1m": -6.39
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "TATACOMM",
+          "name": "Tata Communications Limited",
+          "price": 1398.3,
+          "mcap": 398515513916.0156,
+          "returns": {
+            "1d": -3.55,
+            "1w": -2.96,
+            "1m": -12.47
+          },
+          "logo_url": "https://cdn.tickerlogos.com/tatacommunications.com"
+        },
+        {
+          "symbol": "TTML",
+          "name": "Tata Teleservices (Maharashtra) Limited",
+          "price": 33.13,
+          "mcap": 64792889137.59057,
+          "returns": {
+            "1d": -5.04,
+            "1w": -12.65,
+            "1m": -20.34
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Non Banking Financial Company (NBFC)",
+      "total_mcap": 12523908663238.682,
+      "stock_count": 14,
+      "avg_1d": -3.47,
+      "avg_1w": -1.92,
+      "avg_1m": -10.86,
+      "stocks": [
+        {
+          "symbol": "BAJFINANCE",
+          "name": "Bajaj Finance Limited",
+          "price": 843.8,
+          "mcap": 5245352272205.276,
+          "returns": {
+            "1d": -4.41,
+            "1w": 1.39,
+            "1m": -15.27
+          },
+          "logo_url": "https://cdn.tickerlogos.com/bajajfinance.com"
+        },
+        {
+          "symbol": "SHRIRAMFIN",
+          "name": "Shriram Finance Limited",
+          "price": 903.8,
+          "mcap": 1700525097310.9272,
+          "returns": {
+            "1d": -5.46,
+            "1w": -4.84,
+            "1m": -16.27
+          },
+          "logo_url": "https://cdn.tickerlogos.com/shriramfinance.com"
+        },
+        {
+          "symbol": "MUTHOOTFIN",
+          "name": "Muthoot Finance Limited",
+          "price": 3270.6,
+          "mcap": 1313783464203.62,
+          "returns": {
+            "1d": -1.49,
+            "1w": -1.08,
+            "1m": -2.47
+          },
+          "logo_url": "https://cdn.tickerlogos.com/muthootfin.com"
+        },
+        {
+          "symbol": "CHOLAFIN",
+          "name": "Cholamandalam Investment and Finance Company Limited",
+          "price": 1416.3,
+          "mcap": 1206740285474.3774,
+          "returns": {
+            "1d": -3.9,
+            "1w": -2.67,
+            "1m": -18.17
+          },
+          "logo_url": "https://cdn.tickerlogos.com/cholamandalam.com"
+        },
+        {
+          "symbol": "SBICARD",
+          "name": "SBI Cards and Payment Services Limited",
+          "price": 673.95,
+          "mcap": 641331000777.6641,
+          "returns": {
+            "1d": -3.75,
+            "1w": -2.92,
+            "1m": -12.67
+          },
+          "logo_url": "https://cdn.tickerlogos.com/sbicard.com"
+        },
+        {
+          "symbol": "SUNDARMFIN",
+          "name": "Sundaram Finance Limited",
+          "price": 4581.5,
+          "mcap": 504941001526.5,
+          "returns": {
+            "1d": -3.89,
+            "1w": -4.72,
+            "1m": -16.84
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "M&MFIN",
+          "name": "Mahindra & Mahindra Financial Services Limited",
+          "price": 301.95,
+          "mcap": 419552991156.1551,
+          "returns": {
+            "1d": -4.39,
+            "1w": -3.07,
+            "1m": -19.33
+          },
+          "logo_url": "https://cdn.tickerlogos.com/mandmfincorp.com"
+        },
+        {
+          "symbol": "AIIL",
+          "name": "Authum Investment & Infrastructure Limited",
+          "price": 485.9,
+          "mcap": 412638665266.7389,
+          "returns": {
+            "1d": -7.75,
+            "1w": 1.1,
+            "1m": 0.84
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "POONAWALLA",
+          "name": "Poonawalla Fincorp Limited",
+          "price": 384.55,
+          "mcap": 310711644020.7694,
+          "returns": {
+            "1d": -1.56,
+            "1w": -3.92,
+            "1m": -15.45
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "MANAPPURAM",
+          "name": "Manappuram Finance Limited",
+          "price": 253.95,
+          "mcap": 214952096846.43622,
+          "returns": {
+            "1d": -3.2,
+            "1w": -3.86,
+            "1m": -10.34
+          },
+          "logo_url": "https://cdn.tickerlogos.com/manappuram.com"
+        },
+        {
+          "symbol": "IIFL",
+          "name": "IIFL Finance Limited",
+          "price": 448.25,
+          "mcap": 190608418726.0,
+          "returns": {
+            "1d": -3.46,
+            "1w": -4.08,
+            "1m": -9.66
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "CGCL",
+          "name": "Capri Global Capital Limited",
+          "price": 165.54,
+          "mcap": 159274960409.7061,
+          "returns": {
+            "1d": -2.63,
+            "1w": -1.69,
+            "1m": 3.67
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "FIVESTAR",
+          "name": "Five-Star Business Finance Limited",
+          "price": 376.7,
+          "mcap": 111192530825.81384,
+          "returns": {
+            "1d": -1.54,
+            "1w": 6.05,
+            "1m": -9.7
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "SBFC",
+          "name": "SBFC Finance Limited",
+          "price": 83.48,
+          "mcap": 92304234488.69736,
+          "returns": {
+            "1d": -1.17,
+            "1w": -2.57,
+            "1m": -10.32
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Passenger Cars & Utility Vehicles",
+      "total_mcap": 10491893563537.125,
+      "stock_count": 6,
+      "avg_1d": -3.68,
+      "avg_1w": -1.61,
+      "avg_1m": -12.87,
+      "stocks": [
+        {
+          "symbol": "MARUTI",
+          "name": "Maruti Suzuki India Limited",
+          "price": 12389.0,
+          "mcap": 3895133489286.0,
+          "returns": {
+            "1d": -2.53,
+            "1w": -1.67,
+            "1m": -16.61
+          },
+          "logo_url": "https://cdn.tickerlogos.com/maruti.co.in"
+        },
+        {
+          "symbol": "M&M",
+          "name": "Mahindra & Mahindra Limited",
+          "price": 3041.3,
+          "mcap": 3650997951802.535,
+          "returns": {
+            "1d": -2.77,
+            "1w": -0.13,
+            "1m": -10.48
+          },
+          "logo_url": "https://cdn.tickerlogos.com/motherson.com"
+        },
+        {
+          "symbol": "HYUNDAI",
+          "name": "Hyundai Motor India Limited",
+          "price": 1816.7,
+          "mcap": 1476143376695.1416,
+          "returns": {
+            "1d": -3.65,
+            "1w": -6.91,
+            "1m": -16.1
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "TMPV",
+          "name": "Tata Motors Passenger Vehicles Limited",
+          "price": 303.2,
+          "mcap": 1116496922355.698,
+          "returns": {
+            "1d": -4.64,
+            "1w": -1.97,
+            "1m": -20.76
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "FORCEMOT",
+          "name": "FORCE MOTORS LTD",
+          "price": 20410.0,
+          "mcap": 268927507420.0,
+          "returns": {
+            "1d": -4.96,
+            "1w": -1.5,
+            "1m": -16.15
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "OLECTRA",
+          "name": "Olectra Greentech Limited",
+          "price": 1025.75,
+          "mcap": 84194315977.75,
+          "returns": {
+            "1d": -3.55,
+            "1w": 2.49,
+            "1m": 2.87
+          },
+          "logo_url": "https://cdn.tickerlogos.com/olectra.com"
+        }
+      ]
+    },
+    {
+      "name": "Life Insurance",
+      "total_mcap": 9308463672158.03,
+      "stock_count": 5,
+      "avg_1d": -1.38,
+      "avg_1w": -3.46,
+      "avg_1m": -13.46,
+      "stocks": [
+        {
+          "symbol": "LICI",
+          "name": "Life Insurance Corporation Of India",
+          "price": 765.65,
+          "mcap": 4842734644189.539,
+          "returns": {
+            "1d": -1.98,
+            "1w": -0.05,
+            "1m": -9.86
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "SBILIFE",
+          "name": "SBI Life Insurance Company Limited",
+          "price": 1837.6,
+          "mcap": 1843282057060.0464,
+          "returns": {
+            "1d": -0.77,
+            "1w": -3.44,
+            "1m": -9.67
+          },
+          "logo_url": "https://cdn.tickerlogos.com/sbilife.co.in"
+        },
+        {
+          "symbol": "HDFCLIFE",
+          "name": "HDFC Life Insurance Company Limited",
+          "price": 610.2,
+          "mcap": 1316372100494.3809,
+          "returns": {
+            "1d": -0.44,
+            "1w": -3.68,
+            "1m": -14.69
+          },
+          "logo_url": "https://cdn.tickerlogos.com/hdfclife.com"
+        },
+        {
+          "symbol": "ICICIPRULI",
+          "name": "ICICI Prudential Life Insurance Company Limited",
+          "price": 530.4,
+          "mcap": 768359159710.409,
+          "returns": {
+            "1d": -1.89,
+            "1w": -5.77,
+            "1m": -18.96
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "MFSL",
+          "name": "Max Financial Services Limited",
+          "price": 1557.1,
+          "mcap": 537715710703.65454,
+          "returns": {
+            "1d": -1.82,
+            "1w": -4.35,
+            "1m": -14.13
+          },
+          "logo_url": "https://cdn.tickerlogos.com/mfsld.com"
+        }
+      ]
+    },
+    {
+      "name": "Heavy Electrical Equipment",
+      "total_mcap": 8891171888490.922,
+      "stock_count": 14,
+      "avg_1d": -2.63,
+      "avg_1w": -1.29,
+      "avg_1m": -6.27,
+      "stocks": [
+        {
+          "symbol": "ABB",
+          "name": "ABB India Limited",
+          "price": 6105.0,
+          "mcap": 1293775702560.0,
+          "returns": {
+            "1d": -1.73,
+            "1w": -1.75,
+            "1m": 0.53
+          },
+          "logo_url": "https://cdn.tickerlogos.com/abb.com"
+        },
+        {
+          "symbol": "POWERINDIA",
+          "name": "Hitachi Energy India Limited",
+          "price": 24685.0,
+          "mcap": 1101083040065.0,
+          "returns": {
+            "1d": -3.84,
+            "1w": 0.14,
+            "1m": -3.43
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "SIEMENS",
+          "name": "Siemens Limited",
+          "price": 3048.9,
+          "mcap": 1085775772917.1069,
+          "returns": {
+            "1d": -1.69,
+            "1w": -0.98,
+            "1m": -10.81
+          },
+          "logo_url": "https://cdn.tickerlogos.com/siemens.com"
+        },
+        {
+          "symbol": "CGPOWER",
+          "name": "CG Power and Industrial Solutions Limited",
+          "price": 667.95,
+          "mcap": 1051968667494.6628,
+          "returns": {
+            "1d": -3.51,
+            "1w": -2.73,
+            "1m": -7.89
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "GVT&D",
+          "name": "GE Vernova T&D India Limited",
+          "price": 3746.2,
+          "mcap": 959201516914.7278,
+          "returns": {
+            "1d": -0.46,
+            "1w": -0.41,
+            "1m": -2.7
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "ENRIN",
+          "name": "Siemens Energy India Limited",
+          "price": 2629.4,
+          "mcap": 936383221069.6069,
+          "returns": {
+            "1d": -5.12,
+            "1w": -4.57,
+            "1m": -10.29
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "BHEL",
+          "name": "Bharat Heavy Electricals Limited",
+          "price": 254.85,
+          "mcap": 887403867274.5781,
+          "returns": {
+            "1d": -2.75,
+            "1w": 1.23,
+            "1m": -3.81
+          },
+          "logo_url": "https://cdn.tickerlogos.com/bhel.com"
+        },
+        {
+          "symbol": "SUZLON",
+          "name": "Suzlon Energy Limited",
+          "price": 40.82,
+          "mcap": 559839287755.3265,
+          "returns": {
+            "1d": -3.43,
+            "1w": -0.66,
+            "1m": -4.34
+          },
+          "logo_url": "https://cdn.tickerlogos.com/suzlon.com"
+        },
+        {
+          "symbol": "THERMAX",
+          "name": "Thermax Limited",
+          "price": 3196.9,
+          "mcap": 360125783638.2759,
+          "returns": {
+            "1d": -1.61,
+            "1w": -1.25,
+            "1m": 2.54
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "SCHNEIDER",
+          "name": "Schneider Electric Infrastructure Limited",
+          "price": 876.75,
+          "mcap": 209634462686.25,
+          "returns": {
+            "1d": -1.87,
+            "1w": -2.06,
+            "1m": -3.28
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "TRITURBINE",
+          "name": "Triveni Turbine Limited",
+          "price": 451.95,
+          "mcap": 143671306839.01794,
+          "returns": {
+            "1d": 0.07,
+            "1w": -2.85,
+            "1m": -7.61
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "INOXWIND",
+          "name": "Inox Wind Limited",
+          "price": 79.27,
+          "mcap": 137075037913.44284,
+          "returns": {
+            "1d": -3.23,
+            "1w": 1.54,
+            "1m": -13.96
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "ELECON",
+          "name": "Elecon Engineering Company Limited",
+          "price": 372.3,
+          "mcap": 83544091199.74304,
+          "returns": {
+            "1d": -3.86,
+            "1w": -2.88,
+            "1m": -10.47
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "TARIL",
+          "name": "Transformers And Rectifiers (India) Limited",
+          "price": 272.15,
+          "mcap": 81690130163.18314,
+          "returns": {
+            "1d": -3.8,
+            "1w": -0.78,
+            "1m": -12.25
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Power Generation",
+      "total_mcap": 8578762649816.916,
+      "stock_count": 11,
+      "avg_1d": -1.48,
+      "avg_1w": -1.75,
+      "avg_1m": -1.86,
+      "stocks": [
+        {
+          "symbol": "NTPC",
+          "name": "NTPC Limited",
+          "price": 375.65,
+          "mcap": 3642552574053.3467,
+          "returns": {
+            "1d": -0.73,
+            "1w": 0.43,
+            "1m": -1.64
+          },
+          "logo_url": "https://cdn.tickerlogos.com/ntpc.co.in"
+        },
+        {
+          "symbol": "ADANIGREEN",
+          "name": "Adani Green Energy Limited",
+          "price": 832.5,
+          "mcap": 1371274149037.5,
+          "returns": {
+            "1d": -2.49,
+            "1w": -2.62,
+            "1m": -12.12
+          },
+          "logo_url": "https://cdn.tickerlogos.com/adani.com"
+        },
+        {
+          "symbol": "JSWENERGY",
+          "name": "JSW Energy Limited",
+          "price": 484.8,
+          "mcap": 851370167332.5073,
+          "returns": {
+            "1d": -1.92,
+            "1w": -4.17,
+            "1m": -0.6
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "NTPCGREEN",
+          "name": "NTPC Green Energy Limited",
+          "price": 95.06,
+          "mcap": 801006877858.1061,
+          "returns": {
+            "1d": -1.68,
+            "1w": -3.86,
+            "1m": 5.46
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "NHPC",
+          "name": "NHPC Limited",
+          "price": 76.59,
+          "mcap": 769349178928.9338,
+          "returns": {
+            "1d": -0.79,
+            "1w": 0.46,
+            "1m": 1.67
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "NLCINDIA",
+          "name": "NLC India Limited",
+          "price": 270.4,
+          "mcap": 374946530610.2418,
+          "returns": {
+            "1d": 1.1,
+            "1w": 4.54,
+            "1m": 3.98
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "SJVN",
+          "name": "SJVN Limited",
+          "price": 66.17,
+          "mcap": 260034539534.08014,
+          "returns": {
+            "1d": -2.52,
+            "1w": -3.72,
+            "1m": -9.39
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "ACMESOLAR",
+          "name": "Acme Solar Holdings Limited",
+          "price": 269.41,
+          "mcap": 163254865934.77502,
+          "returns": {
+            "1d": 6.02,
+            "1w": 2.82,
+            "1m": 14.16
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "NAVA",
+          "name": "NAVA LIMITED",
+          "price": 550.05,
+          "mcap": 155664848409.19458,
+          "returns": {
+            "1d": -3.87,
+            "1w": 1.01,
+            "1m": -7.65
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "JPPOWER",
+          "name": "Jaiprakash Power Ventures Limited",
+          "price": 14.73,
+          "mcap": 101010206416.45941,
+          "returns": {
+            "1d": -3.54,
+            "1w": -12.06,
+            "1m": -3.41
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "RPOWER",
+          "name": "Reliance Power Limited",
+          "price": 21.35,
+          "mcap": 88298711701.77142,
+          "returns": {
+            "1d": -5.82,
+            "1w": -2.06,
+            "1m": -10.93
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Diversified FMCG",
+      "total_mcap": 8567134255813.211,
+      "stock_count": 2,
+      "avg_1d": -1.58,
+      "avg_1w": -0.62,
+      "avg_1m": -8.65,
+      "stocks": [
+        {
+          "symbol": "HINDUNILVR",
+          "name": "Hindustan Unilever Limited",
+          "price": 2074.4,
+          "mcap": 4874699814895.201,
+          "returns": {
+            "1d": -2.83,
+            "1w": -0.14,
+            "1m": -11.28
+          },
+          "logo_url": "https://cdn.tickerlogos.com/hindustanunilever.com"
+        },
+        {
+          "symbol": "ITC",
+          "name": "ITC Limited",
+          "price": 294.7,
+          "mcap": 3692434440918.0103,
+          "returns": {
+            "1d": -0.34,
+            "1w": -1.11,
+            "1m": -6.03
+          },
+          "logo_url": "https://cdn.tickerlogos.com/itcportal.com"
+        }
+      ]
+    },
+    {
+      "name": "Cement & Cement Products",
+      "total_mcap": 8527770239501.83,
+      "stock_count": 11,
+      "avg_1d": -2.15,
+      "avg_1w": 0.3,
+      "avg_1m": -11.79,
+      "stocks": [
+        {
+          "symbol": "ULTRACEMCO",
+          "name": "UltraTech Cement Limited",
+          "price": 11049.0,
+          "mcap": 3250327244316.0,
+          "returns": {
+            "1d": -1.38,
+            "1w": 2.17,
+            "1m": -12.84
+          },
+          "logo_url": "https://cdn.tickerlogos.com/ultratechcement.com"
+        },
+        {
+          "symbol": "GRASIM",
+          "name": "Grasim Industries Limited",
+          "price": 2628.2,
+          "mcap": 1782163214171.0046,
+          "returns": {
+            "1d": -0.74,
+            "1w": 0.78,
+            "1m": -6.13
+          },
+          "logo_url": "https://cdn.tickerlogos.com/grasim.com"
+        },
+        {
+          "symbol": "AMBUJACEM",
+          "name": "Ambuja Cements Limited",
+          "price": 408.85,
+          "mcap": 1010605044067.1133,
+          "returns": {
+            "1d": -3.07,
+            "1w": -2.64,
+            "1m": -18.3
+          },
+          "logo_url": "https://cdn.tickerlogos.com/ambujacement.com"
+        },
+        {
+          "symbol": "SHREECEM",
+          "name": "SHREE CEMENT LIMITED",
+          "price": 23705.0,
+          "mcap": 855294131340.0,
+          "returns": {
+            "1d": -2.17,
+            "1w": 1.59,
+            "1m": -9.09
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "JKCEMENT",
+          "name": "JK Cement Limited",
+          "price": 5086.0,
+          "mcap": 392986324586.0,
+          "returns": {
+            "1d": -3.34,
+            "1w": 1.7,
+            "1m": -10.08
+          },
+          "logo_url": "https://cdn.tickerlogos.com/jkcement.com"
+        },
+        {
+          "symbol": "DALBHARAT",
+          "name": "Dalmia Bharat Limited",
+          "price": 1857.4,
+          "mcap": 348687466558.8225,
+          "returns": {
+            "1d": -1.41,
+            "1w": 1.39,
+            "1m": -6.8
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "ACC",
+          "name": "ACC Limited",
+          "price": 1314.4,
+          "mcap": 246827583071.84998,
+          "returns": {
+            "1d": -3.91,
+            "1w": -2.85,
+            "1m": -17.46
+          },
+          "logo_url": "https://cdn.tickerlogos.com/acclimited.com"
+        },
+        {
+          "symbol": "RAMCOCEM",
+          "name": "The Ramco Cements Limited",
+          "price": 910.5,
+          "mcap": 215144211990.0,
+          "returns": {
+            "1d": -1.92,
+            "1w": -3.75,
+            "1m": -19.41
+          },
+          "logo_url": "https://cdn.tickerlogos.com/ramcocements.com"
+        },
+        {
+          "symbol": "INDIACEM",
+          "name": "The India Cements Limited",
+          "price": 356.0,
+          "mcap": 165484897964.0,
+          "returns": {
+            "1d": -1.08,
+            "1w": 0.07,
+            "1m": -12.32
+          },
+          "logo_url": "https://cdn.tickerlogos.com/indiacement.com"
+        },
+        {
+          "symbol": "JSWCEMENT",
+          "name": "JSW Cement Limited",
+          "price": 114.44,
+          "mcap": 153186496399.16473,
+          "returns": {
+            "1d": -3.36,
+            "1w": -0.35,
+            "1m": -8.51
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "NUVOCO",
+          "name": "Nuvoco Vistas Corporation Limited",
+          "price": 299.55,
+          "mcap": 107063625037.8753,
+          "returns": {
+            "1d": -1.22,
+            "1w": 5.18,
+            "1m": -8.72
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Iron & Steel",
+      "total_mcap": 7793883899937.993,
+      "stock_count": 7,
+      "avg_1d": -2.0,
+      "avg_1w": -1.02,
+      "avg_1m": -10.2,
+      "stocks": [
+        {
+          "symbol": "JSWSTEEL",
+          "name": "JSW Steel Limited",
+          "price": 1130.3,
+          "mcap": 2761166869465.664,
+          "returns": {
+            "1d": -2.22,
+            "1w": -0.05,
+            "1m": -10.63
+          },
+          "logo_url": "https://cdn.tickerlogos.com/jsw.in"
+        },
+        {
+          "symbol": "TATASTEEL",
+          "name": "Tata Steel Limited",
+          "price": 193.22,
+          "mcap": 2409810410815.0635,
+          "returns": {
+            "1d": -1.74,
+            "1w": 1.42,
+            "1m": -9.0
+          },
+          "logo_url": "https://cdn.tickerlogos.com/tatasteel.com"
+        },
+        {
+          "symbol": "JINDALSTEL",
+          "name": "JINDAL STEEL LIMITED",
+          "price": 1131.4,
+          "mcap": 1151186057786.8179,
+          "returns": {
+            "1d": -1.01,
+            "1w": -0.59,
+            "1m": -9.07
+          },
+          "logo_url": "https://cdn.tickerlogos.com/jindalsteel.com"
+        },
+        {
+          "symbol": "SAIL",
+          "name": "Steel Authority of India Limited",
+          "price": 146.47,
+          "mcap": 604998044121.9751,
+          "returns": {
+            "1d": -3.45,
+            "1w": -3.99,
+            "1m": -11.61
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "JSL",
+          "name": "Jindal Stainless Limited",
+          "price": 711.35,
+          "mcap": 586319956864.6611,
+          "returns": {
+            "1d": -1.77,
+            "1w": 0.5,
+            "1m": -8.37
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "SARDAEN",
+          "name": "Sarda Energy & Minerals Limited",
+          "price": 508.5,
+          "mcap": 179185875795.0,
+          "returns": {
+            "1d": -1.82,
+            "1w": -0.23,
+            "1m": -7.81
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "NSLNISP",
+          "name": "NMDC Steel Limited",
+          "price": 34.53,
+          "mcap": 101216685088.81183,
+          "returns": {
+            "1d": -2.01,
+            "1w": -4.19,
+            "1m": -14.89
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "2/3 Wheelers",
+      "total_mcap": 7426819713740.737,
+      "stock_count": 6,
+      "avg_1d": -0.92,
+      "avg_1w": 1.46,
+      "avg_1m": -6.39,
+      "stocks": [
+        {
+          "symbol": "BAJAJ-AUTO",
+          "name": "Bajaj Auto Limited",
+          "price": 8901.0,
+          "mcap": 2485626760629.0,
+          "returns": {
+            "1d": -1.63,
+            "1w": 0.37,
+            "1m": -10.74
+          },
+          "logo_url": "https://cdn.tickerlogos.com/bajajauto.com"
+        },
+        {
+          "symbol": "EICHERMOT",
+          "name": "Eicher Motors Limited",
+          "price": 6811.5,
+          "mcap": 1868491200546.0,
+          "returns": {
+            "1d": -2.59,
+            "1w": 0.27,
+            "1m": -14.97
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "TVSMOTOR",
+          "name": "TVS Motor Company Limited",
+          "price": 3445.2,
+          "mcap": 1637249460185.9932,
+          "returns": {
+            "1d": -2.77,
+            "1w": -0.26,
+            "1m": -10.97
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "HEROMOTOCO",
+          "name": "Hero MotoCorp Limited",
+          "price": 5143.0,
+          "mcap": 1029061728254.0,
+          "returns": {
+            "1d": -2.77,
+            "1w": -0.57,
+            "1m": -9.93
+          },
+          "logo_url": "https://cdn.tickerlogos.com/heromotocorp.com"
+        },
+        {
+          "symbol": "ATHERENERG",
+          "name": "Ather Energy Limited",
+          "price": 796.35,
+          "mcap": 304505240106.1947,
+          "returns": {
+            "1d": 2.54,
+            "1w": 5.57,
+            "1m": 12.02
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "OLAELEC",
+          "name": "Ola Electric Mobility Limited",
+          "price": 24.27,
+          "mcap": 101885324019.54929,
+          "returns": {
+            "1d": 1.72,
+            "1w": 3.36,
+            "1m": -3.77
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Auto Components & Equipments",
+      "total_mcap": 6971773184329.593,
+      "stock_count": 18,
+      "avg_1d": -2.66,
+      "avg_1w": -0.92,
+      "avg_1m": -10.73,
+      "stocks": [
+        {
+          "symbol": "MOTHERSON",
+          "name": "Samvardhana Motherson International Limited",
+          "price": 109.38,
+          "mcap": 1154444902818.1177,
+          "returns": {
+            "1d": -3.01,
+            "1w": -1.82,
+            "1m": -17.71
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "BOSCHLTD",
+          "name": "Bosch Limited",
+          "price": 29615.0,
+          "mcap": 873705017265.0,
+          "returns": {
+            "1d": -2.55,
+            "1w": -1.73,
+            "1m": -18.7
+          },
+          "logo_url": "https://cdn.tickerlogos.com/bosch.in"
+        },
+        {
+          "symbol": "BHARATFORG",
+          "name": "Bharat Forge Limited",
+          "price": 1725.1,
+          "mcap": 824750687391.1143,
+          "returns": {
+            "1d": -0.66,
+            "1w": 0.74,
+            "1m": -9.74
+          },
+          "logo_url": "https://cdn.tickerlogos.com/bharatforgings.com"
+        },
+        {
+          "symbol": "SCHAEFFLER",
+          "name": "Schaeffler India Limited",
+          "price": 3985.1,
+          "mcap": 622885770581.0303,
+          "returns": {
+            "1d": -1.92,
+            "1w": 0.66,
+            "1m": -8.54
+          },
+          "logo_url": "https://cdn.tickerlogos.com/schaeffler.co.in"
+        },
+        {
+          "symbol": "UNOMINDA",
+          "name": "UNO Minda Limited",
+          "price": 1048.7,
+          "mcap": 606416029066.7908,
+          "returns": {
+            "1d": -3.58,
+            "1w": 0.89,
+            "1m": -11.76
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "TIINDIA",
+          "name": "Tube Investments of India Limited",
+          "price": 2566.3,
+          "mcap": 496694358176.83594,
+          "returns": {
+            "1d": -4.33,
+            "1w": 1.43,
+            "1m": -6.8
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "ENDURANCE",
+          "name": "Endurance Technologies Limited",
+          "price": 2260.0,
+          "mcap": 317898036480.0,
+          "returns": {
+            "1d": -3.13,
+            "1w": -0.7,
+            "1m": -15.09
+          },
+          "logo_url": "https://cdn.tickerlogos.com/endurance.in"
+        },
+        {
+          "symbol": "SONACOMS",
+          "name": "Sona BLW Precision Forgings Limited",
+          "price": 488.75,
+          "mcap": 303927667487.5,
+          "returns": {
+            "1d": -4.44,
+            "1w": -2.0,
+            "1m": -8.56
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "ZFCVINDIA",
+          "name": "ZF Commercial Vehicle Control Systems India Limited",
+          "price": 13678.0,
+          "mcap": 259438613952.0,
+          "returns": {
+            "1d": 0.63,
+            "1w": 2.18,
+            "1m": -9.8
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "EXIDEIND",
+          "name": "Exide Industries Limited",
+          "price": 300.85,
+          "mcap": 255793107764.87064,
+          "returns": {
+            "1d": -2.05,
+            "1w": -0.33,
+            "1m": -10.01
+          },
+          "logo_url": "https://cdn.tickerlogos.com/exideindustries.com"
+        },
+        {
+          "symbol": "MSUMI",
+          "name": "Motherson Sumi Wiring India Limited",
+          "price": 37.9,
+          "mcap": 251339996053.313,
+          "returns": {
+            "1d": -0.21,
+            "1w": 1.69,
+            "1m": -12.27
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "ASAHIINDIA",
+          "name": "Asahi India Glass Limited",
+          "price": 817.1,
+          "mcap": 208301002359.3916,
+          "returns": {
+            "1d": -2.35,
+            "1w": -2.89,
+            "1m": -9.28
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "CRAFTSMAN",
+          "name": "Craftsman Automation Limited",
+          "price": 6924.0,
+          "mcap": 165176056692.0,
+          "returns": {
+            "1d": -1.77,
+            "1w": 1.01,
+            "1m": -8.0
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "SUNDRMFAST",
+          "name": "Sundram Fasteners Limited",
+          "price": 762.65,
+          "mcap": 160254407273.23718,
+          "returns": {
+            "1d": -4.55,
+            "1w": -6.44,
+            "1m": -12.66
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "JBMA",
+          "name": "JBM Auto Limited",
+          "price": 546.65,
+          "mcap": 129331113674.28662,
+          "returns": {
+            "1d": -4.54,
+            "1w": -0.42,
+            "1m": -0.85
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "ARE&M",
+          "name": "Amara Raja Energy & Mobility Limited",
+          "price": 701.7,
+          "mcap": 128443020462.34198,
+          "returns": {
+            "1d": -3.22,
+            "1w": -8.77,
+            "1m": -16.95
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "MINDACORP",
+          "name": "Minda Corporation Limited",
+          "price": 528.7,
+          "mcap": 124435316518.758,
+          "returns": {
+            "1d": -2.8,
+            "1w": 5.61,
+            "1m": -4.83
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "RKFORGE",
+          "name": "Ramkrishna Forgings Limited",
+          "price": 487.95,
+          "mcap": 88538080313.00458,
+          "returns": {
+            "1d": -3.42,
+            "1w": -5.7,
+            "1m": -11.57
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Civil Construction",
+      "total_mcap": 6862679714843.434,
+      "stock_count": 12,
+      "avg_1d": -2.63,
+      "avg_1w": -1.44,
+      "avg_1m": -11.62,
+      "stocks": [
+        {
+          "symbol": "LT",
+          "name": "Larsen & Toubro Limited",
+          "price": 3564.1,
+          "mcap": 4902890822718.081,
+          "returns": {
+            "1d": -2.33,
+            "1w": 3.77,
+            "1m": -16.69
+          },
+          "logo_url": "https://cdn.tickerlogos.com/larsentoubro.com"
+        },
+        {
+          "symbol": "RVNL",
+          "name": "Rail Vikas Nigam Limited",
+          "price": 264.05,
+          "mcap": 550703639711.52,
+          "returns": {
+            "1d": -1.79,
+            "1w": 0.65,
+            "1m": -16.53
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "IRB",
+          "name": "IRB Infrastructure Developers Limited",
+          "price": 20.47,
+          "mcap": 247176271842.95654,
+          "returns": {
+            "1d": -0.49,
+            "1w": -1.68,
+            "1m": -1.87
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "NBCC",
+          "name": "NBCC (India) Limited",
+          "price": 80.53,
+          "mcap": 217430996704.10156,
+          "returns": {
+            "1d": -4.72,
+            "1w": -3.14,
+            "1m": -13.1
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "KPIL",
+          "name": "Kalpataru Projects International Limited",
+          "price": 1073.7,
+          "mcap": 183358474301.69678,
+          "returns": {
+            "1d": -3.27,
+            "1w": 0.57,
+            "1m": -13.42
+          },
+          "logo_url": "https://cdn.tickerlogos.com/kpiprojects.com"
+        },
+        {
+          "symbol": "KEC",
+          "name": "KEC International Limited",
+          "price": 533.7,
+          "mcap": 142070943249.51172,
+          "returns": {
+            "1d": -2.94,
+            "1w": -4.57,
+            "1m": -8.82
+          },
+          "logo_url": "https://cdn.tickerlogos.com/kec.co.in"
+        },
+        {
+          "symbol": "TECHNOE",
+          "name": "Techno Electric & Engineering Company Limited",
+          "price": 1031.9,
+          "mcap": 120009533249.94507,
+          "returns": {
+            "1d": -4.57,
+            "1w": -5.8,
+            "1m": -12.04
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "IRCON",
+          "name": "Ircon International Limited",
+          "price": 121.24,
+          "mcap": 114028126308.44162,
+          "returns": {
+            "1d": -2.08,
+            "1w": -2.37,
+            "1m": -15.58
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "ENGINERSIN",
+          "name": "Engineers India Limited",
+          "price": 189.73,
+          "mcap": 106721080532.7967,
+          "returns": {
+            "1d": -3.19,
+            "1w": 1.06,
+            "1m": -13.81
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "AFCONS",
+          "name": "Afcons Infrastructure Limited",
+          "price": 282.1,
+          "mcap": 103752046931.97925,
+          "returns": {
+            "1d": -0.19,
+            "1w": 1.55,
+            "1m": -3.44
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "RITES",
+          "name": "RITES Limited",
+          "price": 184.23,
+          "mcap": 88541631230.65915,
+          "returns": {
+            "1d": -3.7,
+            "1w": -3.38,
+            "1m": -13.87
+          },
+          "logo_url": "https://cdn.tickerlogos.com/rites.com"
+        },
+        {
+          "symbol": "NCC",
+          "name": "NCC Limited",
+          "price": 136.97,
+          "mcap": 85996148061.7443,
+          "returns": {
+            "1d": -2.3,
+            "1w": -3.93,
+            "1m": -10.27
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Aerospace & Defense",
+      "total_mcap": 6310836617856.0,
+      "stock_count": 6,
+      "avg_1d": -2.96,
+      "avg_1w": -6.45,
+      "avg_1m": -7.35,
+      "stocks": [
+        {
+          "symbol": "BEL",
+          "name": "Bharat Electronics Limited",
+          "price": 404.75,
+          "mcap": 2958632981037.75,
+          "returns": {
+            "1d": -2.1,
+            "1w": -6.05,
+            "1m": -8.6
+          },
+          "logo_url": "https://cdn.tickerlogos.com/bel-india.com"
+        },
+        {
+          "symbol": "HAL",
+          "name": "Hindustan Aeronautics Limited",
+          "price": 3588.6,
+          "mcap": 2399966030310.0586,
+          "returns": {
+            "1d": -2.2,
+            "1w": -5.63,
+            "1m": -8.29
+          },
+          "logo_url": "https://cdn.tickerlogos.com/hal-india.com"
+        },
+        {
+          "symbol": "BDL",
+          "name": "Bharat Dynamics Limited",
+          "price": 1136.9,
+          "mcap": 416744915199.2798,
+          "returns": {
+            "1d": -3.83,
+            "1w": -9.61,
+            "1m": -10.14
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "GRSE",
+          "name": "Garden Reach Shipbuilders & Engineers Limited",
+          "price": 2068.4,
+          "mcap": 236978123974.6504,
+          "returns": {
+            "1d": -4.99,
+            "1w": -9.91,
+            "1m": -15.02
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "DATAPATTNS",
+          "name": "Data Patterns (India) Limited",
+          "price": 3153.0,
+          "mcap": 176517454257.0,
+          "returns": {
+            "1d": -1.88,
+            "1w": -3.18,
+            "1m": -1.78
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "ZENTEC",
+          "name": "Zen Technologies Limited",
+          "price": 1356.2,
+          "mcap": 121997113077.26074,
+          "returns": {
+            "1d": -2.77,
+            "1w": -4.3,
+            "1m": -0.27
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Integrated Power Utilities",
+      "total_mcap": 5111610203419.113,
+      "stock_count": 5,
+      "avg_1d": -1.93,
+      "avg_1w": -3.31,
+      "avg_1m": -5.61,
+      "stocks": [
+        {
+          "symbol": "ADANIPOWER",
+          "name": "Adani Power Limited",
+          "price": 153.92,
+          "mcap": 2968507761735.8,
+          "returns": {
+            "1d": 0.18,
+            "1w": 1.93,
+            "1m": 9.86
+          },
+          "logo_url": "https://cdn.tickerlogos.com/adani.com"
+        },
+        {
+          "symbol": "TATAPOWER",
+          "name": "Tata Power Company Limited",
+          "price": 385.7,
+          "mcap": 1232442502283.5098,
+          "returns": {
+            "1d": -1.28,
+            "1w": -3.21,
+            "1m": 2.16
+          },
+          "logo_url": "https://cdn.tickerlogos.com/tatapower.com"
+        },
+        {
+          "symbol": "TORNTPOWER",
+          "name": "Torrent Power Limited",
+          "price": 1352.3,
+          "mcap": 681428785803.5652,
+          "returns": {
+            "1d": -2.85,
+            "1w": -6.54,
+            "1m": -13.67
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "CESC",
+          "name": "CESC Limited",
+          "price": 151.19,
+          "mcap": 200412996547.95593,
+          "returns": {
+            "1d": -0.7,
+            "1w": -1.84,
+            "1m": -4.4
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "RELINFRA",
+          "name": "Reliance Infrastructure Limited",
+          "price": 70.49,
+          "mcap": 28818157048.283043,
+          "returns": {
+            "1d": -4.99,
+            "1w": -6.89,
+            "1m": -22.01
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Residential Commercial Projects",
+      "total_mcap": 4756685901431.445,
+      "stock_count": 12,
+      "avg_1d": -2.78,
+      "avg_1w": -3.79,
+      "avg_1m": -14.31,
+      "stocks": [
+        {
+          "symbol": "DLF",
+          "name": "DLF Limited",
+          "price": 523.0,
+          "mcap": 1295058850373.0,
+          "returns": {
+            "1d": -2.12,
+            "1w": -3.55,
+            "1m": -13.39
+          },
+          "logo_url": "https://cdn.tickerlogos.com/dlf.in"
+        },
+        {
+          "symbol": "LODHA",
+          "name": "Lodha Developers Limited",
+          "price": 700.2,
+          "mcap": 699322762420.5376,
+          "returns": {
+            "1d": -4.59,
+            "1w": -14.4,
+            "1m": -29.15
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "PHOENIXLTD",
+          "name": "The Phoenix Mills Limited",
+          "price": 1501.4,
+          "mcap": 536952643714.71423,
+          "returns": {
+            "1d": -4.49,
+            "1w": -4.71,
+            "1m": -9.48
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "OBEROIRLTY",
+          "name": "Oberoi Realty Limited",
+          "price": 1457.0,
+          "mcap": 529847737593.0,
+          "returns": {
+            "1d": -2.85,
+            "1w": 0.77,
+            "1m": -4.32
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "PRESTIGE",
+          "name": "Prestige Estates Projects Limited",
+          "price": 1172.8,
+          "mcap": 505160437121.3496,
+          "returns": {
+            "1d": -4.5,
+            "1w": -7.51,
+            "1m": -15.81
+          },
+          "logo_url": "https://cdn.tickerlogos.com/prestigeconst.com"
+        },
+        {
+          "symbol": "GODREJPROP",
+          "name": "Godrej Properties Limited",
+          "price": 1505.2,
+          "mcap": 453377877045.7908,
+          "returns": {
+            "1d": -3.81,
+            "1w": -3.02,
+            "1m": -13.04
+          },
+          "logo_url": "https://cdn.tickerlogos.com/godrejproperties.com"
+        },
+        {
+          "symbol": "BRIGADE",
+          "name": "Brigade Enterprises Limited",
+          "price": 691.15,
+          "mcap": 169050778615.12012,
+          "returns": {
+            "1d": 3.03,
+            "1w": 4.94,
+            "1m": -0.42
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "ANANTRAJ",
+          "name": "Anant Raj Limited",
+          "price": 437.3,
+          "mcap": 157460441078.06305,
+          "returns": {
+            "1d": -4.05,
+            "1w": -2.34,
+            "1m": -17.46
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "SOBHA",
+          "name": "Sobha Limited",
+          "price": 1227.5,
+          "mcap": 131233906757.5,
+          "returns": {
+            "1d": 0.34,
+            "1w": -3.38,
+            "1m": -12.01
+          },
+          "logo_url": "https://cdn.tickerlogos.com/sobha.com"
+        },
+        {
+          "symbol": "ABREL",
+          "name": "Aditya Birla Real Estate Limited",
+          "price": 1130.7,
+          "mcap": 125009228898.70386,
+          "returns": {
+            "1d": -3.18,
+            "1w": -4.04,
+            "1m": -12.36
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "SIGNATURE",
+          "name": "Signatureglobal (India) Limited",
+          "price": 743.25,
+          "mcap": 104434571085.75,
+          "returns": {
+            "1d": -4.07,
+            "1w": -3.09,
+            "1m": -24.91
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "DBREALTY",
+          "name": "Valor Estate Limited",
+          "price": 91.77,
+          "mcap": 49776666727.91652,
+          "returns": {
+            "1d": -3.02,
+            "1w": -5.19,
+            "1m": -19.34
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Oil Exploration & Production",
+      "total_mcap": 4324803238803.5615,
+      "stock_count": 2,
+      "avg_1d": 2.88,
+      "avg_1w": 2.49,
+      "avg_1m": -0.21,
+      "stocks": [
+        {
+          "symbol": "ONGC",
+          "name": "Oil & Natural Gas Corporation Limited",
+          "price": 281.95,
+          "mcap": 3547009875699.5615,
+          "returns": {
+            "1d": 4.35,
+            "1w": 4.78,
+            "1m": 0.8
+          },
+          "logo_url": "https://cdn.tickerlogos.com/ongc.co.in"
+        },
+        {
+          "symbol": "OIL",
+          "name": "Oil India Limited",
+          "price": 478.0,
+          "mcap": 777793363104.0,
+          "returns": {
+            "1d": 1.4,
+            "1w": 0.2,
+            "1m": -1.22
+          },
+          "logo_url": "https://cdn.tickerlogos.com/oil.nic.in"
+        }
+      ]
+    },
+    {
+      "name": "Financial Institution",
+      "total_mcap": 4149267707674.2275,
+      "stock_count": 6,
+      "avg_1d": -3.36,
+      "avg_1w": -3.17,
+      "avg_1m": -8.79,
+      "stocks": [
+        {
+          "symbol": "PFC",
+          "name": "Power Finance Corporation Limited",
+          "price": 396.0,
+          "mcap": 1306840296960.0,
+          "returns": {
+            "1d": -1.85,
+            "1w": -3.09,
+            "1m": -3.54
+          },
+          "logo_url": "https://cdn.tickerlogos.com/pfcindia.com"
+        },
+        {
+          "symbol": "IRFC",
+          "name": "Indian Railway Finance Corporation Limited",
+          "price": 92.45,
+          "mcap": 1208417415906.8079,
+          "returns": {
+            "1d": -2.93,
+            "1w": -2.73,
+            "1m": -9.77
+          },
+          "logo_url": "https://cdn.tickerlogos.com/irfc.nic.in"
+        },
+        {
+          "symbol": "RECLTD",
+          "name": "REC Limited",
+          "price": 318.45,
+          "mcap": 838667724909.0521,
+          "returns": {
+            "1d": -2.82,
+            "1w": -3.56,
+            "1m": -8.08
+          },
+          "logo_url": "https://cdn.tickerlogos.com/recl.in"
+        },
+        {
+          "symbol": "HUDCO",
+          "name": "Housing & Urban Development Corporation Limited",
+          "price": 168.06,
+          "mcap": 336439309112.5488,
+          "returns": {
+            "1d": -5.1,
+            "1w": -1.89,
+            "1m": -10.01
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "IREDA",
+          "name": "Indian Renewable Energy Development Agency Limited",
+          "price": 114.31,
+          "mcap": 321123219386.6052,
+          "returns": {
+            "1d": -4.1,
+            "1w": -1.95,
+            "1m": -6.49
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "IFCI",
+          "name": "IFCI Limited",
+          "price": 51.06,
+          "mcap": 137779741399.21326,
+          "returns": {
+            "1d": -3.35,
+            "1w": -5.79,
+            "1m": -14.87
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Hospital",
+      "total_mcap": 4094207591125.263,
+      "stock_count": 9,
+      "avg_1d": -1.27,
+      "avg_1w": 0.69,
+      "avg_1m": -8.43,
+      "stocks": [
+        {
+          "symbol": "APOLLOHOSP",
+          "name": "Apollo Hospitals Enterprise Limited",
+          "price": 7549.0,
+          "mcap": 1085430383242.0,
+          "returns": {
+            "1d": -0.42,
+            "1w": 4.1,
+            "1m": -3.48
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "MAXHEALTH",
+          "name": "Max Healthcare Institute Limited",
+          "price": 975.1,
+          "mcap": 948903954720.9203,
+          "returns": {
+            "1d": -1.33,
+            "1w": 2.31,
+            "1m": -10.7
+          },
+          "logo_url": "https://cdn.tickerlogos.com/maxhealthcare.com"
+        },
+        {
+          "symbol": "FORTIS",
+          "name": "Fortis Healthcare Limited",
+          "price": 814.15,
+          "mcap": 614649194625.7954,
+          "returns": {
+            "1d": -1.92,
+            "1w": -0.51,
+            "1m": -13.63
+          },
+          "logo_url": "https://cdn.tickerlogos.com/fortishealthcare.com"
+        },
+        {
+          "symbol": "ASTERDM",
+          "name": "Aster DM Healthcare Limited",
+          "price": 668.0,
+          "mcap": 345395928364.0,
+          "returns": {
+            "1d": 2.45,
+            "1w": 5.0,
+            "1m": 2.05
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "NH",
+          "name": "Narayana Hrudayalaya Ltd.",
+          "price": 1635.5,
+          "mcap": 332169780142.5,
+          "returns": {
+            "1d": -3.88,
+            "1w": -0.78,
+            "1m": -10.67
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "MEDANTA",
+          "name": "Global Health Limited",
+          "price": 985.3,
+          "mcap": 264747018789.80896,
+          "returns": {
+            "1d": -2.57,
+            "1w": -2.89,
+            "1m": -13.48
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "KIMS",
+          "name": "Krishna Institute of Medical Sciences Limited",
+          "price": 636.4,
+          "mcap": 254648428003.01697,
+          "returns": {
+            "1d": -2.0,
+            "1w": -3.22,
+            "1m": -14.58
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "AGARWALEYE",
+          "name": "Dr. Agarwal's Health Care Limited",
+          "price": 409.75,
+          "mcap": 129811875993.25,
+          "returns": {
+            "1d": -1.43,
+            "1w": -3.25,
+            "1m": -9.29
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "RAINBOW",
+          "name": "Rainbow Childrens Medicare Limited",
+          "price": 1164.4,
+          "mcap": 118451027243.97156,
+          "returns": {
+            "1d": -0.34,
+            "1w": 5.49,
+            "1m": -2.13
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Holding Company",
+      "total_mcap": 3983185350622.455,
+      "stock_count": 4,
+      "avg_1d": -3.2,
+      "avg_1w": -1.11,
+      "avg_1m": -12.37,
+      "stocks": [
+        {
+          "symbol": "BAJAJFINSV",
+          "name": "Bajaj Finserv Limited",
+          "price": 1694.7,
+          "mcap": 2707278350575.709,
+          "returns": {
+            "1d": -2.95,
+            "1w": -1.18,
+            "1m": -14.98
+          },
+          "logo_url": "https://cdn.tickerlogos.com/bajajfinserv.in"
+        },
+        {
+          "symbol": "BAJAJHLDNG",
+          "name": "Bajaj Holdings & Investment Limited",
+          "price": 9150.0,
+          "mcap": 1018335616500.0,
+          "returns": {
+            "1d": -4.23,
+            "1w": -5.42,
+            "1m": -15.31
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "CHOICEIN",
+          "name": "Choice International Limited",
+          "price": 641.5,
+          "mcap": 143056351369.0,
+          "returns": {
+            "1d": -1.75,
+            "1w": 4.39,
+            "1m": -12.94
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "JMFINANCIL",
+          "name": "JM Financial Limited",
+          "price": 119.74,
+          "mcap": 114515032177.74593,
+          "returns": {
+            "1d": -3.85,
+            "1w": -2.23,
+            "1m": -6.26
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Gems Jewellery And Watches",
+      "total_mcap": 3933011823750.7695,
+      "stock_count": 2,
+      "avg_1d": -1.16,
+      "avg_1w": 1.28,
+      "avg_1m": -6.65,
+      "stocks": [
+        {
+          "symbol": "TITAN",
+          "name": "Titan Company Limited",
+          "price": 3981.5,
+          "mcap": 3531770702690.0,
+          "returns": {
+            "1d": -1.43,
+            "1w": -1.4,
+            "1m": -8.0
+          },
+          "logo_url": "https://cdn.tickerlogos.com/titan.co.in"
+        },
+        {
+          "symbol": "KALYANKJIL",
+          "name": "Kalyan Jewellers India Limited",
+          "price": 388.35,
+          "mcap": 401241121060.7693,
+          "returns": {
+            "1d": -0.89,
+            "1w": 3.95,
+            "1m": -5.3
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Packaged Foods",
+      "total_mcap": 3876343383507.0273,
+      "stock_count": 4,
+      "avg_1d": -2.08,
+      "avg_1w": -2.64,
+      "avg_1m": -9.54,
+      "stocks": [
+        {
+          "symbol": "NESTLEIND",
+          "name": "Nestle India Limited",
+          "price": 1193.2,
+          "mcap": 2300864552468.0273,
+          "returns": {
+            "1d": -0.91,
+            "1w": 0.58,
+            "1m": -7.63
+          },
+          "logo_url": "https://cdn.tickerlogos.com/nestle.in"
+        },
+        {
+          "symbol": "BRITANNIA",
+          "name": "Britannia Industries Limited",
+          "price": 5500.0,
+          "mcap": 1324775628000.0,
+          "returns": {
+            "1d": -2.6,
+            "1w": -3.06,
+            "1m": -8.37
+          },
+          "logo_url": "https://cdn.tickerlogos.com/britannia.co.in"
+        },
+        {
+          "symbol": "BIKAJI",
+          "name": "Bikaji Foods International Limited",
+          "price": 617.0,
+          "mcap": 154766840539.0,
+          "returns": {
+            "1d": -1.78,
+            "1w": 1.13,
+            "1m": -3.31
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "BBTC",
+          "name": "The Bombay Burmah Trading Corporation Limited",
+          "price": 1375.0,
+          "mcap": 95936362500.0,
+          "returns": {
+            "1d": -3.02,
+            "1w": -9.22,
+            "1m": -18.84
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "E-Retail/ E-Commerce",
+      "total_mcap": 3616993092184.577,
+      "stock_count": 4,
+      "avg_1d": -2.24,
+      "avg_1w": 0.84,
+      "avg_1m": -5.78,
+      "stocks": [
+        {
+          "symbol": "ETERNAL",
+          "name": "ETERNAL LIMITED",
+          "price": 233.17,
+          "mcap": 2124679002479.753,
+          "returns": {
+            "1d": -3.72,
+            "1w": 1.94,
+            "1m": -5.33
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "SWIGGY",
+          "name": "Swiggy Limited",
+          "price": 268.55,
+          "mcap": 697286208410.6177,
+          "returns": {
+            "1d": -2.93,
+            "1w": -5.19,
+            "1m": -11.0
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "NYKAA",
+          "name": "FSN E-Commerce Ventures Limited",
+          "price": 239.65,
+          "mcap": 686458323708.1655,
+          "returns": {
+            "1d": -1.82,
+            "1w": 0.1,
+            "1m": -9.73
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "FIRSTCRY",
+          "name": "Brainbees Solutions Limited",
+          "price": 223.78,
+          "mcap": 108569557586.0412,
+          "returns": {
+            "1d": -0.47,
+            "1w": 6.53,
+            "1m": 2.93
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Specialty Chemicals",
+      "total_mcap": 3613369555446.4463,
+      "stock_count": 11,
+      "avg_1d": -3.31,
+      "avg_1w": -1.0,
+      "avg_1m": -7.97,
+      "stocks": [
+        {
+          "symbol": "PIDILITIND",
+          "name": "Pidilite Industries Limited",
+          "price": 1314.9,
+          "mcap": 1338260918253.9097,
+          "returns": {
+            "1d": -3.51,
+            "1w": 0.46,
+            "1m": -11.87
+          },
+          "logo_url": "https://cdn.tickerlogos.com/pidilite.com"
+        },
+        {
+          "symbol": "SRF",
+          "name": "SRF Limited",
+          "price": 2494.9,
+          "mcap": 739550266944.7632,
+          "returns": {
+            "1d": -2.85,
+            "1w": 0.65,
+            "1m": -2.63
+          },
+          "logo_url": "https://cdn.tickerlogos.com/srf.com"
+        },
+        {
+          "symbol": "FLUOROCHEM",
+          "name": "Gujarat Fluorochemicals Limited",
+          "price": 3067.9,
+          "mcap": 337008804272.46094,
+          "returns": {
+            "1d": -5.79,
+            "1w": -2.91,
+            "1m": -11.93
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "NAVINFLUOR",
+          "name": "Navin Fluorine International Limited",
+          "price": 6055.0,
+          "mcap": 310789956155.0,
+          "returns": {
+            "1d": -2.61,
+            "1w": -3.31,
+            "1m": -3.22
+          },
+          "logo_url": "https://cdn.tickerlogos.com/navinfluor.com"
+        },
+        {
+          "symbol": "ATUL",
+          "name": "Atul Limited",
+          "price": 6240.0,
+          "mcap": 183716551200.0,
+          "returns": {
+            "1d": 0.3,
+            "1w": 0.3,
+            "1m": -6.5
+          },
+          "logo_url": "https://cdn.tickerlogos.com/atulltd.com"
+        },
+        {
+          "symbol": "DEEPAKNTR",
+          "name": "Deepak Nitrite Limited",
+          "price": 1345.8,
+          "mcap": 183557761237.61646,
+          "returns": {
+            "1d": -1.73,
+            "1w": -2.72,
+            "1m": -14.86
+          },
+          "logo_url": "https://cdn.tickerlogos.com/deepakntr.com"
+        },
+        {
+          "symbol": "AARTIIND",
+          "name": "Aarti Industries Limited",
+          "price": 417.4,
+          "mcap": 151576201120.54642,
+          "returns": {
+            "1d": -3.21,
+            "1w": 1.35,
+            "1m": -6.65
+          },
+          "logo_url": "https://cdn.tickerlogos.com/aartiindustries.com"
+        },
+        {
+          "symbol": "BASF",
+          "name": "BASF India Limited",
+          "price": 3291.4,
+          "mcap": 142470351268.88672,
+          "returns": {
+            "1d": -3.11,
+            "1w": -0.56,
+            "1m": -4.66
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "JUBLINGREA",
+          "name": "Jubilant Ingrevia Limited",
+          "price": 557.55,
+          "mcap": 88146608534.26312,
+          "returns": {
+            "1d": -4.5,
+            "1w": -2.41,
+            "1m": -4.76
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "CLEAN",
+          "name": "Clean Science and Technology Limited",
+          "price": 679.0,
+          "mcap": 72188449249.0,
+          "returns": {
+            "1d": -3.17,
+            "1w": -2.4,
+            "1m": -7.64
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "ALKYLAMINE",
+          "name": "Alkyl Amines Chemicals Limited",
+          "price": 1292.5,
+          "mcap": 66103687210.0,
+          "returns": {
+            "1d": -6.23,
+            "1w": 0.57,
+            "1m": -12.92
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Port & Port services",
+      "total_mcap": 3603209687978.3955,
+      "stock_count": 2,
+      "avg_1d": -2.99,
+      "avg_1w": -1.32,
+      "avg_1m": -6.97,
+      "stocks": [
+        {
+          "symbol": "ADANIPORTS",
+          "name": "Adani Ports and Special Economic Zone Limited",
+          "price": 1337.8,
+          "mcap": 3082236593802.403,
+          "returns": {
+            "1d": -2.77,
+            "1w": -1.34,
+            "1m": -12.04
+          },
+          "logo_url": "https://cdn.tickerlogos.com/adaniports.com"
+        },
+        {
+          "symbol": "JSWINFRA",
+          "name": "JSW Infrastructure Limited",
+          "price": 249.95,
+          "mcap": 520973094175.9929,
+          "returns": {
+            "1d": -3.2,
+            "1w": -1.3,
+            "1m": -1.9
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Investment Company",
+      "total_mcap": 3590736555597.7905,
+      "stock_count": 6,
+      "avg_1d": -2.92,
+      "avg_1w": -3.93,
+      "avg_1m": -12.03,
+      "stocks": [
+        {
+          "symbol": "JIOFIN",
+          "name": "Jio Financial Services Limited",
+          "price": 232.55,
+          "mcap": 1477423104049.4497,
+          "returns": {
+            "1d": -2.02,
+            "1w": -2.88,
+            "1m": -8.95
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "ABCAPITAL",
+          "name": "Aditya Birla Capital Limited",
+          "price": 305.75,
+          "mcap": 800944563240.5,
+          "returns": {
+            "1d": -2.84,
+            "1w": -2.1,
+            "1m": -11.24
+          },
+          "logo_url": "https://cdn.tickerlogos.com/adityabirlacapital.com"
+        },
+        {
+          "symbol": "LTF",
+          "name": "L&T Finance Limited",
+          "price": 251.65,
+          "mcap": 630228725640.8408,
+          "returns": {
+            "1d": -3.69,
+            "1w": -1.95,
+            "1m": -11.38
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "TATAINVEST",
+          "name": "Tata Investment Corporation Limited",
+          "price": 567.5,
+          "mcap": 287128304800.0,
+          "returns": {
+            "1d": -3.41,
+            "1w": -6.85,
+            "1m": -13.85
+          },
+          "logo_url": "https://cdn.tickerlogos.com/tatainvestment.com"
+        },
+        {
+          "symbol": "CHOLAHLDNG",
+          "name": "Cholamandalam Financial Holdings Limited",
+          "price": 1389.0,
+          "mcap": 261168184839.0,
+          "returns": {
+            "1d": -0.93,
+            "1w": -3.49,
+            "1m": -15.0
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "MAHSCOOTER",
+          "name": "Maharashtra Scooters Limited",
+          "price": 11698.0,
+          "mcap": 133843673028.0,
+          "returns": {
+            "1d": -4.62,
+            "1w": -6.28,
+            "1m": -11.77
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Personal Care",
+      "total_mcap": 3095708836472.4624,
+      "stock_count": 7,
+      "avg_1d": -2.67,
+      "avg_1w": -2.02,
+      "avg_1m": -14.21,
+      "stocks": [
+        {
+          "symbol": "GODREJCP",
+          "name": "Godrej Consumer Products Limited",
+          "price": 1008.7,
+          "mcap": 1032146821345.4785,
+          "returns": {
+            "1d": -2.97,
+            "1w": -1.32,
+            "1m": -17.15
+          },
+          "logo_url": "https://cdn.tickerlogos.com/godrejcp.com"
+        },
+        {
+          "symbol": "DABUR",
+          "name": "Dabur India Limited",
+          "price": 419.6,
+          "mcap": 744240406996.9457,
+          "returns": {
+            "1d": -2.65,
+            "1w": -2.46,
+            "1m": -19.07
+          },
+          "logo_url": "https://cdn.tickerlogos.com/dabur.com"
+        },
+        {
+          "symbol": "COLPAL",
+          "name": "Colgate Palmolive (India) Limited",
+          "price": 1877.2,
+          "mcap": 510571420741.4514,
+          "returns": {
+            "1d": -2.25,
+            "1w": -0.66,
+            "1m": -16.74
+          },
+          "logo_url": "https://cdn.tickerlogos.com/colpal.com"
+        },
+        {
+          "symbol": "PGHH",
+          "name": "Procter & Gamble Hygiene and Health Care Limited",
+          "price": 9138.0,
+          "mcap": 296626205568.0,
+          "returns": {
+            "1d": -5.34,
+            "1w": -7.87,
+            "1m": -19.5
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "GILLETTE",
+          "name": "Gillette India Limited",
+          "price": 7471.0,
+          "mcap": 243444156207.0,
+          "returns": {
+            "1d": -2.75,
+            "1w": -6.43,
+            "1m": -10.45
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "EMAMILTD",
+          "name": "Emami Limited",
+          "price": 393.1,
+          "mcap": 171604383370.33658,
+          "returns": {
+            "1d": -4.23,
+            "1w": -3.11,
+            "1m": -15.02
+          },
+          "logo_url": "https://cdn.tickerlogos.com/emamiltd.in"
+        },
+        {
+          "symbol": "HONASA",
+          "name": "Honasa Consumer Limited",
+          "price": 298.25,
+          "mcap": 97075442243.25,
+          "returns": {
+            "1d": 1.5,
+            "1w": 7.69,
+            "1m": -1.57
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Diversified Retail",
+      "total_mcap": 3037020833102.8457,
+      "stock_count": 2,
+      "avg_1d": -0.77,
+      "avg_1w": 2.86,
+      "avg_1m": -4.12,
+      "stocks": [
+        {
+          "symbol": "DMART",
+          "name": "Avenue Supermarts Limited",
+          "price": 3903.2,
+          "mcap": 2539941279243.5244,
+          "returns": {
+            "1d": -0.19,
+            "1w": 2.49,
+            "1m": 1.45
+          },
+          "logo_url": "https://cdn.tickerlogos.com/dmartindia.com"
+        },
+        {
+          "symbol": "VMM",
+          "name": "Vishal Mega Mart Limited",
+          "price": 106.37,
+          "mcap": 497079553859.3214,
+          "returns": {
+            "1d": -1.34,
+            "1w": 3.23,
+            "1m": -9.69
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Power - Transmission",
+      "total_mcap": 2748328428514.5,
+      "stock_count": 1,
+      "avg_1d": 0.17,
+      "avg_1w": -0.4,
+      "avg_1m": -1.05,
+      "stocks": [
+        {
+          "symbol": "POWERGRID",
+          "name": "Power Grid Corporation of India Limited",
+          "price": 295.5,
+          "mcap": 2748328428514.5,
+          "returns": {
+            "1d": 0.17,
+            "1w": -0.4,
+            "1m": -1.05
+          },
+          "logo_url": "https://cdn.tickerlogos.com/powergrid.in"
+        }
+      ]
+    },
+    {
+      "name": "Coal",
+      "total_mcap": 2742722166702.733,
+      "stock_count": 1,
+      "avg_1d": 0.3,
+      "avg_1w": -2.01,
+      "avg_1m": 3.34,
+      "stocks": [
+        {
+          "symbol": "COALINDIA",
+          "name": "Coal India Limited",
+          "price": 445.05,
+          "mcap": 2742722166702.733,
+          "returns": {
+            "1d": 0.3,
+            "1w": -2.01,
+            "1m": 3.34
+          },
+          "logo_url": "https://cdn.tickerlogos.com/coalindia.in"
+        }
+      ]
+    },
+    {
+      "name": "Paints",
+      "total_mcap": 2734885689634.613,
+      "stock_count": 3,
+      "avg_1d": -1.51,
+      "avg_1w": 2.53,
+      "avg_1m": -5.26,
+      "stocks": [
+        {
+          "symbol": "ASIANPAINT",
+          "name": "Asian Paints Limited",
+          "price": 2207.4,
+          "mcap": 2116000984073.8745,
+          "returns": {
+            "1d": -2.77,
+            "1w": 0.98,
+            "1m": -7.1
+          },
+          "logo_url": "https://cdn.tickerlogos.com/asianpaints.com"
+        },
+        {
+          "symbol": "BERGEPAINT",
+          "name": "Berger Paints (I) Limited",
+          "price": 414.65,
+          "mcap": 484654630045.73846,
+          "returns": {
+            "1d": -2.54,
+            "1w": 1.27,
+            "1m": -9.09
+          },
+          "logo_url": "https://cdn.tickerlogos.com/bergerpaints.com"
+        },
+        {
+          "symbol": "AKZOINDIA",
+          "name": "Akzo Nobel India Limited",
+          "price": 2947.5,
+          "mcap": 134230075515.0,
+          "returns": {
+            "1d": 0.77,
+            "1w": 5.35,
+            "1m": 0.42
+          },
+          "logo_url": "https://cdn.tickerlogos.com/akzonobel.co.in"
+        }
+      ]
+    },
+    {
+      "name": "Aluminium",
+      "total_mcap": 2619982408287.1006,
+      "stock_count": 2,
+      "avg_1d": 0.4,
+      "avg_1w": -2.48,
+      "avg_1m": -0.82,
+      "stocks": [
+        {
+          "symbol": "HINDALCO",
+          "name": "Hindalco Industries Limited",
+          "price": 866.7,
+          "mcap": 1937833228673.1008,
+          "returns": {
+            "1d": -0.22,
+            "1w": -3.38,
+            "1m": -6.27
+          },
+          "logo_url": "https://cdn.tickerlogos.com/hindalco.com"
+        },
+        {
+          "symbol": "NATIONALUM",
+          "name": "National Aluminium Company Limited",
+          "price": 371.0,
+          "mcap": 682149179614.0,
+          "returns": {
+            "1d": 1.01,
+            "1w": -1.59,
+            "1m": 4.62
+          },
+          "logo_url": "https://cdn.tickerlogos.com/nationaluminium.com"
+        }
+      ]
+    },
+    {
+      "name": "Diversified Metals",
+      "total_mcap": 2537966129161.723,
+      "stock_count": 1,
+      "avg_1d": -3.02,
+      "avg_1w": -2.4,
+      "avg_1m": -9.6,
+      "stocks": [
+        {
+          "symbol": "VEDL",
+          "name": "Vedanta Limited",
+          "price": 649.4,
+          "mcap": 2537966129161.723,
+          "returns": {
+            "1d": -3.02,
+            "1w": -2.4,
+            "1m": -9.6
+          },
+          "logo_url": "https://cdn.tickerlogos.com/vedantalimited.com"
+        }
+      ]
+    },
+    {
+      "name": "Trading - Minerals",
+      "total_mcap": 2482804332980.0,
+      "stock_count": 1,
+      "avg_1d": -3.37,
+      "avg_1w": -5.88,
+      "avg_1m": -15.67,
+      "stocks": [
+        {
+          "symbol": "ADANIENT",
+          "name": "Adani Enterprises Limited",
+          "price": 1823.0,
+          "mcap": 2482804332980.0,
+          "returns": {
+            "1d": -3.37,
+            "1w": -5.88,
+            "1m": -15.67
+          },
+          "logo_url": "https://cdn.tickerlogos.com/adani.com"
+        }
+      ]
+    },
+    {
+      "name": "General Insurance",
+      "total_mcap": 2409060737774.0396,
+      "stock_count": 6,
+      "avg_1d": -1.57,
+      "avg_1w": -1.3,
+      "avg_1m": -6.99,
+      "stocks": [
+        {
+          "symbol": "ICICIGI",
+          "name": "ICICI Lombard General Insurance Company Limited",
+          "price": 1747.0,
+          "mcap": 870870751024.0,
+          "returns": {
+            "1d": -1.32,
+            "1w": -2.52,
+            "1m": -8.13
+          },
+          "logo_url": "https://cdn.tickerlogos.com/icicigeneral.com"
+        },
+        {
+          "symbol": "GICRE",
+          "name": "General Insurance Corporation of India",
+          "price": 363.05,
+          "mcap": 636934898583.9844,
+          "returns": {
+            "1d": -1.16,
+            "1w": 0.61,
+            "1m": -5.22
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "GODIGIT",
+          "name": "Go Digit General Insurance Limited",
+          "price": 326.65,
+          "mcap": 301918391579.449,
+          "returns": {
+            "1d": 0.52,
+            "1w": -0.71,
+            "1m": -2.71
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "STARHEALTH",
+          "name": "Star Health and Allied Insurance Company Limited",
+          "price": 457.55,
+          "mcap": 269251744974.45026,
+          "returns": {
+            "1d": -0.35,
+            "1w": 1.08,
+            "1m": -1.71
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "NIACL",
+          "name": "The New India Assurance Company Limited",
+          "price": 121.81,
+          "mcap": 200910354978.40576,
+          "returns": {
+            "1d": -5.04,
+            "1w": -6.31,
+            "1m": -17.3
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "NIVABUPA",
+          "name": "Niva Bupa Health Insurance Company Limited",
+          "price": 69.93,
+          "mcap": 129174596633.75027,
+          "returns": {
+            "1d": -2.05,
+            "1w": 0.04,
+            "1m": -6.87
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Zinc",
+      "total_mcap": 2153645145878.601,
+      "stock_count": 1,
+      "avg_1d": -1.55,
+      "avg_1w": 0.7,
+      "avg_1m": -15.58,
+      "stocks": [
+        {
+          "symbol": "HINDZINC",
+          "name": "Hindustan Zinc Limited",
+          "price": 509.7,
+          "mcap": 2153645145878.601,
+          "returns": {
+            "1d": -1.55,
+            "1w": 0.7,
+            "1m": -15.58
+          },
+          "logo_url": "https://cdn.tickerlogos.com/hindzinc.com"
+        }
+      ]
+    },
+    {
+      "name": "Asset Management Company",
+      "total_mcap": 1903527231554.0796,
+      "stock_count": 4,
+      "avg_1d": -3.52,
+      "avg_1w": -2.6,
+      "avg_1m": -7.25,
+      "stocks": [
+        {
+          "symbol": "HDFCAMC",
+          "name": "HDFC Asset Management Company Limited",
+          "price": 2313.9,
+          "mcap": 991275136979.9448,
+          "returns": {
+            "1d": -3.03,
+            "1w": -3.63,
+            "1m": -14.26
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "NAM-INDIA",
+          "name": "Nippon Life India Asset Management Limited",
+          "price": 831.95,
+          "mcap": 530880610661.7019,
+          "returns": {
+            "1d": -4.33,
+            "1w": -2.84,
+            "1m": -10.66
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "ABSLAMC",
+          "name": "Aditya Birla Sun Life AMC Limited",
+          "price": 902.95,
+          "mcap": 260777559106.61627,
+          "returns": {
+            "1d": -3.92,
+            "1w": -3.27,
+            "1m": 1.05
+          },
+          "logo_url": "https://cdn.tickerlogos.com/adityabirlasunlife.com"
+        },
+        {
+          "symbol": "UTIAMC",
+          "name": "UTI Asset Management Company Limited",
+          "price": 936.65,
+          "mcap": 120593924805.81665,
+          "returns": {
+            "1d": -2.82,
+            "1w": -0.66,
+            "1m": -5.13
+          },
+          "logo_url": "https://cdn.tickerlogos.com/utiasset.com"
+        }
+      ]
+    },
+    {
+      "name": "Compressors Pumps & Diesel Engines",
+      "total_mcap": 1881012160396.0776,
+      "stock_count": 5,
+      "avg_1d": -3.2,
+      "avg_1w": -1.88,
+      "avg_1m": -5.35,
+      "stocks": [
+        {
+          "symbol": "CUMMINSIND",
+          "name": "Cummins India Limited",
+          "price": 4631.5,
+          "mcap": 1283851800000.0,
+          "returns": {
+            "1d": -2.26,
+            "1w": 2.79,
+            "1m": -5.45
+          },
+          "logo_url": "https://cdn.tickerlogos.com/cumminsindia.com"
+        },
+        {
+          "symbol": "KIRLOSENG",
+          "name": "Kirloskar Oil Engines Limited",
+          "price": 1347.4,
+          "mcap": 195857629643.8202,
+          "returns": {
+            "1d": -3.23,
+            "1w": -5.2,
+            "1m": -3.29
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "ELGIEQUIP",
+          "name": "Elgi Equipments Limited",
+          "price": 473.4,
+          "mcap": 149495683757.76178,
+          "returns": {
+            "1d": -2.86,
+            "1w": 1.36,
+            "1m": -11.47
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "KSB",
+          "name": "Ksb Limited",
+          "price": 795.85,
+          "mcap": 138509108987.9956,
+          "returns": {
+            "1d": -1.99,
+            "1w": -0.5,
+            "1m": 3.32
+          },
+          "logo_url": "https://cdn.tickerlogos.com/ksb.com"
+        },
+        {
+          "symbol": "KIRLOSBROS",
+          "name": "Kirloskar Brothers Limited",
+          "price": 1426.5,
+          "mcap": 113297938006.5,
+          "returns": {
+            "1d": -5.67,
+            "1w": -7.84,
+            "1m": -9.87
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Exchange and Data Platform",
+      "total_mcap": 1845017749492.5605,
+      "stock_count": 3,
+      "avg_1d": -2.95,
+      "avg_1w": -2.9,
+      "avg_1m": -1.52,
+      "stocks": [
+        {
+          "symbol": "BSE",
+          "name": "BSE Limited",
+          "price": 2779.8,
+          "mcap": 1128957628075.1213,
+          "returns": {
+            "1d": -3.82,
+            "1w": -3.98,
+            "1m": 2.69
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "MCX",
+          "name": "Multi Commodity Exchange of India Limited",
+          "price": 2398.2,
+          "mcap": 610375678210.5542,
+          "returns": {
+            "1d": -2.71,
+            "1w": -5.22,
+            "1m": -1.85
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "IEX",
+          "name": "Indian Energy Exchange Limited",
+          "price": 118.84,
+          "mcap": 105684443206.88507,
+          "returns": {
+            "1d": -2.33,
+            "1w": 0.5,
+            "1m": -5.41
+          },
+          "logo_url": "https://cdn.tickerlogos.com/iexindia.com"
+        }
+      ]
+    },
+    {
+      "name": "Housing Finance Company",
+      "total_mcap": 1830751227796.3774,
+      "stock_count": 9,
+      "avg_1d": -1.72,
+      "avg_1w": -0.42,
+      "avg_1m": -8.14,
+      "stocks": [
+        {
+          "symbol": "BAJAJHFL",
+          "name": "Bajaj Housing Finance Limited",
+          "price": 75.85,
+          "mcap": 631729000522.4203,
+          "returns": {
+            "1d": -4.15,
+            "1w": -7.22,
+            "1m": -12.86
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "LICHSGFIN",
+          "name": "LIC Housing Finance Limited",
+          "price": 506.05,
+          "mcap": 278359374435.3638,
+          "returns": {
+            "1d": 1.96,
+            "1w": 4.66,
+            "1m": -5.89
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "PNBHOUSING",
+          "name": "PNB Housing Finance Limited",
+          "price": 794.65,
+          "mcap": 207045728518.77368,
+          "returns": {
+            "1d": -1.02,
+            "1w": 0.84,
+            "1m": -3.65
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "AADHARHFC",
+          "name": "Aadhar Housing Finance Limited",
+          "price": 456.35,
+          "mcap": 198833391174.1744,
+          "returns": {
+            "1d": -3.17,
+            "1w": -1.38,
+            "1m": -0.57
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "SAMMAANCAP",
+          "name": "Sammaan Capital Limited",
+          "price": 148.35,
+          "mcap": 121025976275.33203,
+          "returns": {
+            "1d": 1.0,
+            "1w": 8.4,
+            "1m": -1.04
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "CANFINHOME",
+          "name": "Can Fin Homes Limited",
+          "price": 821.85,
+          "mcap": 109621526193.80798,
+          "returns": {
+            "1d": -1.37,
+            "1w": -0.64,
+            "1m": -2.56
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "APTUS",
+          "name": "Aptus Value Housing Finance India Limited",
+          "price": 197.78,
+          "mcap": 99036897714.82178,
+          "returns": {
+            "1d": -4.57,
+            "1w": -5.75,
+            "1m": -18.94
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "HOMEFIRST",
+          "name": "Home First Finance Company India Limited",
+          "price": 929.7,
+          "mcap": 97028217079.6878,
+          "returns": {
+            "1d": -1.93,
+            "1w": -3.12,
+            "1m": -14.16
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "AAVAS",
+          "name": "Aavas Financiers Limited",
+          "price": 1110.4,
+          "mcap": 88071115881.9956,
+          "returns": {
+            "1d": -2.21,
+            "1w": 0.42,
+            "1m": -13.63
+          },
+          "logo_url": "https://cdn.tickerlogos.com/aavas.com"
+        }
+      ]
+    },
+    {
+      "name": "Hotels & Resorts",
+      "total_mcap": 1828538576182.984,
+      "stock_count": 7,
+      "avg_1d": -3.86,
+      "avg_1w": -4.85,
+      "avg_1m": -12.04,
+      "stocks": [
+        {
+          "symbol": "INDHOTEL",
+          "name": "The Indian Hotels Company Limited",
+          "price": 590.9,
+          "mcap": 841106137686.0634,
+          "returns": {
+            "1d": -4.28,
+            "1w": -3.71,
+            "1m": -11.42
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "ITCHOTELS",
+          "name": "ITC Hotels Limited",
+          "price": 141.77,
+          "mcap": 295303560226.3649,
+          "returns": {
+            "1d": -4.67,
+            "1w": -7.16,
+            "1m": -19.48
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "EIHOTEL",
+          "name": "EIH Limited",
+          "price": 284.3,
+          "mcap": 177791029308.7599,
+          "returns": {
+            "1d": -5.09,
+            "1w": -9.52,
+            "1m": -9.33
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "CHALET",
+          "name": "Chalet Hotels Limited",
+          "price": 724.95,
+          "mcap": 158759795041.91815,
+          "returns": {
+            "1d": -1.95,
+            "1w": -1.1,
+            "1m": -10.29
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "VENTIVE",
+          "name": "Ventive Hospitality Limited",
+          "price": 585.95,
+          "mcap": 136843708644.39972,
+          "returns": {
+            "1d": -6.43,
+            "1w": -10.76,
+            "1m": -15.65
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "THELEELA",
+          "name": "Leela Palaces Hotels & Resorts Limited",
+          "price": 406.2,
+          "mcap": 135653694120.23425,
+          "returns": {
+            "1d": -2.06,
+            "1w": -0.29,
+            "1m": -10.44
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "LEMONTREE",
+          "name": "Lemon Tree Hotels Limited",
+          "price": 104.92,
+          "mcap": 83080651155.2437,
+          "returns": {
+            "1d": -2.52,
+            "1w": -1.44,
+            "1m": -7.7
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Cables - Electricals",
+      "total_mcap": 1731370102541.4058,
+      "stock_count": 4,
+      "avg_1d": -2.06,
+      "avg_1w": -3.65,
+      "avg_1m": -16.09,
+      "stocks": [
+        {
+          "symbol": "POLYCAB",
+          "name": "Polycab India Limited",
+          "price": 7067.0,
+          "mcap": 1065056227465.0,
+          "returns": {
+            "1d": -1.09,
+            "1w": -1.57,
+            "1m": -17.93
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "KEI",
+          "name": "KEI Industries Limited",
+          "price": 4124.0,
+          "mcap": 394256853780.0,
+          "returns": {
+            "1d": -1.72,
+            "1w": -2.11,
+            "1m": -18.83
+          },
+          "logo_url": "https://cdn.tickerlogos.com/kei-india.com"
+        },
+        {
+          "symbol": "RRKABEL",
+          "name": "R R Kabel Limited",
+          "price": 1314.6,
+          "mcap": 148688494111.63513,
+          "returns": {
+            "1d": -2.38,
+            "1w": -5.83,
+            "1m": -15.87
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "FINCABLES",
+          "name": "Finolex Cables Limited",
+          "price": 806.65,
+          "mcap": 123368527184.77075,
+          "returns": {
+            "1d": -3.06,
+            "1w": -5.08,
+            "1m": -11.72
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Edible Oil",
+      "total_mcap": 1721139256648.2542,
+      "stock_count": 3,
+      "avg_1d": -0.63,
+      "avg_1w": 1.93,
+      "avg_1m": -4.68,
+      "stocks": [
+        {
+          "symbol": "MARICO",
+          "name": "Marico Limited",
+          "price": 742.45,
+          "mcap": 961719830156.2175,
+          "returns": {
+            "1d": -1.5,
+            "1w": 0.16,
+            "1m": -5.86
+          },
+          "logo_url": "https://cdn.tickerlogos.com/marico.com"
+        },
+        {
+          "symbol": "PATANJALI",
+          "name": "Patanjali Foods Limited",
+          "price": 476.45,
+          "mcap": 519071568917.8797,
+          "returns": {
+            "1d": -1.78,
+            "1w": 0.45,
+            "1m": -6.21
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "AWL",
+          "name": "AWL Agri Business Limited",
+          "price": 185.4,
+          "mcap": 240347857574.1569,
+          "returns": {
+            "1d": 1.39,
+            "1w": 5.17,
+            "1m": -1.96
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Other Electrical Equipment",
+      "total_mcap": 1717095788518.6023,
+      "stock_count": 3,
+      "avg_1d": 0.24,
+      "avg_1w": 3.97,
+      "avg_1m": 10.43,
+      "stocks": [
+        {
+          "symbol": "WAAREEENER",
+          "name": "Waaree Energies Limited",
+          "price": 3092.6,
+          "mcap": 889558293985.5322,
+          "returns": {
+            "1d": -2.68,
+            "1w": -2.01,
+            "1m": 14.15
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "APARINDS",
+          "name": "Apar Industries Limited",
+          "price": 10608.0,
+          "mcap": 426120771648.0,
+          "returns": {
+            "1d": 5.93,
+            "1w": 10.52,
+            "1m": -5.12
+          },
+          "logo_url": "https://cdn.tickerlogos.com/apar.com"
+        },
+        {
+          "symbol": "PREMIERENE",
+          "name": "Premier Energies Limited",
+          "price": 893.8,
+          "mcap": 401416722885.07,
+          "returns": {
+            "1d": -2.52,
+            "1w": 3.41,
+            "1m": 22.27
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Industrial Minerals",
+      "total_mcap": 1680327416358.5913,
+      "stock_count": 4,
+      "avg_1d": -1.55,
+      "avg_1w": 3.16,
+      "avg_1m": -3.85,
+      "stocks": [
+        {
+          "symbol": "LLOYDSME",
+          "name": "Lloyds Metals And Energy Limited",
+          "price": 1278.3,
+          "mcap": 719229192331.3027,
+          "returns": {
+            "1d": -2.25,
+            "1w": 7.84,
+            "1m": 3.67
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "NMDC",
+          "name": "NMDC Limited",
+          "price": 77.2,
+          "mcap": 678728288106.7021,
+          "returns": {
+            "1d": -0.83,
+            "1w": -0.95,
+            "1m": -5.55
+          },
+          "logo_url": "https://cdn.tickerlogos.com/nmdc.co.in"
+        },
+        {
+          "symbol": "GMDCLTD",
+          "name": "Gujarat Mineral Development Corporation Limited",
+          "price": 566.6,
+          "mcap": 180208884927.63147,
+          "returns": {
+            "1d": -2.08,
+            "1w": 6.08,
+            "1m": -0.49
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "GRAVITA",
+          "name": "Gravita India Limited",
+          "price": 1402.6,
+          "mcap": 102161050992.95508,
+          "returns": {
+            "1d": -1.05,
+            "1w": -0.33,
+            "1m": -13.04
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Breweries & Distilleries",
+      "total_mcap": 1677978851540.248,
+      "stock_count": 3,
+      "avg_1d": -3.75,
+      "avg_1w": -0.53,
+      "avg_1m": -4.14,
+      "stocks": [
+        {
+          "symbol": "UNITDSPR",
+          "name": "United Spirits Limited",
+          "price": 1253.8,
+          "mcap": 912015703960.6384,
+          "returns": {
+            "1d": -4.41,
+            "1w": -2.72,
+            "1m": -9.2
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "UBL",
+          "name": "United Breweries Limited",
+          "price": 1559.0,
+          "mcap": 412207627291.0,
+          "returns": {
+            "1d": -2.95,
+            "1w": -0.65,
+            "1m": -2.87
+          },
+          "logo_url": "https://cdn.tickerlogos.com/ubl.co.in"
+        },
+        {
+          "symbol": "RADICO",
+          "name": "Radico Khaitan Limited",
+          "price": 2640.2,
+          "mcap": 353755520288.6096,
+          "returns": {
+            "1d": -3.89,
+            "1w": 1.78,
+            "1m": -0.35
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Airline",
+      "total_mcap": 1584919985301.0,
+      "stock_count": 1,
+      "avg_1d": -4.55,
+      "avg_1w": -1.32,
+      "avg_1m": -15.07,
+      "stocks": [
+        {
+          "symbol": "INDIGO",
+          "name": "InterGlobe Aviation Limited",
+          "price": 4099.5,
+          "mcap": 1584919985301.0,
+          "returns": {
+            "1d": -4.55,
+            "1w": -1.32,
+            "1m": -15.07
+          },
+          "logo_url": "https://cdn.tickerlogos.com/goindigo.in"
+        }
+      ]
+    },
+    {
+      "name": "Consumer Electronics",
+      "total_mcap": 1519705929986.6118,
+      "stock_count": 3,
+      "avg_1d": -4.12,
+      "avg_1w": -3.28,
+      "avg_1m": -12.99,
+      "stocks": [
+        {
+          "symbol": "HAVELLS",
+          "name": "Havells India Limited",
+          "price": 1231.6,
+          "mcap": 772574935163.6118,
+          "returns": {
+            "1d": -2.9,
+            "1w": -4.84,
+            "1m": -11.85
+          },
+          "logo_url": "https://cdn.tickerlogos.com/havells.com"
+        },
+        {
+          "symbol": "DIXON",
+          "name": "Dixon Technologies (India) Limited",
+          "price": 10019.0,
+          "mcap": 608259150735.0,
+          "returns": {
+            "1d": -3.8,
+            "1w": -1.72,
+            "1m": -4.83
+          },
+          "logo_url": "https://cdn.tickerlogos.com/dixontech.com"
+        },
+        {
+          "symbol": "PGEL",
+          "name": "PG Electroplast Limited",
+          "price": 488.0,
+          "mcap": 138871844088.0,
+          "returns": {
+            "1d": -5.65,
+            "1w": -3.29,
+            "1m": -22.28
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Tyres & Rubber Products",
+      "total_mcap": 1481132873710.3477,
+      "stock_count": 5,
+      "avg_1d": -1.83,
+      "avg_1w": -1.0,
+      "avg_1m": -9.89,
+      "stocks": [
+        {
+          "symbol": "MRF",
+          "name": "MRF Limited",
+          "price": 129575.0,
+          "mcap": 549546104225.0,
+          "returns": {
+            "1d": -0.3,
+            "1w": -0.74,
+            "1m": -8.09
+          },
+          "logo_url": "https://cdn.tickerlogos.com/mrf.in"
+        },
+        {
+          "symbol": "BALKRISIND",
+          "name": "Balkrishna Industries Limited",
+          "price": 2150.5,
+          "mcap": 415728617095.0,
+          "returns": {
+            "1d": -2.6,
+            "1w": 1.4,
+            "1m": -9.79
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "APOLLOTYRE",
+          "name": "Apollo Tyres Limited",
+          "price": 412.45,
+          "mcap": 261213577129.3288,
+          "returns": {
+            "1d": -1.72,
+            "1w": -1.67,
+            "1m": -9.16
+          },
+          "logo_url": "https://cdn.tickerlogos.com/apollotyres.com"
+        },
+        {
+          "symbol": "CEATLTD",
+          "name": "CEAT Limited",
+          "price": 3462.9,
+          "mcap": 139698645668.39844,
+          "returns": {
+            "1d": -2.43,
+            "1w": -0.51,
+            "1m": -1.94
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "JKTYRE",
+          "name": "JK Tyre & Industries Limited",
+          "price": 398.4,
+          "mcap": 114945929592.62036,
+          "returns": {
+            "1d": -2.08,
+            "1w": -3.48,
+            "1m": -20.49
+          },
+          "logo_url": "https://cdn.tickerlogos.com/jktyre.com"
+        }
+      ]
+    },
+    {
+      "name": "Iron & Steel Products",
+      "total_mcap": 1476366141519.3474,
+      "stock_count": 7,
+      "avg_1d": -1.91,
+      "avg_1w": 2.13,
+      "avg_1m": -3.17,
+      "stocks": [
+        {
+          "symbol": "APLAPOLLO",
+          "name": "APL Apollo Tubes Limited",
+          "price": 1986.2,
+          "mcap": 551570310486.5662,
+          "returns": {
+            "1d": -0.62,
+            "1w": 2.92,
+            "1m": -11.12
+          },
+          "logo_url": "https://cdn.tickerlogos.com/aplapollo.com"
+        },
+        {
+          "symbol": "WELCORP",
+          "name": "Welspun Corp Limited",
+          "price": 817.35,
+          "mcap": 215538399112.71582,
+          "returns": {
+            "1d": -2.18,
+            "1w": 2.81,
+            "1m": -0.96
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "SHYAMMETL",
+          "name": "Shyam Metalics and Energy Limited",
+          "price": 770.25,
+          "mcap": 214305434343.0,
+          "returns": {
+            "1d": -3.08,
+            "1w": -1.99,
+            "1m": -10.47
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "GPIL",
+          "name": "Godawari Power And Ispat limited",
+          "price": 272.1,
+          "mcap": 176556145971.35712,
+          "returns": {
+            "1d": -1.88,
+            "1w": 8.54,
+            "1m": 2.29
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "USHAMART",
+          "name": "Usha Martin Limited",
+          "price": 408.0,
+          "mcap": 124345865424.0,
+          "returns": {
+            "1d": -1.45,
+            "1w": 2.73,
+            "1m": -2.49
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "JINDALSAW",
+          "name": "Jindal Saw Limited",
+          "price": 186.01,
+          "mcap": 118561510838.97443,
+          "returns": {
+            "1d": -1.34,
+            "1w": -1.76,
+            "1m": 0.35
+          },
+          "logo_url": "https://cdn.tickerlogos.com/jindalsaw.com"
+        },
+        {
+          "symbol": "MAHSEAMLES",
+          "name": "Maharashtra Seamless Limited",
+          "price": 563.35,
+          "mcap": 75488475342.73389,
+          "returns": {
+            "1d": -2.83,
+            "1w": 1.65,
+            "1m": 0.24
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Speciality Retail",
+      "total_mcap": 1474875670722.7173,
+      "stock_count": 4,
+      "avg_1d": -1.96,
+      "avg_1w": -1.5,
+      "avg_1m": -11.92,
+      "stocks": [
+        {
+          "symbol": "TRENT",
+          "name": "Trent Limited",
+          "price": 3399.6,
+          "mcap": 1208515207131.1724,
+          "returns": {
+            "1d": -2.28,
+            "1w": -2.36,
+            "1m": -12.82
+          },
+          "logo_url": "https://cdn.tickerlogos.com/trent.co.in"
+        },
+        {
+          "symbol": "ABLBL",
+          "name": "Aditya Birla Lifestyle Brands Limited",
+          "price": 91.98,
+          "mcap": 111900664471.98483,
+          "returns": {
+            "1d": -1.18,
+            "1w": -1.46,
+            "1m": -9.89
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "MANYAVAR",
+          "name": "Vedant Fashions Limited",
+          "price": 350.1,
+          "mcap": 85064884843.29013,
+          "returns": {
+            "1d": -1.31,
+            "1w": -2.52,
+            "1m": -10.22
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "ABFRL",
+          "name": "Aditya Birla Fashion and Retail Limited",
+          "price": 57.05,
+          "mcap": 69394914276.26987,
+          "returns": {
+            "1d": -3.06,
+            "1w": 0.35,
+            "1m": -14.76
+          },
+          "logo_url": "https://cdn.tickerlogos.com/abfrl.com"
+        }
+      ]
+    },
+    {
+      "name": "LPG/CNG/PNG/LNG Supplier",
+      "total_mcap": 1470909897103.9812,
+      "stock_count": 5,
+      "avg_1d": -0.86,
+      "avg_1w": -6.75,
+      "avg_1m": -15.73,
+      "stocks": [
+        {
+          "symbol": "ATGL",
+          "name": "Adani Total Gas Limited",
+          "price": 529.1,
+          "mcap": 582217540123.1536,
+          "returns": {
+            "1d": 1.59,
+            "1w": -4.86,
+            "1m": 3.34
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "PETRONET",
+          "name": "Petronet LNG Limited",
+          "price": 246.2,
+          "mcap": 369300017087.963,
+          "returns": {
+            "1d": -1.46,
+            "1w": -9.1,
+            "1m": -23.87
+          },
+          "logo_url": "https://cdn.tickerlogos.com/petronetlng.com"
+        },
+        {
+          "symbol": "GUJGASLTD",
+          "name": "Gujarat Gas Limited",
+          "price": 317.65,
+          "mcap": 218667119004.65012,
+          "returns": {
+            "1d": -4.09,
+            "1w": -10.34,
+            "1m": -22.03
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "IGL",
+          "name": "Indraprastha Gas Limited",
+          "price": 148.33,
+          "mcap": 207854351866.631,
+          "returns": {
+            "1d": -0.45,
+            "1w": -3.49,
+            "1m": -13.19
+          },
+          "logo_url": "https://cdn.tickerlogos.com/igl.co.in"
+        },
+        {
+          "symbol": "MGL",
+          "name": "Mahanagar Gas Limited",
+          "price": 940.2,
+          "mcap": 92870869021.58344,
+          "returns": {
+            "1d": 0.12,
+            "1w": -5.98,
+            "1m": -22.92
+          },
+          "logo_url": "https://cdn.tickerlogos.com/mgl.nic.in"
+        }
+      ]
+    },
+    {
+      "name": "IT Enabled Services",
+      "total_mcap": 1451592042273.6821,
+      "stock_count": 7,
+      "avg_1d": 0.56,
+      "avg_1w": 2.33,
+      "avg_1m": -5.66,
+      "stocks": [
+        {
+          "symbol": "LTTS",
+          "name": "L&T Technology Services Limited",
+          "price": 3198.4,
+          "mcap": 339024453418.21875,
+          "returns": {
+            "1d": -0.06,
+            "1w": -3.47,
+            "1m": -8.94
+          },
+          "logo_url": "https://cdn.tickerlogos.com/ltts.com"
+        },
+        {
+          "symbol": "IKS",
+          "name": "Inventurus Knowledge Solutions Limited",
+          "price": 1354.8,
+          "mcap": 226945173652.89355,
+          "returns": {
+            "1d": 2.36,
+            "1w": 1.31,
+            "1m": -1.53
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "TATATECH",
+          "name": "Tata Technologies Limited",
+          "price": 539.35,
+          "mcap": 218964936869.74548,
+          "returns": {
+            "1d": -0.83,
+            "1w": 3.22,
+            "1m": -7.87
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "AFFLE",
+          "name": "Affle 3i Limited",
+          "price": 1446.1,
+          "mcap": 203325910993.511,
+          "returns": {
+            "1d": 3.76,
+            "1w": 11.19,
+            "1m": 5.0
+          },
+          "logo_url": "https://cdn.tickerlogos.com/affle.com"
+        },
+        {
+          "symbol": "SAGILITY",
+          "name": "SAGILITY LIMITED",
+          "price": 41.75,
+          "mcap": 195445461242.75,
+          "returns": {
+            "1d": 4.66,
+            "1w": 11.66,
+            "1m": 5.56
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "NETWEB",
+          "name": "Netweb Technologies India Limited",
+          "price": 3180.1,
+          "mcap": 181238261302.56348,
+          "returns": {
+            "1d": -2.19,
+            "1w": -2.16,
+            "1m": -17.64
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "CYIENT",
+          "name": "Cyient Limited",
+          "price": 784.75,
+          "mcap": 86647844794.0,
+          "returns": {
+            "1d": -3.79,
+            "1w": -5.43,
+            "1m": -14.21
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Household Appliances",
+      "total_mcap": 1407268356070.304,
+      "stock_count": 6,
+      "avg_1d": -2.84,
+      "avg_1w": -2.21,
+      "avg_1m": -11.23,
+      "stocks": [
+        {
+          "symbol": "VOLTAS",
+          "name": "Voltas Limited",
+          "price": 1322.6,
+          "mcap": 437628149045.7593,
+          "returns": {
+            "1d": -3.38,
+            "1w": -1.83,
+            "1m": -15.29
+          },
+          "logo_url": "https://cdn.tickerlogos.com/voltas.com"
+        },
+        {
+          "symbol": "BLUESTARCO",
+          "name": "Blue Star Limited",
+          "price": 1675.2,
+          "mcap": 344405734975.78564,
+          "returns": {
+            "1d": -3.98,
+            "1w": -3.36,
+            "1m": -13.7
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "AMBER",
+          "name": "Amber Enterprises India Limited",
+          "price": 6602.0,
+          "mcap": 232335392136.0,
+          "returns": {
+            "1d": -2.14,
+            "1w": -1.12,
+            "1m": -17.21
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "CROMPTON",
+          "name": "Crompton Greaves Consumer Electricals Limited",
+          "price": 232.3,
+          "mcap": 151830783943.42236,
+          "returns": {
+            "1d": -4.23,
+            "1w": -4.19,
+            "1m": -9.91
+          },
+          "logo_url": "https://cdn.tickerlogos.com/crompton.com"
+        },
+        {
+          "symbol": "VGUARD",
+          "name": "V-Guard Industries Limited",
+          "price": 316.2,
+          "mcap": 138408781250.1278,
+          "returns": {
+            "1d": -3.52,
+            "1w": -2.42,
+            "1m": 0.96
+          },
+          "logo_url": "https://cdn.tickerlogos.com/vguard.in"
+        },
+        {
+          "symbol": "WHIRLPOOL",
+          "name": "Whirlpool of India Limited",
+          "price": 808.85,
+          "mcap": 102659514719.20886,
+          "returns": {
+            "1d": 0.2,
+            "1w": -0.35,
+            "1m": -12.26
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Financial Technology (Fintech)",
+      "total_mcap": 1321572850284.3772,
+      "stock_count": 2,
+      "avg_1d": -2.99,
+      "avg_1w": -2.58,
+      "avg_1m": -4.83,
+      "stocks": [
+        {
+          "symbol": "POLICYBZR",
+          "name": "PB Fintech Limited",
+          "price": 1459.2,
+          "mcap": 675894775104.6348,
+          "returns": {
+            "1d": -0.62,
+            "1w": -1.98,
+            "1m": -1.51
+          },
+          "logo_url": "https://cdn.tickerlogos.com/policybazaar.com"
+        },
+        {
+          "symbol": "PAYTM",
+          "name": "One 97 Communications Limited",
+          "price": 1008.8,
+          "mcap": 645678075179.7424,
+          "returns": {
+            "1d": -5.36,
+            "1w": -3.17,
+            "1m": -8.15
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Pesticides & Agrochemicals",
+      "total_mcap": 1319717452745.518,
+      "stock_count": 4,
+      "avg_1d": -2.76,
+      "avg_1w": -1.63,
+      "avg_1m": -6.63,
+      "stocks": [
+        {
+          "symbol": "UPL",
+          "name": "UPL Limited",
+          "price": 595.85,
+          "mcap": 503662547886.7296,
+          "returns": {
+            "1d": -4.7,
+            "1w": -2.61,
+            "1m": -6.52
+          },
+          "logo_url": "https://cdn.tickerlogos.com/upl-ltd.com"
+        },
+        {
+          "symbol": "PIIND",
+          "name": "PI Industries Limited",
+          "price": 2810.8,
+          "mcap": 426407446291.3843,
+          "returns": {
+            "1d": -3.26,
+            "1w": -2.77,
+            "1m": -9.83
+          },
+          "logo_url": "https://cdn.tickerlogos.com/piindustries.com"
+        },
+        {
+          "symbol": "BAYERCROP",
+          "name": "Bayer Cropscience Limited",
+          "price": 4506.3,
+          "mcap": 202642511621.54785,
+          "returns": {
+            "1d": 0.11,
+            "1w": 0.86,
+            "1m": -3.55
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "SUMICHEM",
+          "name": "Sumitomo Chemical India Limited",
+          "price": 374.65,
+          "mcap": 187004946945.8562,
+          "returns": {
+            "1d": -3.2,
+            "1w": -2.0,
+            "1m": -6.61
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Other Beverages",
+      "total_mcap": 1316649306298.8682,
+      "stock_count": 1,
+      "avg_1d": -3.03,
+      "avg_1w": -3.79,
+      "avg_1m": -13.76,
+      "stocks": [
+        {
+          "symbol": "VBL",
+          "name": "Varun Beverages Limited",
+          "price": 389.3,
+          "mcap": 1316649306298.8682,
+          "returns": {
+            "1d": -3.03,
+            "1w": -3.79,
+            "1m": -13.76
+          },
+          "logo_url": "https://cdn.tickerlogos.com/varunbeverages.com"
+        }
+      ]
+    },
+    {
+      "name": "Fertilizers",
+      "total_mcap": 1309395058340.6,
+      "stock_count": 4,
+      "avg_1d": -2.51,
+      "avg_1w": -1.72,
+      "avg_1m": -6.88,
+      "stocks": [
+        {
+          "symbol": "COROMANDEL",
+          "name": "Coromandel International Limited",
+          "price": 1930.9,
+          "mcap": 569071647970.372,
+          "returns": {
+            "1d": -4.19,
+            "1w": -2.17,
+            "1m": -13.02
+          },
+          "logo_url": "https://cdn.tickerlogos.com/coromandel.biz"
+        },
+        {
+          "symbol": "FACT",
+          "name": "Fertilizers and Chemicals Travancore Limited",
+          "price": 788.5,
+          "mcap": 510216251499.0,
+          "returns": {
+            "1d": -0.22,
+            "1w": 0.07,
+            "1m": 6.06
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "CHAMBLFERT",
+          "name": "Chambal Fertilizers & Chemicals Limited",
+          "price": 419.95,
+          "mcap": 168273955613.057,
+          "returns": {
+            "1d": -2.87,
+            "1w": -1.62,
+            "1m": -8.95
+          },
+          "logo_url": "https://cdn.tickerlogos.com/chambalfertilisers.com"
+        },
+        {
+          "symbol": "RCF",
+          "name": "Rashtriya Chemicals and Fertilizers Limited",
+          "price": 112.08,
+          "mcap": 61833203258.17108,
+          "returns": {
+            "1d": -2.74,
+            "1w": -3.14,
+            "1m": -11.59
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Telecom - Infrastructure",
+      "total_mcap": 1232494519466.199,
+      "stock_count": 2,
+      "avg_1d": -0.3,
+      "avg_1w": 0.01,
+      "avg_1m": -1.51,
+      "stocks": [
+        {
+          "symbol": "INDUSTOWER",
+          "name": "Indus Towers Limited",
+          "price": 426.3,
+          "mcap": 1124218458391.486,
+          "returns": {
+            "1d": -0.36,
+            "1w": -0.08,
+            "1m": -6.3
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "HFCL",
+          "name": "HFCL Limited",
+          "price": 70.76,
+          "mcap": 108276061074.71286,
+          "returns": {
+            "1d": -0.24,
+            "1w": 0.11,
+            "1m": 3.28
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Stockbroking & Allied",
+      "total_mcap": 1231453761888.128,
+      "stock_count": 4,
+      "avg_1d": -1.78,
+      "avg_1w": -0.15,
+      "avg_1m": -5.4,
+      "stocks": [
+        {
+          "symbol": "MOTILALOFS",
+          "name": "Motilal Oswal Financial Services Limited",
+          "price": 668.65,
+          "mcap": 402914305928.6456,
+          "returns": {
+            "1d": -2.27,
+            "1w": -0.36,
+            "1m": -7.79
+          },
+          "logo_url": "https://cdn.tickerlogos.com/motilaloswal.com"
+        },
+        {
+          "symbol": "360ONE",
+          "name": "360 ONE WAM LIMITED",
+          "price": 977.4,
+          "mcap": 396959719216.6892,
+          "returns": {
+            "1d": -2.46,
+            "1w": -6.06,
+            "1m": -11.44
+          },
+          "logo_url": "https://cdn.tickerlogos.com/360one.in"
+        },
+        {
+          "symbol": "NUVAMA",
+          "name": "Nuvama Wealth Management Limited",
+          "price": 1195.4,
+          "mcap": 217706325365.69055,
+          "returns": {
+            "1d": -0.47,
+            "1w": 3.86,
+            "1m": -3.98
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "ANGELONE",
+          "name": "Angel One Limited",
+          "price": 235.27,
+          "mcap": 213873411377.10266,
+          "returns": {
+            "1d": -1.94,
+            "1w": 1.96,
+            "1m": 1.62
+          },
+          "logo_url": "https://cdn.tickerlogos.com/angelone.in"
+        }
+      ]
+    },
+    {
+      "name": "Ship Building & Allied Services",
+      "total_mcap": 1203202339163.9312,
+      "stock_count": 2,
+      "avg_1d": -4.36,
+      "avg_1w": -8.04,
+      "avg_1m": -9.27,
+      "stocks": [
+        {
+          "symbol": "MAZDOCK",
+          "name": "Mazagon Dock Shipbuilders Limited",
+          "price": 2162.9,
+          "mcap": 872470562607.4219,
+          "returns": {
+            "1d": -4.12,
+            "1w": -8.41,
+            "1m": -2.79
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "COCHINSHIP",
+          "name": "Cochin Shipyard Limited",
+          "price": 1256.8,
+          "mcap": 330731776556.5093,
+          "returns": {
+            "1d": -4.6,
+            "1w": -7.68,
+            "1m": -15.75
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Tea & Coffee",
+      "total_mcap": 1178958914849.482,
+      "stock_count": 2,
+      "avg_1d": -1.23,
+      "avg_1w": 1.36,
+      "avg_1m": -1.9,
+      "stocks": [
+        {
+          "symbol": "TATACONSUM",
+          "name": "TATA CONSUMER PRODUCTS LIMITED",
+          "price": 1048.5,
+          "mcap": 1037699153005.5,
+          "returns": {
+            "1d": -0.72,
+            "1w": 0.37,
+            "1m": -8.11
+          },
+          "logo_url": "https://cdn.tickerlogos.com/tataconsumer.com"
+        },
+        {
+          "symbol": "CCL",
+          "name": "CCL Products (India) Limited",
+          "price": 1058.7,
+          "mcap": 141259761843.98193,
+          "returns": {
+            "1d": -1.75,
+            "1w": 2.36,
+            "1m": 4.31
+          },
+          "logo_url": "https://cdn.tickerlogos.com/cclproducts.com"
+        }
+      ]
+    },
+    {
+      "name": "Power Distribution",
+      "total_mcap": 1149760316180.0,
+      "stock_count": 1,
+      "avg_1d": -3.47,
+      "avg_1w": -4.9,
+      "avg_1m": -5.49,
+      "stocks": [
+        {
+          "symbol": "ADANIENSOL",
+          "name": "Adani Energy Solutions Limited",
+          "price": 956.0,
+          "mcap": 1149760316180.0,
+          "returns": {
+            "1d": -3.47,
+            "1w": -4.9,
+            "1m": -5.49
+          },
+          "logo_url": "https://cdn.tickerlogos.com/adani.com"
+        }
+      ]
+    },
+    {
+      "name": "Explosives",
+      "total_mcap": 1123705502990.0,
+      "stock_count": 1,
+      "avg_1d": -3.66,
+      "avg_1w": -5.63,
+      "avg_1m": -8.04,
+      "stocks": [
+        {
+          "symbol": "SOLARINDS",
+          "name": "Solar Industries India Limited",
+          "price": 12418.0,
+          "mcap": 1123705502990.0,
+          "returns": {
+            "1d": -3.66,
+            "1w": -5.63,
+            "1m": -8.04
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Gas Transmission/Marketing",
+      "total_mcap": 1034357741083.2618,
+      "stock_count": 2,
+      "avg_1d": -1.52,
+      "avg_1w": -6.8,
+      "avg_1m": -21.07,
+      "stocks": [
+        {
+          "symbol": "GAIL",
+          "name": "GAIL (India) Limited",
+          "price": 137.19,
+          "mcap": 902035192275.6106,
+          "returns": {
+            "1d": -1.44,
+            "1w": -4.91,
+            "1m": -19.08
+          },
+          "logo_url": "https://cdn.tickerlogos.com/gail.co.in"
+        },
+        {
+          "symbol": "GSPL",
+          "name": "Gujarat State Petronet Limited",
+          "price": 234.45,
+          "mcap": 132322548807.65129,
+          "returns": {
+            "1d": -1.59,
+            "1w": -8.69,
+            "1m": -23.07
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Plastic Products - Industrial",
+      "total_mcap": 1008706895758.2037,
+      "stock_count": 3,
+      "avg_1d": -2.28,
+      "avg_1w": -4.52,
+      "avg_1m": -7.85,
+      "stocks": [
+        {
+          "symbol": "SUPREMEIND",
+          "name": "Supreme Industries Limited",
+          "price": 3747.7,
+          "mcap": 476264418177.8345,
+          "returns": {
+            "1d": -2.2,
+            "1w": -2.49,
+            "1m": -5.72
+          },
+          "logo_url": "https://cdn.tickerlogos.com/supremeindustries.com"
+        },
+        {
+          "symbol": "ASTRAL",
+          "name": "Astral Limited",
+          "price": 1619.1,
+          "mcap": 434971473973.5581,
+          "returns": {
+            "1d": -1.67,
+            "1w": -1.3,
+            "1m": -2.93
+          },
+          "logo_url": "https://cdn.tickerlogos.com/astralpipes.com"
+        },
+        {
+          "symbol": "FINPIPE",
+          "name": "Finolex Industries Limited",
+          "price": 157.64,
+          "mcap": 97471003606.81114,
+          "returns": {
+            "1d": -2.97,
+            "1w": -9.78,
+            "1m": -14.9
+          },
+          "logo_url": "https://cdn.tickerlogos.com/finolexpipes.com"
+        }
+      ]
+    },
+    {
+      "name": "Commercial Vehicles",
+      "total_mcap": 957966917374.9822,
+      "stock_count": 1,
+      "avg_1d": -4.6,
+      "avg_1w": -3.25,
+      "avg_1m": -22.74,
+      "stocks": [
+        {
+          "symbol": "ASHOKLEY",
+          "name": "Ashok Leyland Limited",
+          "price": 163.09,
+          "mcap": 957966917374.9822,
+          "returns": {
+            "1d": -4.6,
+            "1w": -3.25,
+            "1m": -22.74
+          },
+          "logo_url": "https://cdn.tickerlogos.com/ashokleyland.com"
+        }
+      ]
+    },
+    {
+      "name": "Airport & Airport services",
+      "total_mcap": 940699128895.5552,
+      "stock_count": 1,
+      "avg_1d": -1.08,
+      "avg_1w": 0.72,
+      "avg_1m": -11.47,
+      "stocks": [
+        {
+          "symbol": "GMRAIRPORT",
+          "name": "GMR AIRPORTS LIMITED",
+          "price": 89.09,
+          "mcap": 940699128895.5552,
+          "returns": {
+            "1d": -1.08,
+            "1w": 0.72,
+            "1m": -11.47
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Industrial Products",
+      "total_mcap": 868379446781.8824,
+      "stock_count": 5,
+      "avg_1d": -2.58,
+      "avg_1w": 1.5,
+      "avg_1m": -5.66,
+      "stocks": [
+        {
+          "symbol": "KAYNES",
+          "name": "Kaynes Technology India Limited",
+          "price": 3612.6,
+          "mcap": 242353455949.12842,
+          "returns": {
+            "1d": -2.83,
+            "1w": 1.28,
+            "1m": -6.32
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "HONAUT",
+          "name": "Honeywell Automation India Limited",
+          "price": 27030.0,
+          "mcap": 239144113770.0,
+          "returns": {
+            "1d": -4.17,
+            "1w": -5.01,
+            "1m": -12.74
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "JYOTICNC",
+          "name": "Jyoti CNC Automation Limited",
+          "price": 751.9,
+          "mcap": 170999432186.6217,
+          "returns": {
+            "1d": -3.19,
+            "1w": 1.2,
+            "1m": -8.36
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "SYRMA",
+          "name": "Syrma SGS Technology Limited",
+          "price": 818.2,
+          "mcap": 157668837662.7202,
+          "returns": {
+            "1d": 0.06,
+            "1w": 7.96,
+            "1m": -0.49
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "PRAJIND",
+          "name": "Praj Industries Limited",
+          "price": 316.7,
+          "mcap": 58213607213.41211,
+          "returns": {
+            "1d": -2.78,
+            "1w": 2.08,
+            "1m": -0.39
+          },
+          "logo_url": "https://cdn.tickerlogos.com/praj.com"
+        }
+      ]
+    },
+    {
+      "name": "Diversified",
+      "total_mcap": 781250314264.3182,
+      "stock_count": 3,
+      "avg_1d": -2.52,
+      "avg_1w": -2.03,
+      "avg_1m": -10.8,
+      "stocks": [
+        {
+          "symbol": "3MINDIA",
+          "name": "3M India Limited",
+          "price": 30865.0,
+          "mcap": 347696385550.0,
+          "returns": {
+            "1d": -2.91,
+            "1w": -6.41,
+            "1m": -17.7
+          },
+          "logo_url": "https://cdn.tickerlogos.com/3mindia.co.in"
+        },
+        {
+          "symbol": "GODREJIND",
+          "name": "Godrej Industries Limited",
+          "price": 775.2,
+          "mcap": 261091117629.78723,
+          "returns": {
+            "1d": -3.98,
+            "1w": -5.87,
+            "1m": -21.94
+          },
+          "logo_url": "https://cdn.tickerlogos.com/godrejindustries.com"
+        },
+        {
+          "symbol": "DCMSHRIRAM",
+          "name": "DCM Shriram Limited",
+          "price": 1112.3,
+          "mcap": 172462811084.531,
+          "returns": {
+            "1d": -0.66,
+            "1w": 6.2,
+            "1m": 7.24
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Logistics Solution Provider",
+      "total_mcap": 770621888540.094,
+      "stock_count": 3,
+      "avg_1d": -2.06,
+      "avg_1w": -0.47,
+      "avg_1m": -9.15,
+      "stocks": [
+        {
+          "symbol": "CONCOR",
+          "name": "Container Corporation of India Limited",
+          "price": 438.2,
+          "mcap": 333740988414.09393,
+          "returns": {
+            "1d": -1.56,
+            "1w": -0.56,
+            "1m": -11.59
+          },
+          "logo_url": "https://cdn.tickerlogos.com/concorindia.com"
+        },
+        {
+          "symbol": "DELHIVERY",
+          "name": "Delhivery Limited",
+          "price": 428.75,
+          "mcap": 322002107665.0,
+          "returns": {
+            "1d": -0.37,
+            "1w": 3.71,
+            "1m": -1.07
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "BLUEDART",
+          "name": "Blue Dart Express Limited",
+          "price": 4841.5,
+          "mcap": 114878792461.0,
+          "returns": {
+            "1d": -4.25,
+            "1w": -4.55,
+            "1m": -14.8
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Internet & Catalogue Retail",
+      "total_mcap": 760342104495.8584,
+      "stock_count": 2,
+      "avg_1d": -1.45,
+      "avg_1w": -0.36,
+      "avg_1m": -5.64,
+      "stocks": [
+        {
+          "symbol": "NAUKRI",
+          "name": "Info Edge (India) Limited",
+          "price": 991.4,
+          "mcap": 641931872712.1143,
+          "returns": {
+            "1d": -0.66,
+            "1w": 2.14,
+            "1m": -3.71
+          },
+          "logo_url": "https://cdn.tickerlogos.com/naukri.com"
+        },
+        {
+          "symbol": "INDIAMART",
+          "name": "Indiamart Intermesh Limited",
+          "price": 1970.7,
+          "mcap": 118410231783.74414,
+          "returns": {
+            "1d": -2.23,
+            "1w": -2.87,
+            "1m": -7.57
+          },
+          "logo_url": "https://cdn.tickerlogos.com/indiamart.com"
+        }
+      ]
+    },
+    {
+      "name": "Other Textile Products",
+      "total_mcap": 733044432849.78,
+      "stock_count": 5,
+      "avg_1d": -1.61,
+      "avg_1w": -0.68,
+      "avg_1m": -7.95,
+      "stocks": [
+        {
+          "symbol": "KPRMILL",
+          "name": "K.P.R. Mill Limited",
+          "price": 842.9,
+          "mcap": 288712264914.4669,
+          "returns": {
+            "1d": -1.46,
+            "1w": 1.01,
+            "1m": -6.11
+          },
+          "logo_url": "https://cdn.tickerlogos.com/kprmill.com"
+        },
+        {
+          "symbol": "VTL",
+          "name": "Vardhman Textiles Limited",
+          "price": 527.2,
+          "mcap": 152485908090.72876,
+          "returns": {
+            "1d": 0.68,
+            "1w": -0.39,
+            "1m": -2.83
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "TRIDENT",
+          "name": "Trident Limited",
+          "price": 23.78,
+          "mcap": 121304147044.40698,
+          "returns": {
+            "1d": -3.8,
+            "1w": 0.42,
+            "1m": -7.04
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "WELSPUNLIV",
+          "name": "Welspun Living Limited",
+          "price": 116.46,
+          "mcap": 111406100381.9029,
+          "returns": {
+            "1d": 2.69,
+            "1w": 2.9,
+            "1m": -7.08
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "ALOKINDS",
+          "name": "Alok Industries Limited",
+          "price": 11.91,
+          "mcap": 59136012418.274445,
+          "returns": {
+            "1d": -6.15,
+            "1w": -7.32,
+            "1m": -16.71
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Other Bank",
+      "total_mcap": 659573778814.5,
+      "stock_count": 1,
+      "avg_1d": -3.04,
+      "avg_1w": -2.09,
+      "avg_1m": -7.89,
+      "stocks": [
+        {
+          "symbol": "AUBANK",
+          "name": "AU Small Finance Bank Limited",
+          "price": 882.75,
+          "mcap": 659573778814.5,
+          "returns": {
+            "1d": -3.04,
+            "1w": -2.09,
+            "1m": -7.89
+          },
+          "logo_url": "https://cdn.tickerlogos.com/aubank.in"
+        }
+      ]
+    },
+    {
+      "name": "Software Products",
+      "total_mcap": 650828359349.0219,
+      "stock_count": 2,
+      "avg_1d": -0.04,
+      "avg_1w": 3.39,
+      "avg_1m": -9.1,
+      "stocks": [
+        {
+          "symbol": "OFSS",
+          "name": "Oracle Financial Services Software Limited",
+          "price": 6947.0,
+          "mcap": 604665164091.0,
+          "returns": {
+            "1d": 5.27,
+            "1w": 9.08,
+            "1m": 0.22
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "MAPMYINDIA",
+          "name": "C.E. Info Systems Limited",
+          "price": 843.6,
+          "mcap": 46163195258.02185,
+          "returns": {
+            "1d": -5.34,
+            "1w": -2.3,
+            "1m": -18.42
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Tour Travel Related Services",
+      "total_mcap": 629094334401.2041,
+      "stock_count": 3,
+      "avg_1d": -2.21,
+      "avg_1w": 0.18,
+      "avg_1m": -10.18,
+      "stocks": [
+        {
+          "symbol": "IRCTC",
+          "name": "Indian Railway Catering And Tourism Corporation Limited",
+          "price": 510.6,
+          "mcap": 408480004882.8125,
+          "returns": {
+            "1d": -2.51,
+            "1w": -2.9,
+            "1m": -10.35
+          },
+          "logo_url": "https://cdn.tickerlogos.com/irctc.co.in"
+        },
+        {
+          "symbol": "TBOTEK",
+          "name": "TBO Tek Limited",
+          "price": 1104.7,
+          "mcap": 117691564518.3916,
+          "returns": {
+            "1d": 1.31,
+            "1w": -0.53,
+            "1m": -9.88
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "BLS",
+          "name": "BLS International Services Limited",
+          "price": 250.0,
+          "mcap": 102922765000.0,
+          "returns": {
+            "1d": -5.43,
+            "1w": 3.97,
+            "1m": -10.3
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Industrial Gases",
+      "total_mcap": 607053099314.0,
+      "stock_count": 1,
+      "avg_1d": -3.24,
+      "avg_1w": 1.52,
+      "avg_1m": 5.77,
+      "stocks": [
+        {
+          "symbol": "LINDEINDIA",
+          "name": "Linde India Limited",
+          "price": 7118.0,
+          "mcap": 607053099314.0,
+          "returns": {
+            "1d": -3.24,
+            "1w": 1.52,
+            "1m": 5.77
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Depositories Clearing Houses and Other Intermediaries",
+      "total_mcap": 560612058664.9651,
+      "stock_count": 3,
+      "avg_1d": -2.21,
+      "avg_1w": -0.74,
+      "avg_1m": -6.12,
+      "stocks": [
+        {
+          "symbol": "CDSL",
+          "name": "Central Depository Services (India) Limited",
+          "price": 1171.3,
+          "mcap": 244801710205.07812,
+          "returns": {
+            "1d": -3.42,
+            "1w": -1.92,
+            "1m": -7.93
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "CAMS",
+          "name": "Computer Age Management Services Limited",
+          "price": 637.5,
+          "mcap": 158192376937.5,
+          "returns": {
+            "1d": -0.99,
+            "1w": -0.38,
+            "1m": -5.92
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "KFINTECH",
+          "name": "Kfin Technologies Limited",
+          "price": 913.6,
+          "mcap": 157617971522.38696,
+          "returns": {
+            "1d": -2.23,
+            "1w": 0.08,
+            "1m": -4.51
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Other Industrial Products",
+      "total_mcap": 520675890077.6669,
+      "stock_count": 3,
+      "avg_1d": -4.01,
+      "avg_1w": -3.98,
+      "avg_1m": -5.4,
+      "stocks": [
+        {
+          "symbol": "PTCIL",
+          "name": "PTC Industries Limited",
+          "price": 15602.0,
+          "mcap": 233913749498.0,
+          "returns": {
+            "1d": -5.11,
+            "1w": -10.62,
+            "1m": -13.01
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "HBLENGINE",
+          "name": "HBL Engineering Limited",
+          "price": 642.05,
+          "mcap": 177973011695.57263,
+          "returns": {
+            "1d": -3.68,
+            "1w": -2.67,
+            "1m": -6.24
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "INOXINDIA",
+          "name": "INOX India Limited",
+          "price": 1198.6,
+          "mcap": 108789128884.09424,
+          "returns": {
+            "1d": -3.25,
+            "1w": 1.35,
+            "1m": 3.06
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Copper",
+      "total_mcap": 477362146825.8975,
+      "stock_count": 1,
+      "avg_1d": 2.68,
+      "avg_1w": 4.88,
+      "avg_1m": -12.86,
+      "stocks": [
+        {
+          "symbol": "HINDCOPPER",
+          "name": "Hindustan Copper Limited",
+          "price": 493.45,
+          "mcap": 477362146825.8975,
+          "returns": {
+            "1d": 2.68,
+            "1w": 4.88,
+            "1m": -12.86
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Restaurants",
+      "total_mcap": 472801894933.0545,
+      "stock_count": 3,
+      "avg_1d": -1.53,
+      "avg_1w": -2.68,
+      "avg_1m": -18.85,
+      "stocks": [
+        {
+          "symbol": "JUBLFOOD",
+          "name": "Jubilant Foodworks Limited",
+          "price": 454.35,
+          "mcap": 298816889296.65985,
+          "returns": {
+            "1d": -1.73,
+            "1w": 0.03,
+            "1m": -12.61
+          },
+          "logo_url": "https://cdn.tickerlogos.com/jubilantfoodworks.com"
+        },
+        {
+          "symbol": "DEVYANI",
+          "name": "Devyani International Limited",
+          "price": 99.56,
+          "mcap": 122751482581.85309,
+          "returns": {
+            "1d": -2.39,
+            "1w": -5.69,
+            "1m": -21.88
+          },
+          "logo_url": "https://cdn.tickerlogos.com/devyani.com"
+        },
+        {
+          "symbol": "SAPPHIRE",
+          "name": "Sapphire Foods India Limited",
+          "price": 159.23,
+          "mcap": 51233523054.541565,
+          "returns": {
+            "1d": -0.46,
+            "1w": -2.38,
+            "1m": -22.06
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Healthcare Service Provider",
+      "total_mcap": 400174443193.58105,
+      "stock_count": 3,
+      "avg_1d": -1.96,
+      "avg_1w": -3.74,
+      "avg_1m": -9.39,
+      "stocks": [
+        {
+          "symbol": "LALPATHLAB",
+          "name": "Dr. Lal Path Labs Ltd.",
+          "price": 1325.4,
+          "mcap": 221306646516.10083,
+          "returns": {
+            "1d": -1.57,
+            "1w": 0.0,
+            "1m": -5.32
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "VIJAYA",
+          "name": "Vijaya Diagnostic Centre Limited",
+          "price": 870.3,
+          "mcap": 89550996753.93677,
+          "returns": {
+            "1d": -2.48,
+            "1w": -5.69,
+            "1m": -13.36
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "METROPOLIS",
+          "name": "Metropolis Healthcare Limited",
+          "price": 430.8,
+          "mcap": 89316799923.54346,
+          "returns": {
+            "1d": -1.82,
+            "1w": -5.52,
+            "1m": -9.49
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Abrasives & Bearings",
+      "total_mcap": 396347021776.8982,
+      "stock_count": 2,
+      "avg_1d": -1.15,
+      "avg_1w": 3.28,
+      "avg_1m": -5.6,
+      "stocks": [
+        {
+          "symbol": "TIMKEN",
+          "name": "Timken India Limited",
+          "price": 3319.0,
+          "mcap": 250124828457.0,
+          "returns": {
+            "1d": 0.31,
+            "1w": 3.99,
+            "1m": -4.43
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "CARBORUNIV",
+          "name": "Carborundum Universal Limited",
+          "price": 767.55,
+          "mcap": 146222193319.8982,
+          "returns": {
+            "1d": -2.6,
+            "1w": 2.57,
+            "1m": -6.77
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Garments & Apparels",
+      "total_mcap": 354964059785.0,
+      "stock_count": 1,
+      "avg_1d": -2.54,
+      "avg_1w": 1.86,
+      "avg_1m": -0.95,
+      "stocks": [
+        {
+          "symbol": "PAGEIND",
+          "name": "Page Industries Limited",
+          "price": 31805.0,
+          "mcap": 354964059785.0,
+          "returns": {
+            "1d": -2.54,
+            "1w": 1.86,
+            "1m": -0.95
+          },
+          "logo_url": "https://cdn.tickerlogos.com/pageindustries.com"
+        }
+      ]
+    },
+    {
+      "name": "Carbon Black",
+      "total_mcap": 326056694537.12195,
+      "stock_count": 2,
+      "avg_1d": -4.5,
+      "avg_1w": 1.06,
+      "avg_1m": -12.93,
+      "stocks": [
+        {
+          "symbol": "HSCL",
+          "name": "Himadri Speciality Chemical Limited",
+          "price": 443.85,
+          "mcap": 225507324884.1694,
+          "returns": {
+            "1d": -3.73,
+            "1w": -1.92,
+            "1m": -8.46
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "PCBL",
+          "name": "PCBL Chemical Limited",
+          "price": 255.55,
+          "mcap": 100549369652.95258,
+          "returns": {
+            "1d": -5.26,
+            "1w": 4.05,
+            "1m": -17.4
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Castings & Forgings",
+      "total_mcap": 322739158494.6826,
+      "stock_count": 1,
+      "avg_1d": -0.8,
+      "avg_1w": -3.21,
+      "avg_1m": -10.21,
+      "stocks": [
+        {
+          "symbol": "AIAENG",
+          "name": "AIA Engineering Limited",
+          "price": 3458.4,
+          "mcap": 322739158494.6826,
+          "returns": {
+            "1d": -0.8,
+            "1w": -3.21,
+            "1m": -10.21
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Telecom - Equipment & Accessories",
+      "total_mcap": 315846213922.0,
+      "stock_count": 2,
+      "avg_1d": -3.21,
+      "avg_1w": -6.62,
+      "avg_1m": -6.29,
+      "stocks": [
+        {
+          "symbol": "ITI",
+          "name": "ITI Limited",
+          "price": 252.0,
+          "mcap": 243030237912.0,
+          "returns": {
+            "1d": -3.3,
+            "1w": -8.21,
+            "1m": -6.77
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "TEJASNET",
+          "name": "Tejas Networks Limited",
+          "price": 410.5,
+          "mcap": 72815976010.0,
+          "returns": {
+            "1d": -3.12,
+            "1w": -5.04,
+            "1m": -5.82
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Tractors",
+      "total_mcap": 312735035043.3716,
+      "stock_count": 1,
+      "avg_1d": -4.21,
+      "avg_1w": -1.55,
+      "avg_1m": -19.22,
+      "stocks": [
+        {
+          "symbol": "ESCORTS",
+          "name": "Escorts Kubota Limited",
+          "price": 2842.4,
+          "mcap": 312735035043.3716,
+          "returns": {
+            "1d": -4.21,
+            "1w": -1.55,
+            "1m": -19.22
+          },
+          "logo_url": "https://cdn.tickerlogos.com/escorts.co.in"
+        }
+      ]
+    },
+    {
+      "name": "Shipping",
+      "total_mcap": 308613639096.51154,
+      "stock_count": 2,
+      "avg_1d": -1.02,
+      "avg_1w": -1.18,
+      "avg_1m": -3.73,
+      "stocks": [
+        {
+          "symbol": "GESHIP",
+          "name": "The Great Eastern Shipping Company Limited",
+          "price": 1415.0,
+          "mcap": 202015532815.0,
+          "returns": {
+            "1d": -0.11,
+            "1w": -1.82,
+            "1m": 5.68
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "SCI",
+          "name": "Shipping Corporation Of India Limited",
+          "price": 228.85,
+          "mcap": 106598106281.51154,
+          "returns": {
+            "1d": -1.93,
+            "1w": -0.54,
+            "1m": -13.14
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Electrodes & Refractories",
+      "total_mcap": 304590591452.9446,
+      "stock_count": 3,
+      "avg_1d": 5.36,
+      "avg_1w": 5.02,
+      "avg_1m": -11.64,
+      "stocks": [
+        {
+          "symbol": "GRAPHITE",
+          "name": "Graphite India Limited",
+          "price": 640.2,
+          "mcap": 125157425702.64264,
+          "returns": {
+            "1d": 7.46,
+            "1w": 6.74,
+            "1m": -10.85
+          },
+          "logo_url": "https://cdn.tickerlogos.com/graphiteindia.com"
+        },
+        {
+          "symbol": "HEG",
+          "name": "HEG Limited",
+          "price": 572.3,
+          "mcap": 110441038063.31726,
+          "returns": {
+            "1d": 13.75,
+            "1w": 17.07,
+            "1m": -0.93
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "RHIM",
+          "name": "RHI MAGNESITA INDIA LIMITED",
+          "price": 334.1,
+          "mcap": 68992127686.98468,
+          "returns": {
+            "1d": -5.13,
+            "1w": -8.75,
+            "1m": -23.13
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "TV Broadcasting & Software Production",
+      "total_mcap": 301714265724.8181,
+      "stock_count": 2,
+      "avg_1d": -3.41,
+      "avg_1w": -1.28,
+      "avg_1m": -12.53,
+      "stocks": [
+        {
+          "symbol": "SUNTV",
+          "name": "Sun TV Network Limited",
+          "price": 586.0,
+          "mcap": 230933587320.0,
+          "returns": {
+            "1d": -3.82,
+            "1w": -2.23,
+            "1m": -9.32
+          },
+          "logo_url": "https://cdn.tickerlogos.com/suntv.in"
+        },
+        {
+          "symbol": "ZEEL",
+          "name": "Zee Entertainment Enterprises Limited",
+          "price": 73.69,
+          "mcap": 70780678404.81812,
+          "returns": {
+            "1d": -2.99,
+            "1w": -0.34,
+            "1m": -15.73
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Cigarettes & Tobacco Products",
+      "total_mcap": 296552514495.7031,
+      "stock_count": 1,
+      "avg_1d": -7.46,
+      "avg_1w": -4.75,
+      "avg_1m": -10.13,
+      "stocks": [
+        {
+          "symbol": "GODFRYPHLP",
+          "name": "Godfrey Phillips India Limited",
+          "price": 1901.2,
+          "mcap": 296552514495.7031,
+          "returns": {
+            "1d": -7.46,
+            "1w": -4.75,
+            "1m": -10.13
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Business Process Outsourcing (BPO)/ Knowledge Process Outsourcing (KPO)",
+      "total_mcap": 283453133195.25525,
+      "stock_count": 2,
+      "avg_1d": -3.66,
+      "avg_1w": -1.46,
+      "avg_1m": -3.96,
+      "stocks": [
+        {
+          "symbol": "FSL",
+          "name": "Firstsource Solutions Limited",
+          "price": 212.87,
+          "mcap": 147134607943.75598,
+          "returns": {
+            "1d": -5.12,
+            "1w": -3.34,
+            "1m": -0.13
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "ECLERX",
+          "name": "eClerx Services Limited",
+          "price": 1462.8,
+          "mcap": 136318525251.49927,
+          "returns": {
+            "1d": -2.19,
+            "1w": 0.41,
+            "1m": -7.78
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Other Financial Services",
+      "total_mcap": 281258136277.3762,
+      "stock_count": 1,
+      "avg_1d": -3.16,
+      "avg_1w": -3.78,
+      "avg_1m": -12.19,
+      "stocks": [
+        {
+          "symbol": "CRISIL",
+          "name": "CRISIL Limited",
+          "price": 3842.8,
+          "mcap": 281258136277.3762,
+          "returns": {
+            "1d": -3.16,
+            "1w": -3.78,
+            "1m": -12.19
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Healthcare Research Analytics & Technology",
+      "total_mcap": 275692296242.20667,
+      "stock_count": 2,
+      "avg_1d": -1.26,
+      "avg_1w": 1.67,
+      "avg_1m": -5.24,
+      "stocks": [
+        {
+          "symbol": "SYNGENE",
+          "name": "Syngene International Limited",
+          "price": 415.6,
+          "mcap": 167044925727.62738,
+          "returns": {
+            "1d": -0.75,
+            "1w": 1.9,
+            "1m": -1.56
+          },
+          "logo_url": "https://cdn.tickerlogos.com/syngene.com"
+        },
+        {
+          "symbol": "INDGN",
+          "name": "Indegene Limited",
+          "price": 452.1,
+          "mcap": 108647370514.57928,
+          "returns": {
+            "1d": -1.77,
+            "1w": 1.45,
+            "1m": -8.91
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Commodity Chemicals",
+      "total_mcap": 274333268606.0688,
+      "stock_count": 2,
+      "avg_1d": -4.01,
+      "avg_1w": -0.46,
+      "avg_1m": -10.09,
+      "stocks": [
+        {
+          "symbol": "TATACHEM",
+          "name": "Tata Chemicals Limited",
+          "price": 605.35,
+          "mcap": 154216706667.6643,
+          "returns": {
+            "1d": -3.17,
+            "1w": -4.95,
+            "1m": -15.62
+          },
+          "logo_url": "https://cdn.tickerlogos.com/tatachem.com"
+        },
+        {
+          "symbol": "DEEPAKFERT",
+          "name": "Deepak Fertilizers and Petrochemicals Corporation Limited",
+          "price": 950.55,
+          "mcap": 120116561938.40448,
+          "returns": {
+            "1d": -4.85,
+            "1w": 4.03,
+            "1m": -4.56
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Financial Products Distributor",
+      "total_mcap": 251792652674.46533,
+      "stock_count": 1,
+      "avg_1d": 1.33,
+      "avg_1w": 0.32,
+      "avg_1m": -1.41,
+      "stocks": [
+        {
+          "symbol": "ANANDRATHI",
+          "name": "Anand Rathi Wealth Limited",
+          "price": 3032.6,
+          "mcap": 251792652674.46533,
+          "returns": {
+            "1d": 1.33,
+            "1w": 0.32,
+            "1m": -1.41
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Trading & Distributors",
+      "total_mcap": 239715967772.06766,
+      "stock_count": 2,
+      "avg_1d": -4.12,
+      "avg_1w": -8.63,
+      "avg_1m": -19.61,
+      "stocks": [
+        {
+          "symbol": "REDINGTON",
+          "name": "Redington Limited",
+          "price": 200.7,
+          "mcap": 156902125915.91376,
+          "returns": {
+            "1d": -4.99,
+            "1w": -8.52,
+            "1m": -28.44
+          },
+          "logo_url": "https://cdn.tickerlogos.com/redington.com"
+        },
+        {
+          "symbol": "MMTC",
+          "name": "MMTC Limited",
+          "price": 55.16,
+          "mcap": 82813841856.1539,
+          "returns": {
+            "1d": -3.26,
+            "1w": -8.74,
+            "1m": -10.77
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Trading - Gas",
+      "total_mcap": 214812000000.0,
+      "stock_count": 1,
+      "avg_1d": 0.04,
+      "avg_1w": 0.77,
+      "avg_1m": -11.1,
+      "stocks": [
+        {
+          "symbol": "AEGISLOG",
+          "name": "Aegis Logistics Limited",
+          "price": 612.0,
+          "mcap": 214812000000.0,
+          "returns": {
+            "1d": 0.04,
+            "1w": 0.77,
+            "1m": -11.1
+          },
+          "logo_url": "https://cdn.tickerlogos.com/aegislogistics.com"
+        }
+      ]
+    },
+    {
+      "name": "Construction Vehicles",
+      "total_mcap": 212627998192.52948,
+      "stock_count": 2,
+      "avg_1d": -4.29,
+      "avg_1w": -5.37,
+      "avg_1m": -13.14,
+      "stocks": [
+        {
+          "symbol": "BEML",
+          "name": "BEML Limited",
+          "price": 1436.9,
+          "mcap": 119706922542.71484,
+          "returns": {
+            "1d": -3.95,
+            "1w": -4.26,
+            "1m": -14.52
+          },
+          "logo_url": "https://cdn.tickerlogos.com/bemlindia.com"
+        },
+        {
+          "symbol": "ACE",
+          "name": "Action Construction Equipment Limited",
+          "price": 780.7,
+          "mcap": 92921075649.81464,
+          "returns": {
+            "1d": -4.64,
+            "1w": -6.47,
+            "1m": -11.76
+          },
+          "logo_url": "https://cdn.tickerlogos.com/ace.co.in"
+        }
+      ]
+    },
+    {
+      "name": "Oil Storage & Transportation",
+      "total_mcap": 190452656367.94568,
+      "stock_count": 1,
+      "avg_1d": -1.95,
+      "avg_1w": -2.47,
+      "avg_1m": -24.63,
+      "stocks": [
+        {
+          "symbol": "AEGISVOPAK",
+          "name": "Aegis Vopak Terminals Limited",
+          "price": 171.89,
+          "mcap": 190452656367.94568,
+          "returns": {
+            "1d": -1.95,
+            "1w": -2.47,
+            "1m": -24.63
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Railway Wagons",
+      "total_mcap": 187567133345.4353,
+      "stock_count": 2,
+      "avg_1d": -4.66,
+      "avg_1w": -4.18,
+      "avg_1m": -10.51,
+      "stocks": [
+        {
+          "symbol": "JWL",
+          "name": "Jupiter Wagons Limited",
+          "price": 251.2,
+          "mcap": 107355440412.56908,
+          "returns": {
+            "1d": -4.05,
+            "1w": -4.16,
+            "1m": -5.99
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "TITAGARH",
+          "name": "TITAGARH RAIL SYSTEMS LIMITED",
+          "price": 595.6,
+          "mcap": 80211692932.86621,
+          "returns": {
+            "1d": -5.27,
+            "1w": -4.19,
+            "1m": -15.03
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Microfinance Institutions",
+      "total_mcap": 186882050943.65918,
+      "stock_count": 1,
+      "avg_1d": -0.39,
+      "avg_1w": 1.16,
+      "avg_1m": -7.75,
+      "stocks": [
+        {
+          "symbol": "CREDITACC",
+          "name": "CREDITACCESS GRAMEEN LIMITED",
+          "price": 1167.2,
+          "mcap": 186882050943.65918,
+          "returns": {
+            "1d": -0.39,
+            "1w": 1.16,
+            "1m": -7.75
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Sugar",
+      "total_mcap": 186001001908.27948,
+      "stock_count": 2,
+      "avg_1d": -3.19,
+      "avg_1w": 8.37,
+      "avg_1m": 2.27,
+      "stocks": [
+        {
+          "symbol": "BALRAMCHIN",
+          "name": "Balrampur Chini Mills Limited",
+          "price": 497.2,
+          "mcap": 100477543019.27948,
+          "returns": {
+            "1d": -2.22,
+            "1w": 2.81,
+            "1m": 5.65
+          },
+          "logo_url": null
+        },
+        {
+          "symbol": "TRIVENI",
+          "name": "Triveni Engineering & Industries Limited",
+          "price": 390.5,
+          "mcap": 85523458889.0,
+          "returns": {
+            "1d": -4.15,
+            "1w": 13.93,
+            "1m": -1.11
+          },
+          "logo_url": "https://cdn.tickerlogos.com/triveniengineering.com"
+        }
+      ]
+    },
+    {
+      "name": "Lubricants",
+      "total_mcap": 173175548801.85718,
+      "stock_count": 1,
+      "avg_1d": -1.66,
+      "avg_1w": -3.55,
+      "avg_1m": -3.63,
+      "stocks": [
+        {
+          "symbol": "CASTROLIND",
+          "name": "Castrol India Limited",
+          "price": 175.08,
+          "mcap": 173175548801.85718,
+          "returns": {
+            "1d": -1.66,
+            "1w": -3.55,
+            "1m": -3.63
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Plywood Boards/ Laminates",
+      "total_mcap": 155176727577.57263,
+      "stock_count": 1,
+      "avg_1d": -0.51,
+      "avg_1w": 5.88,
+      "avg_1m": -4.98,
+      "stocks": [
+        {
+          "symbol": "CENTURYPLY",
+          "name": "Century Plyboards (India) Limited",
+          "price": 698.45,
+          "mcap": 155176727577.57263,
+          "returns": {
+            "1d": -0.51,
+            "1w": 5.88,
+            "1m": -4.98
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Ceramics",
+      "total_mcap": 151428129717.5,
+      "stock_count": 1,
+      "avg_1d": 0.43,
+      "avg_1w": 3.19,
+      "avg_1m": -0.66,
+      "stocks": [
+        {
+          "symbol": "KAJARIACER",
+          "name": "Kajaria Ceramics Limited",
+          "price": 950.75,
+          "mcap": 151428129717.5,
+          "returns": {
+            "1d": 0.43,
+            "1w": 3.19,
+            "1m": -0.66
+          },
+          "logo_url": "https://cdn.tickerlogos.com/kajariaceramics.com"
+        }
+      ]
+    },
+    {
+      "name": "Footwear",
+      "total_mcap": 149625167167.6294,
+      "stock_count": 2,
+      "avg_1d": -4.16,
+      "avg_1w": -2.22,
+      "avg_1m": -16.84,
+      "stocks": [
+        {
+          "symbol": "BATAINDIA",
+          "name": "Bata India Limited",
+          "price": 632.15,
+          "mcap": 81248687548.8794,
+          "returns": {
+            "1d": -4.23,
+            "1w": -2.44,
+            "1m": -19.88
+          },
+          "logo_url": "https://cdn.tickerlogos.com/bata.in"
+        },
+        {
+          "symbol": "CAMPUS",
+          "name": "Campus Activewear Limited",
+          "price": 223.75,
+          "mcap": 68376479618.75,
+          "returns": {
+            "1d": -4.09,
+            "1w": -2.01,
+            "1m": -13.79
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Other Food Products",
+      "total_mcap": 141584576181.61676,
+      "stock_count": 1,
+      "avg_1d": -1.59,
+      "avg_1w": -0.05,
+      "avg_1m": -8.06,
+      "stocks": [
+        {
+          "symbol": "EIDPARRY",
+          "name": "EID Parry India Limited",
+          "price": 795.45,
+          "mcap": 141584576181.61676,
+          "returns": {
+            "1d": -1.59,
+            "1w": -0.05,
+            "1m": -8.06
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Diversified Commercial Services",
+      "total_mcap": 138226281403.29346,
+      "stock_count": 1,
+      "avg_1d": -3.82,
+      "avg_1w": -5.37,
+      "avg_1m": -3.08,
+      "stocks": [
+        {
+          "symbol": "IGIL",
+          "name": "International Gemmological Institute (India) Limited",
+          "price": 319.85,
+          "mcap": 138226281403.29346,
+          "returns": {
+            "1d": -3.82,
+            "1w": -5.37,
+            "1m": -3.08
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Stationary",
+      "total_mcap": 136237486802.16064,
+      "stock_count": 1,
+      "avg_1d": -3.99,
+      "avg_1w": 3.19,
+      "avg_1m": -3.76,
+      "stocks": [
+        {
+          "symbol": "DOMS",
+          "name": "DOMS Industries Limited",
+          "price": 2244.4,
+          "mcap": 136237486802.16064,
+          "returns": {
+            "1d": -3.99,
+            "1w": 3.19,
+            "1m": -3.76
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Other Agricultural Products",
+      "total_mcap": 129313924423.90442,
+      "stock_count": 1,
+      "avg_1d": -3.09,
+      "avg_1w": -2.87,
+      "avg_1m": -7.48,
+      "stocks": [
+        {
+          "symbol": "LTFOODS",
+          "name": "LT Foods Limited",
+          "price": 372.2,
+          "mcap": 129313924423.90442,
+          "returns": {
+            "1d": -3.09,
+            "1w": -2.87,
+            "1m": -7.48
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Medical Equipment & Supplies",
+      "total_mcap": 124829926782.17322,
+      "stock_count": 1,
+      "avg_1d": -5.57,
+      "avg_1w": -0.84,
+      "avg_1m": -2.07,
+      "stocks": [
+        {
+          "symbol": "POLYMED",
+          "name": "Poly Medicure Limited",
+          "price": 1230.1,
+          "mcap": 124829926782.17322,
+          "returns": {
+            "1d": -5.57,
+            "1w": -0.84,
+            "1m": -2.07
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Animal Feed",
+      "total_mcap": 105190179257.32117,
+      "stock_count": 1,
+      "avg_1d": -2.5,
+      "avg_1w": -4.78,
+      "avg_1m": -14.65,
+      "stocks": [
+        {
+          "symbol": "GODREJAGRO",
+          "name": "Godrej Agrovet Limited",
+          "price": 546.45,
+          "mcap": 105190179257.32117,
+          "returns": {
+            "1d": -2.5,
+            "1w": -4.78,
+            "1m": -14.65
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Petrochemicals",
+      "total_mcap": 97558807672.94348,
+      "stock_count": 1,
+      "avg_1d": -4.82,
+      "avg_1w": -4.6,
+      "avg_1m": -18.95,
+      "stocks": [
+        {
+          "symbol": "SWANCORP",
+          "name": "SWAN CORP LIMITED",
+          "price": 309.95,
+          "mcap": 97558807672.94348,
+          "returns": {
+            "1d": -4.82,
+            "1w": -4.6,
+            "1m": -18.95
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Film Production Distribution & Exhibition",
+      "total_mcap": 92111564356.0,
+      "stock_count": 1,
+      "avg_1d": -1.72,
+      "avg_1w": -5.96,
+      "avg_1m": -8.24,
+      "stocks": [
+        {
+          "symbol": "PVRINOX",
+          "name": "PVR INOX Limited",
+          "price": 938.0,
+          "mcap": 92111564356.0,
+          "returns": {
+            "1d": -1.72,
+            "1w": -5.96,
+            "1m": -8.24
+          },
+          "logo_url": "https://cdn.tickerlogos.com/pvrcinemas.com"
+        }
+      ]
+    },
+    {
+      "name": "Other Telecom Services",
+      "total_mcap": 83604455284.0,
+      "stock_count": 1,
+      "avg_1d": -3.09,
+      "avg_1w": -3.68,
+      "avg_1m": -16.66,
+      "stocks": [
+        {
+          "symbol": "RAILTEL",
+          "name": "Railtel Corporation Of India Limited",
+          "price": 260.5,
+          "mcap": 83604455284.0,
+          "returns": {
+            "1d": -3.09,
+            "1w": -3.68,
+            "1m": -16.66
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Household Products",
+      "total_mcap": 74856680308.6495,
+      "stock_count": 1,
+      "avg_1d": -4.94,
+      "avg_1w": -2.04,
+      "avg_1m": -19.57,
+      "stocks": [
+        {
+          "symbol": "JYOTHYLAB",
+          "name": "Jyothy Labs Limited",
+          "price": 203.85,
+          "mcap": 74856680308.6495,
+          "returns": {
+            "1d": -4.94,
+            "1w": -2.04,
+            "1m": -19.57
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Media & Entertainment",
+      "total_mcap": 63462893177.58444,
+      "stock_count": 1,
+      "avg_1d": -0.42,
+      "avg_1w": -2.25,
+      "avg_1m": -0.8,
+      "stocks": [
+        {
+          "symbol": "SAREGAMA",
+          "name": "Saregama India Limited",
+          "price": 330.35,
+          "mcap": 63462893177.58444,
+          "returns": {
+            "1d": -0.42,
+            "1w": -2.25,
+            "1m": -0.8
+          },
+          "logo_url": null
+        }
+      ]
+    },
+    {
+      "name": "Sanitary Ware",
+      "total_mcap": 59829015197.5,
+      "stock_count": 1,
+      "avg_1d": -1.86,
+      "avg_1w": -2.48,
+      "avg_1m": -5.03,
+      "stocks": [
+        {
+          "symbol": "CERA",
+          "name": "Cera Sanitaryware Limited",
+          "price": 4640.5,
+          "mcap": 59829015197.5,
+          "returns": {
+            "1d": -1.86,
+            "1w": -2.48,
+            "1m": -5.03
+          },
+          "logo_url": null
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "total_sectors": 124,
+    "total_stocks": 500,
+    "generated": "C:\\Users\\Aditya\\Documents\\GitHub\\finance\\raw_data",
+    "last_updated": "2026-03-29T11:11+00:00"
+  }
+}

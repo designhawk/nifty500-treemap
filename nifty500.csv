@@ -1,0 +1,501 @@
+symbol,company_name,sector,series
+360ONE,360 ONE WAM LIMITED,Stockbroking & Allied,EQ
+3MINDIA,3M India Limited,Diversified,EQ
+AADHARHFC,Aadhar Housing Finance Limited,Housing Finance Company,EQ
+AARTIIND,Aarti Industries Limited,Specialty Chemicals,EQ
+AAVAS,Aavas Financiers Limited,Housing Finance Company,EQ
+ABB,ABB India Limited,Heavy Electrical Equipment,EQ
+ABBOTINDIA,Abbott India Limited,Pharmaceuticals,EQ
+ABCAPITAL,Aditya Birla Capital Limited,Investment Company,EQ
+ABFRL,Aditya Birla Fashion and Retail Limited,Speciality Retail,EQ
+ABLBL,Aditya Birla Lifestyle Brands Limited,Speciality Retail,EQ
+ABREL,Aditya Birla Real Estate Limited,Residential Commercial Projects,EQ
+ABSLAMC,Aditya Birla Sun Life AMC Limited,Asset Management Company,EQ
+ACC,ACC Limited,Cement & Cement Products,EQ
+ACE,Action Construction Equipment Limited,Construction Vehicles,EQ
+ACMESOLAR,Acme Solar Holdings Limited,Power Generation,EQ
+ADANIENSOL,Adani Energy Solutions Limited,Power Distribution,EQ
+ADANIENT,Adani Enterprises Limited,Trading - Minerals,EQ
+ADANIGREEN,Adani Green Energy Limited,Power Generation,EQ
+ADANIPORTS,Adani Ports and Special Economic Zone Limited,Port & Port services,EQ
+ADANIPOWER,Adani Power Limited,Integrated Power Utilities,EQ
+AEGISLOG,Aegis Logistics Limited,Trading - Gas,EQ
+AEGISVOPAK,Aegis Vopak Terminals Limited,Oil Storage & Transportation,EQ
+AFCONS,Afcons Infrastructure Limited,Civil Construction,EQ
+AFFLE,Affle 3i Limited,IT Enabled Services,EQ
+AGARWALEYE,Dr. Agarwal's Health Care Limited,Hospital,EQ
+AIAENG,AIA Engineering Limited,Castings & Forgings,EQ
+AIIL,Authum Investment & Infrastructure Limited,Non Banking Financial Company (NBFC),EQ
+AJANTPHARM,Ajanta Pharma Limited,Pharmaceuticals,EQ
+AKUMS,Akums Drugs and Pharmaceuticals Limited,Pharmaceuticals,EQ
+AKZOINDIA,Akzo Nobel India Limited,Paints,EQ
+ALKEM,Alkem Laboratories Limited,Pharmaceuticals,EQ
+ALKYLAMINE,Alkyl Amines Chemicals Limited,Specialty Chemicals,EQ
+ALOKINDS,Alok Industries Limited,Other Textile Products,EQ
+AMBER,Amber Enterprises India Limited,Household Appliances,EQ
+AMBUJACEM,Ambuja Cements Limited,Cement & Cement Products,EQ
+ANANDRATHI,Anand Rathi Wealth Limited,Financial Products Distributor,EQ
+ANANTRAJ,Anant Raj Limited,Residential Commercial Projects,EQ
+ANGELONE,Angel One Limited,Stockbroking & Allied,EQ
+APARINDS,Apar Industries Limited,Other Electrical Equipment,EQ
+APLAPOLLO,APL Apollo Tubes Limited,Iron & Steel Products,EQ
+APLLTD,Alembic Pharmaceuticals Limited,Pharmaceuticals,EQ
+APOLLOHOSP,Apollo Hospitals Enterprise Limited,Hospital,EQ
+APOLLOTYRE,Apollo Tyres Limited,Tyres & Rubber Products,EQ
+APTUS,Aptus Value Housing Finance India Limited,Housing Finance Company,EQ
+ARE&M,Amara Raja Energy & Mobility Limited,Auto Components & Equipments,EQ
+ASAHIINDIA,Asahi India Glass Limited,Auto Components & Equipments,EQ
+ASHOKLEY,Ashok Leyland Limited,Commercial Vehicles,EQ
+ASIANPAINT,Asian Paints Limited,Paints,EQ
+ASTERDM,Aster DM Healthcare Limited,Hospital,EQ
+ASTRAL,Astral Limited,Plastic Products - Industrial,EQ
+ASTRAZEN,AstraZeneca Pharma India Limited,Pharmaceuticals,EQ
+ATGL,Adani Total Gas Limited,LPG/CNG/PNG/LNG Supplier,EQ
+ATHERENERG,Ather Energy Limited,2/3 Wheelers,EQ
+ATUL,Atul Limited,Specialty Chemicals,EQ
+AUBANK,AU Small Finance Bank Limited,Other Bank,EQ
+AUROPHARMA,Aurobindo Pharma Limited,Pharmaceuticals,EQ
+AWL,AWL Agri Business Limited,Edible Oil,EQ
+AXISBANK,Axis Bank Limited,Private Sector Bank,EQ
+BAJAJ-AUTO,Bajaj Auto Limited,2/3 Wheelers,EQ
+BAJAJFINSV,Bajaj Finserv Limited,Holding Company,EQ
+BAJAJHFL,Bajaj Housing Finance Limited,Housing Finance Company,EQ
+BAJAJHLDNG,Bajaj Holdings & Investment Limited,Holding Company,EQ
+BAJFINANCE,Bajaj Finance Limited,Non Banking Financial Company (NBFC),EQ
+BALKRISIND,Balkrishna Industries Limited,Tyres & Rubber Products,EQ
+BALRAMCHIN,Balrampur Chini Mills Limited,Sugar,EQ
+BANDHANBNK,Bandhan Bank Limited,Private Sector Bank,EQ
+BANKBARODA,Bank of Baroda,Public Sector Bank,EQ
+BANKINDIA,Bank of India,Public Sector Bank,EQ
+BASF,BASF India Limited,Specialty Chemicals,EQ
+BATAINDIA,Bata India Limited,Footwear,EQ
+BAYERCROP,Bayer Cropscience Limited,Pesticides & Agrochemicals,EQ
+BBTC,The Bombay Burmah Trading Corporation Limited,Packaged Foods,EQ
+BDL,Bharat Dynamics Limited,Aerospace & Defense,EQ
+BEL,Bharat Electronics Limited,Aerospace & Defense,EQ
+BEML,BEML Limited,Construction Vehicles,EQ
+BERGEPAINT,Berger Paints (I) Limited,Paints,EQ
+BHARATFORG,Bharat Forge Limited,Auto Components & Equipments,EQ
+BHARTIARTL,Bharti Airtel Limited,Telecom - Cellular & Fixed line services,EQ
+BHARTIHEXA,Bharti Hexacom Limited,Telecom - Cellular & Fixed line services,EQ
+BHEL,Bharat Heavy Electricals Limited,Heavy Electrical Equipment,EQ
+BIKAJI,Bikaji Foods International Limited,Packaged Foods,EQ
+BIOCON,Biocon Limited,Pharmaceuticals,EQ
+BLS,BLS International Services Limited,Tour Travel Related Services,EQ
+BLUEDART,Blue Dart Express Limited,Logistics Solution Provider,EQ
+BLUEJET,Blue Jet Healthcare Limited,Pharmaceuticals,EQ
+BLUESTARCO,Blue Star Limited,Household Appliances,EQ
+BOSCHLTD,Bosch Limited,Auto Components & Equipments,EQ
+BPCL,Bharat Petroleum Corporation Limited,Refineries & Marketing,EQ
+BRIGADE,Brigade Enterprises Limited,Residential Commercial Projects,EQ
+BRITANNIA,Britannia Industries Limited,Packaged Foods,EQ
+BSE,BSE Limited,Exchange and Data Platform,EQ
+BSOFT,BIRLASOFT LIMITED,Computers - Software & Consulting,EQ
+CAMPUS,Campus Activewear Limited,Footwear,EQ
+CAMS,Computer Age Management Services Limited,Depositories Clearing Houses and Other Intermediaries,EQ
+CANBK,Canara Bank,Public Sector Bank,EQ
+CANFINHOME,Can Fin Homes Limited,Housing Finance Company,EQ
+CAPLIPOINT,Caplin Point Laboratories Limited,Pharmaceuticals,EQ
+CARBORUNIV,Carborundum Universal Limited,Abrasives & Bearings,EQ
+CASTROLIND,Castrol India Limited,Lubricants,EQ
+CCL,CCL Products (India) Limited,Tea & Coffee,EQ
+CDSL,Central Depository Services (India) Limited,Depositories Clearing Houses and Other Intermediaries,EQ
+CEATLTD,CEAT Limited,Tyres & Rubber Products,EQ
+CENTRALBK,Central Bank of India,Public Sector Bank,EQ
+CENTURYPLY,Century Plyboards (India) Limited,Plywood Boards/ Laminates,EQ
+CERA,Cera Sanitaryware Limited,Sanitary Ware,EQ
+CESC,CESC Limited,Integrated Power Utilities,EQ
+CGCL,Capri Global Capital Limited,Non Banking Financial Company (NBFC),EQ
+CGPOWER,CG Power and Industrial Solutions Limited,Heavy Electrical Equipment,EQ
+CHALET,Chalet Hotels Limited,Hotels & Resorts,EQ
+CHAMBLFERT,Chambal Fertilizers & Chemicals Limited,Fertilizers,EQ
+CHENNPETRO,Chennai Petroleum Corporation Limited,Refineries & Marketing,EQ
+CHOICEIN,Choice International Limited,Holding Company,EQ
+CHOLAFIN,Cholamandalam Investment and Finance Company Limited,Non Banking Financial Company (NBFC),EQ
+CHOLAHLDNG,Cholamandalam Financial Holdings Limited,Investment Company,EQ
+CIPLA,Cipla Limited,Pharmaceuticals,EQ
+CLEAN,Clean Science and Technology Limited,Specialty Chemicals,EQ
+COALINDIA,Coal India Limited,Coal,EQ
+COCHINSHIP,Cochin Shipyard Limited,Ship Building & Allied Services,EQ
+COFORGE,Coforge Limited,Computers - Software & Consulting,EQ
+COHANCE,Cohance Lifesciences Limited,Pharmaceuticals,EQ
+COLPAL,Colgate Palmolive (India) Limited,Personal Care,EQ
+CONCOR,Container Corporation of India Limited,Logistics Solution Provider,EQ
+CONCORDBIO,Concord Biotech Limited,Pharmaceuticals,EQ
+COROMANDEL,Coromandel International Limited,Fertilizers,EQ
+CRAFTSMAN,Craftsman Automation Limited,Auto Components & Equipments,EQ
+CREDITACC,CREDITACCESS GRAMEEN LIMITED,Microfinance Institutions,EQ
+CRISIL,CRISIL Limited,Other Financial Services,EQ
+CROMPTON,Crompton Greaves Consumer Electricals Limited,Household Appliances,EQ
+CUB,City Union Bank Limited,Private Sector Bank,EQ
+CUMMINSIND,Cummins India Limited,Compressors Pumps & Diesel Engines,EQ
+CYIENT,Cyient Limited,IT Enabled Services,EQ
+DABUR,Dabur India Limited,Personal Care,EQ
+DALBHARAT,Dalmia Bharat Limited,Cement & Cement Products,EQ
+DATAPATTNS,Data Patterns (India) Limited,Aerospace & Defense,EQ
+DBREALTY,Valor Estate Limited,Residential Commercial Projects,EQ
+DCMSHRIRAM,DCM Shriram Limited,Diversified,EQ
+DEEPAKFERT,Deepak Fertilizers and Petrochemicals Corporation Limited,Commodity Chemicals,EQ
+DEEPAKNTR,Deepak Nitrite Limited,Specialty Chemicals,EQ
+DELHIVERY,Delhivery Limited,Logistics Solution Provider,EQ
+DEVYANI,Devyani International Limited,Restaurants,EQ
+DIVISLAB,Divi's Laboratories Limited,Pharmaceuticals,EQ
+DIXON,Dixon Technologies (India) Limited,Consumer Electronics,EQ
+DLF,DLF Limited,Residential Commercial Projects,EQ
+DMART,Avenue Supermarts Limited,Diversified Retail,EQ
+DOMS,DOMS Industries Limited,Stationary,EQ
+DRREDDY,Dr. Reddy's Laboratories Limited,Pharmaceuticals,EQ
+ECLERX,eClerx Services Limited,Business Process Outsourcing (BPO)/ Knowledge Process Outsourcing (KPO),EQ
+EICHERMOT,Eicher Motors Limited,2/3 Wheelers,EQ
+EIDPARRY,EID Parry India Limited,Other Food Products,EQ
+EIHOTEL,EIH Limited,Hotels & Resorts,EQ
+ELECON,Elecon Engineering Company Limited,Heavy Electrical Equipment,EQ
+ELGIEQUIP,Elgi Equipments Limited,Compressors Pumps & Diesel Engines,EQ
+EMAMILTD,Emami Limited,Personal Care,EQ
+EMCURE,Emcure Pharmaceuticals Limited,Pharmaceuticals,EQ
+ENDURANCE,Endurance Technologies Limited,Auto Components & Equipments,EQ
+ENGINERSIN,Engineers India Limited,Civil Construction,EQ
+ENRIN,Siemens Energy India Limited,Heavy Electrical Equipment,EQ
+ERIS,Eris Lifesciences Limited,Pharmaceuticals,EQ
+ESCORTS,Escorts Kubota Limited,Tractors,EQ
+ETERNAL,ETERNAL LIMITED,E-Retail/ E-Commerce,EQ
+EXIDEIND,Exide Industries Limited,Auto Components & Equipments,EQ
+FACT,Fertilizers and Chemicals Travancore Limited,Fertilizers,EQ
+FEDERALBNK,The Federal Bank  Limited,Private Sector Bank,EQ
+FINCABLES,Finolex Cables Limited,Cables - Electricals,EQ
+FINPIPE,Finolex Industries Limited,Plastic Products - Industrial,EQ
+FIRSTCRY,Brainbees Solutions Limited,E-Retail/ E-Commerce,EQ
+FIVESTAR,Five-Star Business Finance Limited,Non Banking Financial Company (NBFC),EQ
+FLUOROCHEM,Gujarat Fluorochemicals Limited,Specialty Chemicals,EQ
+FORCEMOT,FORCE MOTORS LTD,Passenger Cars & Utility Vehicles,EQ
+FORTIS,Fortis Healthcare Limited,Hospital,EQ
+FSL,Firstsource Solutions Limited,Business Process Outsourcing (BPO)/ Knowledge Process Outsourcing (KPO),EQ
+GAIL,GAIL (India) Limited,Gas Transmission/Marketing,EQ
+GESHIP,The Great Eastern Shipping Company Limited,Shipping,EQ
+GICRE,General Insurance Corporation of India,General Insurance,EQ
+GILLETTE,Gillette India Limited,Personal Care,EQ
+GLAND,Gland Pharma Limited,Pharmaceuticals,EQ
+GLAXO,GlaxoSmithKline Pharmaceuticals Limited,Pharmaceuticals,EQ
+GLENMARK,Glenmark Pharmaceuticals Limited,Pharmaceuticals,EQ
+GMDCLTD,Gujarat Mineral Development Corporation Limited,Industrial Minerals,EQ
+GMRAIRPORT,GMR AIRPORTS LIMITED,Airport & Airport services,EQ
+GODFRYPHLP,Godfrey Phillips India Limited,Cigarettes & Tobacco Products,EQ
+GODIGIT,Go Digit General Insurance Limited,General Insurance,EQ
+GODREJAGRO,Godrej Agrovet Limited,Animal Feed,EQ
+GODREJCP,Godrej Consumer Products Limited,Personal Care,EQ
+GODREJIND,Godrej Industries Limited,Diversified,EQ
+GODREJPROP,Godrej Properties Limited,Residential Commercial Projects,EQ
+GPIL,Godawari Power And Ispat limited,Iron & Steel Products,EQ
+GRANULES,Granules India Limited,Pharmaceuticals,EQ
+GRAPHITE,Graphite India Limited,Electrodes & Refractories,EQ
+GRASIM,Grasim Industries Limited,Cement & Cement Products,EQ
+GRAVITA,Gravita India Limited,Industrial Minerals,EQ
+GRSE,Garden Reach Shipbuilders & Engineers Limited,Aerospace & Defense,EQ
+GSPL,Gujarat State Petronet Limited,Gas Transmission/Marketing,EQ
+GUJGASLTD,Gujarat Gas Limited,LPG/CNG/PNG/LNG Supplier,EQ
+GVT&D,GE Vernova T&D India Limited,Heavy Electrical Equipment,EQ
+HAL,Hindustan Aeronautics Limited,Aerospace & Defense,EQ
+HAPPSTMNDS,Happiest Minds Technologies Limited,Computers - Software & Consulting,EQ
+HAVELLS,Havells India Limited,Consumer Electronics,EQ
+HBLENGINE,HBL Engineering Limited,Other Industrial Products,EQ
+HCLTECH,HCL Technologies Limited,Computers - Software & Consulting,EQ
+HDFCAMC,HDFC Asset Management Company Limited,Asset Management Company,EQ
+HDFCBANK,HDFC Bank Limited,Private Sector Bank,EQ
+HDFCLIFE,HDFC Life Insurance Company Limited,Life Insurance,EQ
+HEG,HEG Limited,Electrodes & Refractories,EQ
+HEROMOTOCO,Hero MotoCorp Limited,2/3 Wheelers,EQ
+HEXT,Hexaware Technologies Limited,Computers - Software & Consulting,EQ
+HFCL,HFCL Limited,Telecom - Infrastructure,EQ
+HINDALCO,Hindalco Industries Limited,Aluminium,EQ
+HINDCOPPER,Hindustan Copper Limited,Copper,EQ
+HINDPETRO,Hindustan Petroleum Corporation Limited,Refineries & Marketing,EQ
+HINDUNILVR,Hindustan Unilever Limited,Diversified FMCG,EQ
+HINDZINC,Hindustan Zinc Limited,Zinc,EQ
+HOMEFIRST,Home First Finance Company India Limited,Housing Finance Company,EQ
+HONASA,Honasa Consumer Limited,Personal Care,EQ
+HONAUT,Honeywell Automation India Limited,Industrial Products,EQ
+HSCL,Himadri Speciality Chemical Limited,Carbon Black,EQ
+HUDCO,Housing & Urban Development Corporation Limited,Financial Institution,EQ
+HYUNDAI,Hyundai Motor India Limited,Passenger Cars & Utility Vehicles,EQ
+ICICIBANK,ICICI Bank Limited,Private Sector Bank,EQ
+ICICIGI,ICICI Lombard General Insurance Company Limited,General Insurance,EQ
+ICICIPRULI,ICICI Prudential Life Insurance Company Limited,Life Insurance,EQ
+IDBI,IDBI Bank Limited,Private Sector Bank,EQ
+IDEA,Vodafone Idea Limited,Telecom - Cellular & Fixed line services,EQ
+IDFCFIRSTB,IDFC First Bank Limited,Private Sector Bank,EQ
+IEX,Indian Energy Exchange Limited,Exchange and Data Platform,EQ
+IFCI,IFCI Limited,Financial Institution,EQ
+IGIL,International Gemmological Institute (India) Limited,Diversified Commercial Services,EQ
+IGL,Indraprastha Gas Limited,LPG/CNG/PNG/LNG Supplier,EQ
+IIFL,IIFL Finance Limited,Non Banking Financial Company (NBFC),EQ
+IKS,Inventurus Knowledge Solutions Limited,IT Enabled Services,EQ
+INDGN,Indegene Limited,Healthcare Research Analytics & Technology,EQ
+INDHOTEL,The Indian Hotels Company Limited,Hotels & Resorts,EQ
+INDIACEM,The India Cements Limited,Cement & Cement Products,EQ
+INDIAMART,Indiamart Intermesh Limited,Internet & Catalogue Retail,EQ
+INDIANB,Indian Bank,Public Sector Bank,EQ
+INDIGO,InterGlobe Aviation Limited,Airline,EQ
+INDUSINDBK,IndusInd Bank Limited,Private Sector Bank,EQ
+INDUSTOWER,Indus Towers Limited,Telecom - Infrastructure,EQ
+INFY,Infosys Limited,Computers - Software & Consulting,EQ
+INOXINDIA,INOX India Limited,Other Industrial Products,EQ
+INOXWIND,Inox Wind Limited,Heavy Electrical Equipment,EQ
+INTELLECT,Intellect Design Arena Limited,Computers - Software & Consulting,EQ
+IOB,Indian Overseas Bank,Public Sector Bank,EQ
+IOC,Indian Oil Corporation Limited,Refineries & Marketing,EQ
+IPCALAB,IPCA Laboratories Limited,Pharmaceuticals,EQ
+IRB,IRB Infrastructure Developers Limited,Civil Construction,EQ
+IRCON,Ircon International Limited,Civil Construction,EQ
+IRCTC,Indian Railway Catering And Tourism Corporation Limited,Tour Travel Related Services,EQ
+IREDA,Indian Renewable Energy Development Agency Limited,Financial Institution,EQ
+IRFC,Indian Railway Finance Corporation Limited,Financial Institution,EQ
+ITC,ITC Limited,Diversified FMCG,EQ
+ITCHOTELS,ITC Hotels Limited,Hotels & Resorts,EQ
+ITI,ITI Limited,Telecom - Equipment & Accessories,EQ
+J&KBANK,The Jammu & Kashmir Bank Limited,Private Sector Bank,EQ
+JBCHEPHARM,JB Chemicals & Pharmaceuticals Limited,Pharmaceuticals,EQ
+JBMA,JBM Auto Limited,Auto Components & Equipments,EQ
+JINDALSAW,Jindal Saw Limited,Iron & Steel Products,EQ
+JINDALSTEL,JINDAL STEEL LIMITED,Iron & Steel,EQ
+JIOFIN,Jio Financial Services Limited,Investment Company,EQ
+JKCEMENT,JK Cement Limited,Cement & Cement Products,EQ
+JKTYRE,JK Tyre & Industries Limited,Tyres & Rubber Products,EQ
+JMFINANCIL,JM Financial Limited,Holding Company,EQ
+JPPOWER,Jaiprakash Power Ventures Limited,Power Generation,EQ
+JSL,Jindal Stainless Limited,Iron & Steel,EQ
+JSWCEMENT,JSW Cement Limited,Cement & Cement Products,EQ
+JSWENERGY,JSW Energy Limited,Power Generation,EQ
+JSWINFRA,JSW Infrastructure Limited,Port & Port services,EQ
+JSWSTEEL,JSW Steel Limited,Iron & Steel,EQ
+JUBLFOOD,Jubilant Foodworks Limited,Restaurants,EQ
+JUBLINGREA,Jubilant Ingrevia Limited,Specialty Chemicals,EQ
+JUBLPHARMA,Jubilant Pharmova Limited,Pharmaceuticals,EQ
+JWL,Jupiter Wagons Limited,Railway Wagons,EQ
+JYOTHYLAB,Jyothy Labs Limited,Household Products,EQ
+JYOTICNC,Jyoti CNC Automation Limited,Industrial Products,EQ
+KAJARIACER,Kajaria Ceramics Limited,Ceramics,EQ
+KALYANKJIL,Kalyan Jewellers India Limited,Gems Jewellery And Watches,EQ
+KARURVYSYA,Karur Vysya Bank Limited,Private Sector Bank,EQ
+KAYNES,Kaynes Technology India Limited,Industrial Products,EQ
+KEC,KEC International Limited,Civil Construction,EQ
+KEI,KEI Industries Limited,Cables - Electricals,EQ
+KFINTECH,Kfin Technologies Limited,Depositories Clearing Houses and Other Intermediaries,EQ
+KIMS,Krishna Institute of Medical Sciences Limited,Hospital,EQ
+KIRLOSBROS,Kirloskar Brothers Limited,Compressors Pumps & Diesel Engines,EQ
+KIRLOSENG,Kirloskar Oil Engines Limited,Compressors Pumps & Diesel Engines,EQ
+KOTAKBANK,Kotak Mahindra Bank Limited,Private Sector Bank,EQ
+KPIL,Kalpataru Projects International Limited,Civil Construction,EQ
+KPITTECH,KPIT Technologies Limited,Computers - Software & Consulting,EQ
+KPRMILL,K.P.R. Mill Limited,Other Textile Products,EQ
+KSB,Ksb Limited,Compressors Pumps & Diesel Engines,EQ
+LALPATHLAB,Dr. Lal Path Labs Ltd.,Healthcare Service Provider,EQ
+LATENTVIEW,Latent View Analytics Limited,Computers - Software & Consulting,EQ
+LAURUSLABS,Laurus Labs Limited,Pharmaceuticals,EQ
+LEMONTREE,Lemon Tree Hotels Limited,Hotels & Resorts,EQ
+LICHSGFIN,LIC Housing Finance Limited,Housing Finance Company,EQ
+LICI,Life Insurance Corporation Of India,Life Insurance,EQ
+LINDEINDIA,Linde India Limited,Industrial Gases,EQ
+LLOYDSME,Lloyds Metals And Energy Limited,Industrial Minerals,EQ
+LODHA,Lodha Developers Limited,Residential Commercial Projects,EQ
+LT,Larsen & Toubro Limited,Civil Construction,EQ
+LTF,L&T Finance Limited,Investment Company,EQ
+LTFOODS,LT Foods Limited,Other Agricultural Products,EQ
+LTM,LTIMindtree Limited,Computers - Software & Consulting,EQ
+LTTS,L&T Technology Services Limited,IT Enabled Services,EQ
+LUPIN,Lupin Limited,Pharmaceuticals,EQ
+M&M,Mahindra & Mahindra Limited,Passenger Cars & Utility Vehicles,EQ
+M&MFIN,Mahindra & Mahindra Financial Services Limited,Non Banking Financial Company (NBFC),EQ
+MAHABANK,Bank of Maharashtra,Public Sector Bank,EQ
+MAHSCOOTER,Maharashtra Scooters Limited,Investment Company,EQ
+MAHSEAMLES,Maharashtra Seamless Limited,Iron & Steel Products,EQ
+MANAPPURAM,Manappuram Finance Limited,Non Banking Financial Company (NBFC),EQ
+MANKIND,Mankind Pharma Limited,Pharmaceuticals,EQ
+MANYAVAR,Vedant Fashions Limited,Speciality Retail,EQ
+MAPMYINDIA,C.E. Info Systems Limited,Software Products,EQ
+MARICO,Marico Limited,Edible Oil,EQ
+MARUTI,Maruti Suzuki India Limited,Passenger Cars & Utility Vehicles,EQ
+MAXHEALTH,Max Healthcare Institute Limited,Hospital,EQ
+MAZDOCK,Mazagon Dock Shipbuilders Limited,Ship Building & Allied Services,EQ
+MCX,Multi Commodity Exchange of India Limited,Exchange and Data Platform,EQ
+MEDANTA,Global Health Limited,Hospital,EQ
+METROPOLIS,Metropolis Healthcare Limited,Healthcare Service Provider,EQ
+MFSL,Max Financial Services Limited,Life Insurance,EQ
+MGL,Mahanagar Gas Limited,LPG/CNG/PNG/LNG Supplier,EQ
+MINDACORP,Minda Corporation Limited,Auto Components & Equipments,EQ
+MMTC,MMTC Limited,Trading & Distributors,EQ
+MOTHERSON,Samvardhana Motherson International Limited,Auto Components & Equipments,EQ
+MOTILALOFS,Motilal Oswal Financial Services Limited,Stockbroking & Allied,EQ
+MPHASIS,MphasiS Limited,Computers - Software & Consulting,EQ
+MRF,MRF Limited,Tyres & Rubber Products,EQ
+MRPL,Mangalore Refinery and Petrochemicals Limited,Refineries & Marketing,EQ
+MSUMI,Motherson Sumi Wiring India Limited,Auto Components & Equipments,EQ
+MUTHOOTFIN,Muthoot Finance Limited,Non Banking Financial Company (NBFC),EQ
+NAM-INDIA,Nippon Life India Asset Management Limited,Asset Management Company,EQ
+NATCOPHARM,Natco Pharma Limited,Pharmaceuticals,EQ
+NATIONALUM,National Aluminium Company Limited,Aluminium,EQ
+NAUKRI,Info Edge (India) Limited,Internet & Catalogue Retail,EQ
+NAVA,NAVA LIMITED,Power Generation,EQ
+NAVINFLUOR,Navin Fluorine International Limited,Specialty Chemicals,EQ
+NBCC,NBCC (India) Limited,Civil Construction,EQ
+NCC,NCC Limited,Civil Construction,EQ
+NESTLEIND,Nestle India Limited,Packaged Foods,EQ
+NETWEB,Netweb Technologies India Limited,IT Enabled Services,EQ
+NEULANDLAB,Neuland Laboratories Limited,Pharmaceuticals,EQ
+NEWGEN,Newgen Software Technologies Limited,Computers - Software & Consulting,EQ
+NH,Narayana Hrudayalaya Ltd.,Hospital,EQ
+NHPC,NHPC Limited,Power Generation,EQ
+NIACL,The New India Assurance Company Limited,General Insurance,EQ
+NIVABUPA,Niva Bupa Health Insurance Company Limited,General Insurance,EQ
+NLCINDIA,NLC India Limited,Power Generation,EQ
+NMDC,NMDC Limited,Industrial Minerals,EQ
+NSLNISP,NMDC Steel Limited,Iron & Steel,EQ
+NTPC,NTPC Limited,Power Generation,EQ
+NTPCGREEN,NTPC Green Energy Limited,Power Generation,EQ
+NUVAMA,Nuvama Wealth Management Limited,Stockbroking & Allied,EQ
+NUVOCO,Nuvoco Vistas Corporation Limited,Cement & Cement Products,EQ
+NYKAA,FSN E-Commerce Ventures Limited,E-Retail/ E-Commerce,EQ
+OBEROIRLTY,Oberoi Realty Limited,Residential Commercial Projects,EQ
+OFSS,Oracle Financial Services Software Limited,Software Products,EQ
+OIL,Oil India Limited,Oil Exploration & Production,EQ
+OLAELEC,Ola Electric Mobility Limited,2/3 Wheelers,EQ
+OLECTRA,Olectra Greentech Limited,Passenger Cars & Utility Vehicles,EQ
+ONESOURCE,Onesource Specialty Pharma Limited,Pharmaceuticals,EQ
+ONGC,Oil & Natural Gas Corporation Limited,Oil Exploration & Production,EQ
+PAGEIND,Page Industries Limited,Garments & Apparels,EQ
+PATANJALI,Patanjali Foods Limited,Edible Oil,EQ
+PAYTM,One 97 Communications Limited,Financial Technology (Fintech),EQ
+PCBL,PCBL Chemical Limited,Carbon Black,EQ
+PERSISTENT,Persistent Systems Limited,Computers - Software & Consulting,EQ
+PETRONET,Petronet LNG Limited,LPG/CNG/PNG/LNG Supplier,EQ
+PFC,Power Finance Corporation Limited,Financial Institution,EQ
+PFIZER,Pfizer Limited,Pharmaceuticals,EQ
+PGEL,PG Electroplast Limited,Consumer Electronics,EQ
+PGHH,Procter & Gamble Hygiene and Health Care Limited,Personal Care,EQ
+PHOENIXLTD,The Phoenix Mills Limited,Residential Commercial Projects,EQ
+PIDILITIND,Pidilite Industries Limited,Specialty Chemicals,EQ
+PIIND,PI Industries Limited,Pesticides & Agrochemicals,EQ
+PNB,Punjab National Bank,Public Sector Bank,EQ
+PNBHOUSING,PNB Housing Finance Limited,Housing Finance Company,EQ
+POLICYBZR,PB Fintech Limited,Financial Technology (Fintech),EQ
+POLYCAB,Polycab India Limited,Cables - Electricals,EQ
+POLYMED,Poly Medicure Limited,Medical Equipment & Supplies,EQ
+POONAWALLA,Poonawalla Fincorp Limited,Non Banking Financial Company (NBFC),EQ
+POWERGRID,Power Grid Corporation of India Limited,Power - Transmission,EQ
+POWERINDIA,Hitachi Energy India Limited,Heavy Electrical Equipment,EQ
+PPLPHARMA,Piramal Pharma Limited,Pharmaceuticals,EQ
+PRAJIND,Praj Industries Limited,Industrial Products,EQ
+PREMIERENE,Premier Energies Limited,Other Electrical Equipment,EQ
+PRESTIGE,Prestige Estates Projects Limited,Residential Commercial Projects,EQ
+PTCIL,PTC Industries Limited,Other Industrial Products,EQ
+PVRINOX,PVR INOX Limited,Film Production Distribution & Exhibition,EQ
+RADICO,Radico Khaitan Limited,Breweries & Distilleries,EQ
+RAILTEL,Railtel Corporation Of India Limited,Other Telecom Services,EQ
+RAINBOW,Rainbow Childrens Medicare Limited,Hospital,EQ
+RAMCOCEM,The Ramco Cements Limited,Cement & Cement Products,EQ
+RBLBANK,RBL Bank Limited,Private Sector Bank,EQ
+RCF,Rashtriya Chemicals and Fertilizers Limited,Fertilizers,EQ
+RECLTD,REC Limited,Financial Institution,EQ
+REDINGTON,Redington Limited,Trading & Distributors,EQ
+RELIANCE,Reliance Industries Limited,Refineries & Marketing,EQ
+RELINFRA,Reliance Infrastructure Limited,Integrated Power Utilities,BE
+RHIM,RHI MAGNESITA INDIA LIMITED,Electrodes & Refractories,EQ
+RITES,RITES Limited,Civil Construction,EQ
+RKFORGE,Ramkrishna Forgings Limited,Auto Components & Equipments,EQ
+RPOWER,Reliance Power Limited,Power Generation,EQ
+RRKABEL,R R Kabel Limited,Cables - Electricals,EQ
+RVNL,Rail Vikas Nigam Limited,Civil Construction,EQ
+SAGILITY,SAGILITY LIMITED,IT Enabled Services,EQ
+SAIL,Steel Authority of India Limited,Iron & Steel,EQ
+SAILIFE,Sai Life Sciences Limited,Pharmaceuticals,EQ
+SAMMAANCAP,Sammaan Capital Limited,Housing Finance Company,EQ
+SAPPHIRE,Sapphire Foods India Limited,Restaurants,EQ
+SARDAEN,Sarda Energy & Minerals Limited,Iron & Steel,EQ
+SAREGAMA,Saregama India Limited,Media & Entertainment,EQ
+SBFC,SBFC Finance Limited,Non Banking Financial Company (NBFC),EQ
+SBICARD,SBI Cards and Payment Services Limited,Non Banking Financial Company (NBFC),EQ
+SBILIFE,SBI Life Insurance Company Limited,Life Insurance,EQ
+SBIN,State Bank of India,Public Sector Bank,EQ
+SCHAEFFLER,Schaeffler India Limited,Auto Components & Equipments,EQ
+SCHNEIDER,Schneider Electric Infrastructure Limited,Heavy Electrical Equipment,BE
+SCI,Shipping Corporation Of India Limited,Shipping,EQ
+SHREECEM,SHREE CEMENT LIMITED,Cement & Cement Products,EQ
+SHRIRAMFIN,Shriram Finance Limited,Non Banking Financial Company (NBFC),EQ
+SHYAMMETL,Shyam Metalics and Energy Limited,Iron & Steel Products,EQ
+SIEMENS,Siemens Limited,Heavy Electrical Equipment,EQ
+SIGNATURE,Signatureglobal (India) Limited,Residential Commercial Projects,EQ
+SJVN,SJVN Limited,Power Generation,EQ
+SOBHA,Sobha Limited,Residential Commercial Projects,EQ
+SOLARINDS,Solar Industries India Limited,Explosives,EQ
+SONACOMS,Sona BLW Precision Forgings Limited,Auto Components & Equipments,EQ
+SONATSOFTW,Sonata Software Limited,Computers - Software & Consulting,EQ
+SRF,SRF Limited,Specialty Chemicals,EQ
+STARHEALTH,Star Health and Allied Insurance Company Limited,General Insurance,EQ
+SUMICHEM,Sumitomo Chemical India Limited,Pesticides & Agrochemicals,EQ
+SUNDARMFIN,Sundaram Finance Limited,Non Banking Financial Company (NBFC),EQ
+SUNDRMFAST,Sundram Fasteners Limited,Auto Components & Equipments,EQ
+SUNPHARMA,Sun Pharmaceutical Industries Limited,Pharmaceuticals,EQ
+SUNTV,Sun TV Network Limited,TV Broadcasting & Software Production,EQ
+SUPREMEIND,Supreme Industries Limited,Plastic Products - Industrial,EQ
+SUZLON,Suzlon Energy Limited,Heavy Electrical Equipment,EQ
+SWANCORP,SWAN CORP LIMITED,Petrochemicals,EQ
+SWIGGY,Swiggy Limited,E-Retail/ E-Commerce,EQ
+SYNGENE,Syngene International Limited,Healthcare Research Analytics & Technology,EQ
+SYRMA,Syrma SGS Technology Limited,Industrial Products,EQ
+TARIL,Transformers And Rectifiers (India) Limited,Heavy Electrical Equipment,EQ
+TATACHEM,Tata Chemicals Limited,Commodity Chemicals,EQ
+TATACOMM,Tata Communications Limited,Telecom - Cellular & Fixed line services,EQ
+TATACONSUM,TATA CONSUMER PRODUCTS LIMITED,Tea & Coffee,EQ
+TATAELXSI,Tata Elxsi Limited,Computers - Software & Consulting,EQ
+TATAINVEST,Tata Investment Corporation Limited,Investment Company,EQ
+TATAPOWER,Tata Power Company Limited,Integrated Power Utilities,EQ
+TATASTEEL,Tata Steel Limited,Iron & Steel,EQ
+TATATECH,Tata Technologies Limited,IT Enabled Services,EQ
+TBOTEK,TBO Tek Limited,Tour Travel Related Services,EQ
+TCS,Tata Consultancy Services Limited,Computers - Software & Consulting,EQ
+TECHM,Tech Mahindra Limited,Computers - Software & Consulting,EQ
+TECHNOE,Techno Electric & Engineering Company Limited,Civil Construction,EQ
+TEJASNET,Tejas Networks Limited,Telecom - Equipment & Accessories,EQ
+THELEELA,Leela Palaces Hotels & Resorts Limited,Hotels & Resorts,EQ
+THERMAX,Thermax Limited,Heavy Electrical Equipment,EQ
+TIINDIA,Tube Investments of India Limited,Auto Components & Equipments,EQ
+TIMKEN,Timken India Limited,Abrasives & Bearings,EQ
+TITAGARH,TITAGARH RAIL SYSTEMS LIMITED,Railway Wagons,EQ
+TITAN,Titan Company Limited,Gems Jewellery And Watches,EQ
+TMPV,Tata Motors Passenger Vehicles Limited,Passenger Cars & Utility Vehicles,EQ
+TORNTPHARM,Torrent Pharmaceuticals Limited,Pharmaceuticals,EQ
+TORNTPOWER,Torrent Power Limited,Integrated Power Utilities,EQ
+TRENT,Trent Limited,Speciality Retail,EQ
+TRIDENT,Trident Limited,Other Textile Products,EQ
+TRITURBINE,Triveni Turbine Limited,Heavy Electrical Equipment,EQ
+TRIVENI,Triveni Engineering & Industries Limited,Sugar,EQ
+TTML,Tata Teleservices (Maharashtra) Limited,Telecom - Cellular & Fixed line services,EQ
+TVSMOTOR,TVS Motor Company Limited,2/3 Wheelers,EQ
+UBL,United Breweries Limited,Breweries & Distilleries,EQ
+UCOBANK,UCO Bank,Public Sector Bank,EQ
+ULTRACEMCO,UltraTech Cement Limited,Cement & Cement Products,EQ
+UNIONBANK,Union Bank of India,Public Sector Bank,EQ
+UNITDSPR,United Spirits Limited,Breweries & Distilleries,EQ
+UNOMINDA,UNO Minda Limited,Auto Components & Equipments,EQ
+UPL,UPL Limited,Pesticides & Agrochemicals,EQ
+USHAMART,Usha Martin Limited,Iron & Steel Products,EQ
+UTIAMC,UTI Asset Management Company Limited,Asset Management Company,EQ
+VBL,Varun Beverages Limited,Other Beverages,EQ
+VEDL,Vedanta Limited,Diversified Metals,EQ
+VENTIVE,Ventive Hospitality Limited,Hotels & Resorts,EQ
+VGUARD,V-Guard Industries Limited,Household Appliances,EQ
+VIJAYA,Vijaya Diagnostic Centre Limited,Healthcare Service Provider,EQ
+VMM,Vishal Mega Mart Limited,Diversified Retail,EQ
+VOLTAS,Voltas Limited,Household Appliances,EQ
+VTL,Vardhman Textiles Limited,Other Textile Products,EQ
+WAAREEENER,Waaree Energies Limited,Other Electrical Equipment,EQ
+WELCORP,Welspun Corp Limited,Iron & Steel Products,EQ
+WELSPUNLIV,Welspun Living Limited,Other Textile Products,EQ
+WHIRLPOOL,Whirlpool of India Limited,Household Appliances,EQ
+WIPRO,Wipro Limited,Computers - Software & Consulting,EQ
+WOCKPHARMA,Wockhardt Limited,Pharmaceuticals,EQ
+YESBANK,Yes Bank Limited,Private Sector Bank,EQ
+ZEEL,Zee Entertainment Enterprises Limited,TV Broadcasting & Software Production,EQ
+ZENSARTECH,Zensar Technologies Limited,Computers - Software & Consulting,EQ
+ZENTEC,Zen Technologies Limited,Aerospace & Defense,EQ
+ZFCVINDIA,ZF Commercial Vehicle Control Systems India Limited,Auto Components & Equipments,EQ
+ZYDUSLIFE,Zydus Lifesciences Limited,Pharmaceuticals,EQ

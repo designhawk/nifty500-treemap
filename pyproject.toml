@@ -1,0 +1,17 @@
+[project]
+name = "indian-stocks-treemap"
+version = "0.1.0"
+description = "Indian Stock Market Treemap - Nifty 500 visualizer"
+requires-python = ">=3.10"
+dependencies = [
+    "yfinance>=0.2.40",
+    "requests>=2.31.0",
+    "pandas>=2.2.0",
+]
+
+[project.optional-dependencies]
+dev = ["ruff", "mypy"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

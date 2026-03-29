@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A squarified treemap visualization of Nifty 500 stocks. Drill down by sector, toggle between 1D/1W/1M returns. Dark theme inspired by Dieter Rams.">
+<title>Nifty 500 — Market Treemap</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400&family=DM+Serif+Display&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root, [data-theme="dark"] {
+  --bg: #111110;
+  --surface: #1C1C1A;
+  --border: #2A2A28;
+  --fg: #DEDAD4;
+  --fg2: #9A9793;
+  --fg3: #858280;
+  --red: #aa2828;
+  --green: #057805;
+  --canvas-bg: #111110;
+  --text-xs: 10px;
+  --text-sm: 11px;
+  --text-base: 12px;
+  --text-md: 13px;
+  --text-lg: 14px;
+  --text-xl: 15px;
+  --text-2xl: 17px;
+  --text-3xl: 20px;
+}
+
+[data-theme="light"] {
+  --bg: #F2F0EB;
+  --surface: #E8E6E1;
+  --border: #D4D2CD;
+  --fg: #1A1919;
+  --fg2: #6E6B69;
+  --fg3: #7A7775;
+  --red: #b8181a;
+  --green: #1e8822;
+  --canvas-bg: #F2F0EB;
+  --text-xs: 10px;
+  --text-sm: 11px;
+  --text-base: 12px;
+  --text-md: 13px;
+  --text-lg: 14px;
+  --text-xl: 15px;
+  --text-2xl: 17px;
+  --text-3xl: 20px;
+}
+
+body { background: var(--bg); }
+
+html, body {
+  color: var(--fg);
+  font-family: 'DM Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  height: 100%;
+  overflow: hidden;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px 24px 16px;
+}
+
+/* ── Header ─────────────────────────────────────────────────────────── */
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--border);
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+#header-left {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+}
+
+#header-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+#title {
+  font-family: 'DM Serif Display', Georgia, serif;
+  font-size: var(--text-2xl);
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: var(--fg);
+  line-height: 1;
+}
+
+#meta {
+  font-size: var(--text-sm);
+  letter-spacing: 0.06em;
+  color: var(--fg3);
+}
+
+#theme-btn {
+  background: none;
+  border: none;
+  color: var(--fg3);
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.12s;
+}
+
+#theme-btn:hover { color: var(--fg); }
+
+/* ── Toggle ─────────────────────────────────────────────────────────── */
+
+#toggle {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+#toggle button {
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: var(--text-lg);
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  color: var(--fg3);
+  cursor: pointer;
+  padding: 4px 0;
+  position: relative;
+  transition: color 0.12s;
+}
+
+#toggle button::after {
+  content: '';
+  position: absolute;
+  left: 0; bottom: 0;
+  width: 0; height: 1px;
+  background: var(--fg);
+  transition: width 0.15s;
+}
+
+#toggle button.active {
+  color: var(--fg);
+}
+
+#toggle button.active::after {
+  width: 100%;
+}
+
+#toggle button:not(.active):hover {
+  color: var(--fg);
+}
+
+/* ── Stats bar ─────────────────────────────────────────────────────── */
+
+#stats-bar {
+  display: flex;
+  gap: 0;
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 10px 20px 10px 10px;
+  border-right: 1px solid var(--border);
+  min-width: 90px;
+}
+
+#stats-bar > .stat-first {
+  padding-inline-start: 0 !important;
+  padding-left: 0 !important;
+  border-right: 1px solid var(--border) !important;
+}
+#stats-bar > .stat-last {
+  border-right: none !important;
+}
+
+.stat-label,
+.stat-value {
+  width: max-content;
+}
+
+.gain { color: var(--green); }
+.loss { color: var(--red); }
+.greed-label { color: var(--fg3); font-size: var(--text-sm); font-weight: 400; letter-spacing: 0.05em; }
+
+.stat-label {
+  font-size: var(--text-sm);
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--fg3);
+}
+
+.stat-value {
+  font-size: var(--text-xl);
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  color: var(--fg);
+  line-height: 1.2;
+}
+
+/* ── Canvas area ───────────────────────────────────────────────────── */
+
+#canvas-wrap {
+  position: relative;
+  margin-top: 12px;
+  flex: 1;
+  min-height: 0;
+}
+
+#canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  cursor: default;
+}
+
+/* ── Back ──────────────────────────────────────────────────────────── */
+
+#back-btn {
+  display: none;
+  align-items: center;
+  gap: 6px;
+  font-size: var(--text-xs);
+  letter-spacing: 0.1em;
+  color: var(--fg2);
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-family: inherit;
+  padding: 6px 0;
+  text-transform: uppercase;
+  transition: color 0.12s;
+}
+
+#back-btn:hover { color: var(--fg); }
+#back-btn.visible { display: flex; }
+
+/* ── Footer ─────────────────────────────────────────────────────────── */
+
+#footer {
+  flex-shrink: 0;
+  margin-top: 10px;
+  font-size: var(--text-sm);
+  letter-spacing: 0.04em;
+  color: var(--fg3);
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#footer .sep {
+  color: var(--fg3);
+  opacity: 0.5;
+}
+
+#footer-credits {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+#footer-credits a {
+  color: var(--fg2);
+  text-decoration: none;
+  transition: color 0.12s;
+}
+
+#footer-credits a:hover {
+  color: var(--fg);
+}
+
+#footer-credits .icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  color: var(--fg3);
+  transition: color 0.12s;
+}
+
+#footer-credits .icon-link:hover {
+  color: var(--fg);
+}
+
+/* ── Mobile ─────────────────────────────────────────────────────────── */
+
+@media (max-width: 600px) {
+  #app {
+    padding: 14px 14px 10px;
+  }
+
+  #header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    padding-bottom: 10px;
+  }
+
+  #meta { display: none; }
+
+  #stats-bar {
+    gap: 0;
+  }
+
+  .stat {
+    min-width: 72px;
+    padding: 8px 12px 8px 0;
+  }
+
+  .stat-value { font-size: var(--text-md); }
+  .stat-label { font-size: var(--text-sm); }
+
+  #toggle {
+    gap: 12px;
+  }
+
+  #toggle button {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 8px 0;
+  }
+
+  #canvas-wrap {
+    margin-top: 8px;
+  }
+
+  #back-btn {
+    font-size: var(--text-sm);
+    padding: 8px 0;
+  }
+}
+
+/* ── Tooltip ─────────────────────────────────────────────────────────── */
+
+#tooltip {
+  position: fixed;
+  z-index: 1000;
+  pointer-events: none;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0;
+  min-width: 240px;
+  max-width: 320px;
+  max-height: 400px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+  opacity: 0;
+  transition: opacity 0.1s ease;
+}
+
+#tooltip.visible {
+  opacity: 1;
+}
+
+#tooltip-header {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+#tooltip-header-title {
+  font-size: var(--text-md);
+  font-weight: 400;
+  color: var(--fg);
+  margin-bottom: 3px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#tooltip-header-sub {
+  font-size: var(--text-sm);
+  color: var(--fg3);
+}
+
+#tooltip-body {
+  padding: 0;
+  max-height: 340px;
+  overflow-y: auto;
+}
+
+.tooltip-stock-row {
+  display: flex;
+  align-items: center;
+  padding: 7px 12px;
+  gap: 8px;
+  font-size: var(--text-base);
+  border-bottom: 1px solid var(--border);
+}
+
+.tooltip-stock-row:last-child {
+  border-bottom: none;
+}
+
+.tooltip-stock-symbol {
+  font-weight: 400;
+  color: var(--fg);
+  width: 80px;
+  flex-shrink: 0;
+}
+
+.tooltip-stock-price {
+  color: var(--fg2);
+  width: 75px;
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.tooltip-stock-return {
+  width: 60px;
+  text-align: right;
+  font-weight: 400;
+  flex-shrink: 0;
+}
+
+.tooltip-stock-return.positive { color: var(--green); }
+.tooltip-stock-return.negative { color: var(--red); }
+
+.tooltip-stock-detail {
+  padding: 12px;
+  font-size: var(--text-base);
+  color: var(--fg2);
+  line-height: 1.7;
+}
+
+.tooltip-stock-detail .detail-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.tooltip-stock-detail .detail-label {
+  color: var(--fg3);
+}
+
+.tooltip-stock-detail .detail-value {
+  color: var(--fg);
+  font-weight: 400;
+}
+
+.tooltip-stock-detail .detail-value.positive { color: var(--green); }
+.tooltip-stock-detail .detail-value.negative { color: var(--red); }
+</style>
+</head>
+<body>
+
+<main id="app">
+  <header id="header">
+    <div id="header-left">
+      <div id="title">Nifty 500</div>
+      <div id="meta">124 sectors · 500 stocks</div>
+    </div>
+    <div id="header-right">
+      <button id="theme-btn" onclick="toggleTheme()" title="Toggle theme">
+        <svg id="icon-sun" width="12" height="12" viewBox="0 0 12 12" fill="none">
+          <circle cx="6" cy="6" r="2" stroke="currentColor" stroke-width="1.2"/>
+          <line x1="6" y1="0.5" x2="6" y2="2" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+          <line x1="6" y1="10" x2="6" y2="11.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+          <line x1="0.5" y1="6" x2="2" y2="6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+          <line x1="10" y1="6" x2="11.5" y2="6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+          <line x1="2" y1="2" x2="3" y2="3" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+          <line x1="9" y1="9" x2="10" y2="10" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+          <line x1="9" y1="3" x2="10" y2="2" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+          <line x1="2" y1="10" x2="3" y2="9" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+        </svg>
+        <svg id="icon-moon" width="12" height="12" viewBox="0 0 12 12" fill="none" style="display:none">
+          <path d="M10 7.5A5 5 0 0 1 4.5 2 5 5 0 1 0 10 7.5z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+        </svg>
+      </button>
+      <div id="toggle">
+        <button data-mode="1d" class="active">1D</button>
+        <button data-mode="1w">1W</button>
+        <button data-mode="1m">1M</button>
+      </div>
+    </div>
+  </header>
+
+  <div id="stats-bar">
+    <div class="stat stat-first">
+      <div class="stat-label">Market cap</div>
+      <div class="stat-value" id="stat-mcap">—</div>
+    </div>
+    <div class="stat">
+      <div class="stat-label">Top gainer</div>
+      <div class="stat-value" id="stat-top">—</div>
+    </div>
+    <div class="stat">
+      <div class="stat-label">Top loser</div>
+      <div class="stat-value" id="stat-bot">—</div>
+    </div>
+    <div class="stat stat-last">
+      <div class="stat-label">Greed index</div>
+      <div class="stat-value" id="stat-greed">—</div>
+    </div>
+  </div>
+
+  <div id="canvas-wrap">
+    <canvas id="canvas"></canvas>
+  </div>
+
+  <div id="tooltip">
+    <div id="tooltip-header">
+      <div id="tooltip-header-title"></div>
+      <div id="tooltip-header-sub"></div>
+    </div>
+    <div id="tooltip-body"></div>
+  </div>
+
+  <button id="back-btn" onclick="goBack()">&#8592; Sectors</button>
+
+  <div id="footer">
+    <span id="footer-credits">
+      Built by
+      <a href="https://www.linkedin.com/in/aditya-pathak-designer/" target="_blank" rel="noopener">Aditya Pathak</a>
+      <a href="mailto:apathak.connect@gmail.com" class="icon-link" title="Email" aria-label="Send email">
+        <svg width="16" height="16" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="1" y="1" width="10" height="8" rx="1" stroke="currentColor" stroke-width="1.1"/>
+          <path d="M1 2.5L6 6.5L11 2.5" stroke="currentColor" stroke-width="1.1" stroke-linecap="round"/>
+        </svg>
+      </a>
+    </span>
+    <span class="sep">·</span>
+    <span id="footer-data-updated">Market data: —</span>
+    <span class="sep">·</span>
+    <span id="footer-site-updated">Built: —</span>
+    <span class="sep">·</span>
+    <span>Source: NSE India via Yahoo Finance</span>
+  </div>
+</main>
+
+<script>
+// ── State ─────────────────────────────────────────────────────────────
+
+let rawData = { sectors: [] };
+let colorMode = "1d";
+let view = "sectors";
+let currentSector = null;
+let rects = [];
+let logoCache = {};
+
+const canvas = document.getElementById("canvas");
+const ctx = canvas.getContext("2d");
+let dpr = window.devicePixelRatio || 1;
+const GAP = 2;
+
+const tooltip = document.getElementById("tooltip");
+const tooltipHeader = document.getElementById("tooltip-header");
+const tooltipBody = document.getElementById("tooltip-body");
+
+// ── Color ──────────────────────────────────────────────────────────────
+
+function tileFill(d) {
+  if (d.returnVal == null) return getComputedStyle(document.documentElement).getPropertyValue("--surface").trim();
+  return d.returnVal > 0
+    ? getComputedStyle(document.documentElement).getPropertyValue("--green").trim()
+    : getComputedStyle(document.documentElement).getPropertyValue("--red").trim();
+}
+
+function tileBorder(d) {
+  return getComputedStyle(document.documentElement).getPropertyValue("--border").trim();
+}
+
+function labelColor(d) {
+  return "#ffffff";
+}
+
+// ── Treemap ─────────────────────────────────────────────────────────────
+
+function squarify(items, x, y, w, h) {
+  if (!items.length) return [];
+  if (items.length === 1) return [{ ...items[0], rx: x, ry: y, rw: w, rh: h }];
+  const total = items.reduce((s, d) => s + d.value, 0);
+  if (total === 0) return items.map(d => ({ ...d, rx: x, ry: y, rw: w, rh: h }));
+  const results = [];
+  let rem = [...items], cx = x, cy = y, cw = w, ch = h;
+  while (rem.length) {
+    const remTot = rem.reduce((s, d) => s + d.value, 0);
+    const vert = cw >= ch;
+    const side = vert ? ch : cw;
+    let row = [rem[0]], rowSum = rem[0].value;
+    for (let i = 1; i < rem.length; i++) {
+      const cand = [...row, rem[i]];
+      const candSum = rowSum + rem[i].value;
+      if (worst(cand, candSum, side, remTot, vert ? cw : ch) <=
+          worst(row, rowSum, side, remTot, vert ? cw : ch)) {
+        row = cand; rowSum = candSum;
+      } else break;
+    }
+    const frac = rowSum / remTot;
+    const thick = vert ? cw * frac : ch * frac;
+    let off = 0;
+    for (const item of row) {
+      const lf = item.value / rowSum;
+      const il = side * lf;
+      if (vert) results.push({ ...item, rx: cx, ry: cy + off, rw: thick, rh: il });
+      else results.push({ ...item, rx: cx + off, ry: cy, rw: il, rh: thick });
+      off += il;
+    }
+    if (vert) { cx += thick; cw -= thick; }
+    else { cy += thick; ch -= thick; }
+    rem = rem.slice(row.length);
+  }
+  return results;
+}
+
+function worst(row, rowSum, side, totalArea, ext) {
+  const re = ext * (rowSum / totalArea);
+  if (re === 0) return Infinity;
+  let w = 0;
+  for (const item of row) {
+    const il = side * (item.value / rowSum);
+    if (il === 0) continue;
+    const a = Math.max(re / il, il / re);
+    if (a > w) w = a;
+  }
+  return w;
+}
+
+// ── Helpers ──────────────────────────────────────────────────────────────
+
+function retVal(d) {
+  if (colorMode === "1d") return d.avg_1d ?? d.returns?.["1d"];
+  if (colorMode === "1w") return d.avg_1w ?? d.returns?.["1w"];
+  if (colorMode === "1m") return d.avg_1m ?? d.returns?.["1m"];
+  return null;
+}
+
+function fmtPct(v) {
+  if (v == null) return "—";
+  return (v > 0 ? "+" : "") + v.toFixed(1) + "%";
+}
+
+function fmtMcap(v) {
+  if (v == null) return "—";
+  const lc = v / 1e12;
+  if (lc >= 100) return "₹" + lc.toFixed(0) + " Lk Cr";
+  if (lc >= 10) return "₹" + lc.toFixed(1) + " Lk Cr";
+  if (lc >= 1) return "₹" + lc.toFixed(2) + " Lk Cr";
+  if (lc >= 0.01) return "₹" + (lc * 100).toFixed(1) + "K Cr";
+  return "₹" + v.toExponential(2);
+}
+
+// ── Canvas sizing ───────────────────────────────────────────────────────
+
+function resizeCanvas() {
+  const wrap = document.getElementById("canvas-wrap");
+  const w = wrap.clientWidth;
+  const h = wrap.clientHeight;
+
+  canvas.width = w * dpr;
+  canvas.height = h * dpr;
+  canvas.style.width = w + "px";
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  return { w, h };
+}
+
+// ── Layout ───────────────────────────────────────────────────────────────
+
+function layout() {
+  const { w, h } = resizeCanvas();
+  const tx = 0, ty = 0, tw = w, th = h;
+
+  if (view === "sectors") {
+    const secs = rawData.sectors.map(s => ({
+      ...s, value: s.total_mcap || 1, returnVal: retVal(s),
+    })).sort((a, b) => b.value - a.value);
+    rects = squarify(secs, tx, ty, tw, th);
+  } else if (view === "stocks" && currentSector) {
+    const sec = rawData.sectors.find(s => s.name === currentSector);
+    if (!sec) return;
+    const stocks = (sec.stocks || []).map(s => ({
+      ...s, value: s.mcap || 1, returnVal: retVal(s),
+    })).sort((a, b) => b.value - a.value);
+    rects = squarify(stocks, tx, ty, tw, th);
+  }
+}
+
+// ── Draw ────────────────────────────────────────────────────────────────
+
+function getLogoImg(url, symbol) {
+  if (!url) return null;
+  if (!logoCache[url]) {
+    const img = new Image();
+    img.crossOrigin = "anonymous";
+    img.src = url;
+    logoCache[url] = { img, loaded: false, failed: false };
+    img.onload = () => {
+      logoCache[url].loaded = true;
+      draw();
+    };
+    img.onerror = () => { logoCache[url].failed = true; };
+  }
+  return logoCache[url];
+}
+
+function drawLogo(rx, ry, rw, rh, logoUrl, symbol) {
+  const logoSize = Math.min(24, rw * 0.18, rh * 0.28);
+  const padX = 6;
+  const padY = 6;
+  const lx = rx + padX;
+  const ly = ry + padY;
+
+  const logoData = getLogoImg(logoUrl, symbol);
+
+  if (logoData && logoData.loaded) {
+    ctx.save();
+    ctx.beginPath();
+    ctx.roundRect(lx, ly, logoSize, logoSize, 3);
+    ctx.strokeStyle = "rgba(255,255,255,0.9)";
+    ctx.lineWidth = 2;
+    ctx.stroke();
+    ctx.restore();
+    ctx.save();
+    ctx.beginPath();
+    ctx.roundRect(lx + 1, ly + 1, logoSize - 2, logoSize - 2, 2);
+    ctx.clip();
+    ctx.drawImage(logoData.img, lx + 1, ly + 1, logoSize - 2, logoSize - 2);
+    ctx.restore();
+    return padY + logoSize + padY;
+  } else {
+    ctx.save();
+    ctx.beginPath();
+    ctx.roundRect(lx, ly, logoSize, logoSize, 3);
+    ctx.strokeStyle = "rgba(255,255,255,0.9)";
+    ctx.lineWidth = 2;
+    ctx.stroke();
+    ctx.restore();
+    ctx.save();
+    ctx.beginPath();
+    ctx.roundRect(lx + 1, ly + 1, logoSize - 2, logoSize - 2, 2);
+    ctx.fillStyle = "rgba(255,255,255,0.15)";
+    ctx.fill();
+    ctx.font = `400 ${logoSize * 0.5}px 'DM Sans', sans-serif`;
+    ctx.fillStyle = "#ffffff";
+    ctx.textAlign = "center";
+    ctx.textBaseline = "middle";
+    ctx.fillText(symbol[0], lx + logoSize / 2, ly + logoSize / 2 + 1);
+    ctx.restore();
+    return padY + logoSize + padY;
+  }
+}
+
+function draw() {
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  ctx.fillStyle = getComputedStyle(document.documentElement).getPropertyValue("--canvas-bg").trim() || "#111110";
+  ctx.fillRect(0, 0, canvas.width / dpr, canvas.height / dpr);
+
+  for (const r of rects) {
+    const rx = r.rx + GAP / 2, ry = r.ry + GAP / 2;
+    const rw = r.rw - GAP, rh = r.rh - GAP;
+    if (rw <= 3 || rh <= 3) continue;
+
+    const fill = tileFill(r);
+    ctx.fillStyle = fill;
+    ctx.fillRect(rx, ry, rw, rh);
+
+    if (r.returnVal == null) {
+      ctx.strokeStyle = tileBorder(r);
+      ctx.lineWidth = 0.5;
+      ctx.strokeRect(rx + 0.5, ry + 0.5, rw - 1, rh - 1);
+    }
+
+    const title = r.name || r.symbol;
+    const sub = r.returnVal != null ? fmtPct(r.returnVal) : "";
+    const lc = labelColor(r);
+
+    const isMobile = window.innerWidth <= 600;
+    const minFs = isMobile ? 11 : 12;
+    const minRh = isMobile ? 50 : 48;
+    const minRw = isMobile ? 56 : 58;
+    const subRh = isMobile ? 60 : 58;
+
+    let contentY = 0;
+    if (view === "stocks" && r.symbol && rw > 60 && rh > 50) {
+      contentY = drawLogo(rx, ry, rw, rh, r.logo_url, r.symbol);
+    }
+
+    if (rw > minRw && rh > minRh) {
+      ctx.save();
+      ctx.beginPath();
+      ctx.rect(rx + 4, ry + 4, rw - 8, rh - 8);
+      ctx.clip();
+
+      const innerPad = 6;
+      const textX = rx + innerPad;
+      let textY = ry + contentY + 4;
+
+      const fs = Math.min(isMobile ? 12 : 13, Math.max(minFs, Math.min((rw - innerPad * 2) / 10, (rh - contentY - innerPad * 2) / 2.5)));
+      ctx.font = `400 ${fs}px 'DM Sans', sans-serif`;
+      ctx.fillStyle = lc;
+      ctx.textBaseline = "top";
+      ctx.textAlign = "left";
+      ctx.fillText(title, textX, textY);
+
+      if (rh > subRh && rw > minRw + 16 && sub) {
+        textY += fs + 3;
+        ctx.font = `400 ${Math.max(10, fs - 2)}px 'DM Sans', sans-serif`;
+        ctx.fillStyle = lc;
+        ctx.fillText(sub, textX, textY);
+      }
+      ctx.restore();
+    }
+  }
+}
+
+// ── Hit Test ────────────────────────────────────────────────────────────
+
+function hitTest(mx, my) {
+  const rect = canvas.getBoundingClientRect();
+  const cx = mx - rect.left, cy = my - rect.top;
+  for (let i = rects.length - 1; i >= 0; i--) {
+    const r = rects[i];
+    if (cx >= r.rx && cx < r.rx + r.rw && cy >= r.ry && cy < r.ry + r.rh) return r;
+  }
+  return null;
+}
+
+// ── Navigation ─────────────────────────────────────────────────────────
+
+function getRet(d, mode) {
+  if (mode === "1d") return d.avg_1d ?? d.returns?.["1d"];
+  if (mode === "1w") return d.avg_1w ?? d.returns?.["1w"];
+  if (mode === "1m") return d.avg_1m ?? d.returns?.["1m"];
+  return d.avg_1d ?? d.returns?.["1d"];
+}
+
+function updateStats() {
+  const secs = rawData.sectors || [];
+  const mode = colorMode;
+
+  if (view === "sectors") {
+    const all = secs;
+    if (!all.length) return;
+    const tot = all.reduce((s, d) => s + (d.total_mcap || 0), 0);
+    const byR = [...all].sort((a, b) => (getRet(b, mode) || -999) - (getRet(a, mode) || -999));
+    const top = byR[0], bot = byR[byR.length - 1];
+    const gainers = all.filter(s => (getRet(s, mode) || 0) > 0).length;
+
+    const losers = all.length - gainers;
+    const greed = Math.round((gainers / all.length) * 100);
+    const greedLabel = greed < 25 ? "Fear" : greed < 45 ? "Neutral" : greed < 70 ? "Greed" : "Extreme";
+
+    document.getElementById("stat-mcap").textContent = fmtMcap(tot);
+    document.getElementById("stat-top").innerHTML = top ? `${top.name} <span class="gain">${fmtPct(getRet(top, mode))}</span>` : "—";
+    document.getElementById("stat-bot").innerHTML = bot ? `${bot.name} <span class="loss">${fmtPct(getRet(bot, mode))}</span>` : "—";
+    document.getElementById("stat-greed").innerHTML = `<span class="${greed >= 50 ? 'gain' : 'loss'}">${greed}</span> <span class="greed-label">${greedLabel}</span>`;
+  } else if (view === "stocks" && currentSector) {
+    const sec = secs.find(s => s.name === currentSector);
+    if (!sec) return;
+    const stocks = sec.stocks || [];
+    const tot = stocks.reduce((s, d) => s + (d.mcap || 0), 0);
+    const byR = [...stocks].sort((a, b) => (getRet(b, mode) || -999) - (getRet(a, mode) || -999));
+    const top = byR[0], bot = byR[byR.length - 1];
+    const gainers = stocks.filter(s => (getRet(s, mode) || 0) > 0).length;
+    const losers = stocks.length - gainers;
+    const greed = Math.round((gainers / stocks.length) * 100);
+    const greedLabel = greed < 25 ? "Fear" : greed < 45 ? "Neutral" : greed < 70 ? "Greed" : "Extreme";
+
+    document.getElementById("stat-mcap").textContent = fmtMcap(tot);
+    document.getElementById("stat-top").innerHTML = top ? `${top.symbol} <span class="gain">${fmtPct(getRet(top, mode))}</span>` : "—";
+    document.getElementById("stat-bot").innerHTML = bot ? `${bot.symbol} <span class="loss">${fmtPct(getRet(bot, mode))}</span>` : "—";
+    document.getElementById("stat-greed").innerHTML = `<span class="${greed >= 50 ? 'gain' : 'loss'}">${greed}</span> <span class="greed-label">${greedLabel}</span>`;
+  }
+}
+
+function drillDown(name) {
+  view = "stocks";
+  currentSector = name;
+  document.getElementById("back-btn").classList.add("visible");
+  document.getElementById("meta").textContent = name;
+  updateStats();
+  layout();
+  draw();
+}
+
+function goBack() {
+  view = "sectors";
+  currentSector = null;
+  document.getElementById("back-btn").classList.remove("visible");
+  const secs = rawData.sectors || [];
+  document.getElementById("meta").textContent = `${secs.length} sectors · 500 stocks`;
+  updateStats();
+  layout();
+  draw();
+}
+
+// ── Theme ─────────────────────────────────────────────────────────────
+
+function toggleTheme() {
+  const root = document.documentElement;
+  const isDark = root.getAttribute("data-theme") !== "light";
+  root.setAttribute("data-theme", isDark ? "light" : "dark");
+  document.getElementById("icon-sun").style.display = isDark ? "none" : "block";
+  document.getElementById("icon-moon").style.display = isDark ? "block" : "none";
+  document.body.style.background = getComputedStyle(root).getPropertyValue("--bg").trim();
+  draw();
+}
+
+// ── Tooltip ─────────────────────────────────────────────────────────────
+
+const TOOLTIP_MAX_ITEMS = 10;
+
+function showTooltip(r, x, y) {
+  let html = "";
+
+  if (view === "sectors" && r.name) {
+    const sec = rawData.sectors.find(s => s.name === r.name);
+    if (!sec || !sec.stocks) return;
+
+    tooltipHeader.querySelector("#tooltip-header-title").textContent = r.name;
+    tooltipHeader.querySelector("#tooltip-header-sub").textContent = `${fmtMcap(r.total_mcap || 0)} · ${sec.stock_count} stocks`;
+
+    const displayStocks = sec.stocks.slice(0, TOOLTIP_MAX_ITEMS);
+    html = displayStocks.map(s => {
+      const ret = s.returns?.[colorMode];
+      const retClass = ret > 0 ? "positive" : ret < 0 ? "negative" : "";
+      const price = s.price != null ? `₹${s.price.toLocaleString("en-IN", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}` : "—";
+      return `<div class="tooltip-stock-row">
+        <span class="tooltip-stock-symbol">${s.symbol}</span>
+        <span class="tooltip-stock-price">${price}</span>
+        <span class="tooltip-stock-return ${retClass}">${fmtPct(ret)}</span>
+      </div>`;
+    }).join("");
+
+    if (sec.stocks.length > TOOLTIP_MAX_ITEMS) {
+      html += `<div class="tooltip-stock-row" style="color: var(--fg3); font-style: italic;">+ ${sec.stocks.length - TOOLTIP_MAX_ITEMS} more stocks</div>`;
+    }
+
+  } else if (view === "stocks" && r.symbol) {
+    tooltipHeader.querySelector("#tooltip-header-title").textContent = r.name || r.symbol;
+    const price = r.price != null ? `₹${r.price.toLocaleString("en-IN", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}` : "—";
+    const ret = r.returnVal;
+    const arrow = ret > 0 ? "▲" : ret < 0 ? "▼" : "";
+    tooltipHeader.querySelector("#tooltip-header-sub").textContent = `${price}  ${arrow} ${fmtPct(ret)}`;
+
+    html = `<div class="tooltip-stock-detail">
+      <div class="detail-row">
+        <span class="detail-label">Market Cap</span>
+        <span class="detail-value">${fmtMcap(r.mcap)}</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">1W Return</span>
+        <span class="detail-value ${r.returns?.["1w"] > 0 ? "positive" : r.returns?.["1w"] < 0 ? "negative" : ""}">${fmtPct(r.returns?.["1w"])}</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">1M Return</span>
+        <span class="detail-value ${r.returns?.["1m"] > 0 ? "positive" : r.returns?.["1m"] < 0 ? "negative" : ""}">${fmtPct(r.returns?.["1m"])}</span>
+      </div>
+    </div>`;
+  }
+
+  tooltipBody.innerHTML = html;
+  tooltip.classList.add("visible");
+
+  const tw = tooltip.offsetWidth;
+  const th = tooltip.offsetHeight;
+  const vw = window.innerWidth;
+  const vh = window.innerHeight;
+
+  let tx = x + 16;
+  let ty = y + 16;
+
+  if (tx + tw > vw - 20) tx = x - tw - 16;
+  if (ty + th > vh - 20) ty = y - th - 16;
+  if (tx < 10) tx = 10;
+  if (ty < 10) ty = 10;
+
+  tooltip.style.left = tx + "px";
+  tooltip.style.top = ty + "px";
+}
+
+function hideTooltip() {
+  tooltip.classList.remove("visible");
+}
+
+// ── Events ─────────────────────────────────────────────────────────────
+
+canvas.addEventListener("click", e => {
+  const hit = hitTest(e.clientX, e.clientY);
+  if (!hit) return;
+  if (view === "sectors" && hit.name) drillDown(hit.name);
+});
+
+canvas.addEventListener("mousemove", e => {
+  const hit = hitTest(e.clientX, e.clientY);
+  if (hit) {
+    showTooltip(hit, e.clientX, e.clientY);
+  } else {
+    hideTooltip();
+  }
+});
+
+canvas.addEventListener("mouseout", () => {
+  hideTooltip();
+});
+
+window.addEventListener("resize", () => {
+  dpr = window.devicePixelRatio || 1;
+  layout();
+  draw();
+});
+
+document.getElementById("toggle").addEventListener("click", e => {
+  const btn = e.target.closest("button");
+  if (!btn || !btn.dataset.mode) return;
+  colorMode = btn.dataset.mode;
+  document.querySelectorAll("#toggle button").forEach(b => b.classList.remove("active"));
+  btn.classList.add("active");
+  updateStats();
+  layout();
+  draw();
+});
+
+// ── Init ────────────────────────────────────────────────────────────────
+
+fetch("data.json")
+  .then(r => r.json())
+  .then(d => {
+    rawData = d;
+    const secs = d.sectors || [];
+    document.getElementById("meta").textContent = `${secs.length} sectors · 500 stocks`;
+
+    const lu = d.meta?.last_updated;
+    if (lu) {
+      const dt = new Date(lu);
+      const fmt = new Intl.DateTimeFormat("en-IN", {
+        day: "2-digit", month: "short", year: "numeric",
+        hour: "2-digit", minute: "2-digit",
+        timeZone: "Asia/Kolkata", timeZoneName: "short"
+      });
+      document.getElementById("footer-data-updated").textContent = `Market data: ${fmt.format(dt)}`;
+    }
+
+    fetch("index.html", { method: "HEAD" })
+      .then(r => {
+        const lastMod = r.headers.get("Last-Modified");
+        if (lastMod) {
+          const dt = new Date(lastMod);
+          const fmt2 = new Intl.DateTimeFormat("en-IN", {
+            day: "2-digit", month: "short", year: "numeric",
+            hour: "2-digit", minute: "2-digit",
+            timeZone: "Asia/Kolkata", timeZoneName: "short"
+          });
+          document.getElementById("footer-site-updated").textContent = `Built: ${fmt2.format(dt)}`;
+        }
+      })
+      .catch(() => {});
+
+    updateStats();
+    layout();
+    draw();
+  })
+  .catch(err => {
+    console.error("Load error:", err);
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+# Data files (regenerated on each run)
+raw_data/
+
+# Python virtual environment
+.venv/
+
+# Linter cache
+.ruff_cache/
+
+# Lock file (use pyproject.toml for dependencies)
+uv.lock
+
+# Empty nested directory
+finance/
+
+# OS files
+.DS_Store
+Thumbs.db
